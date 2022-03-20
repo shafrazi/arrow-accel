@@ -1,6 +1,6 @@
 import Head from "next/head";
+import AboutUsSideBar from "../components/about-us-sidebar";
 import Header from "../components/header";
-import SectionListItem from "../components/section-list-item";
 
 export default function AboutUs() {
   return (
@@ -12,13 +12,7 @@ export default function AboutUs() {
       <Header />
       <div className="flex w-full justify-center items-center mt-16">
         <div className="flex w-11/12">
-          <div className="w-1/3 flex flex-col">
-            <h1 className="font-bold text-4xl mb-14">About us</h1>
-            <SectionListItem text="foundation" />
-            <SectionListItem text="philosophy" />
-            <SectionListItem text="what we do" />
-            <SectionListItem text="partners" />
-          </div>
+          <AboutUsSideBar />
           <div className="w-2/3">
             <div className="text-center w-3/4">
               <p className="text-xl">

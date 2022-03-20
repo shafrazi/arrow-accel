@@ -9,7 +9,7 @@ export default function Footer({ backgroundImage, imageOverText }) {
     // }}
     >
       <div className="flex flex-col w-full h-full bg-opacity-50 relative">
-        <div className="absolute bottom-[50rem] left-[5rem]">
+        <div className="absolute bottom-[47rem] left-[5rem]">
           <h1 className="text-4xl font-semibold text-white lg:text-5xl font-serif">
             {imageOverText}
           </h1>
@@ -18,7 +18,7 @@ export default function Footer({ backgroundImage, imageOverText }) {
         <img
           src="/images/logo-icon-white.png"
           alt="logo-icon"
-          width="700"
+          width="680"
           className="opacity-20 absolute bottom-[25rem] left-[2rem]"
         />
         <div className="flex bg-black opacity-80 w-full h-[25rem] absolute bottom-0 left-0 py-[6rem]">
@@ -34,7 +34,7 @@ export default function Footer({ backgroundImage, imageOverText }) {
               </ul>
             </div>
             <div className="flex w-1/2 py-2">
-              <div className="w-full flex">
+              <div className="w-full flex font-bold">
                 <a href="">Get to know us</a>
                 {/* <ArrowNarrowRightIcon className="w-10" /> */}
                 <p>

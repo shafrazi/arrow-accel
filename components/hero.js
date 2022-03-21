@@ -5,11 +5,16 @@ export default function Hero() {
     <div className="w-full flex flex-col">
       <div className="flex w-full mt-[8rem]">
         <div
-          className="w-1/2 px-[10rem] mt-6 tracking-wider leading-relaxed"
-          style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
+          className="w-1/2 px-[10rem] mt-6 tracking-wider leading-loose"
+          style={{
+            fontFamily: "OpenSauceOne",
+            fontWeight: "normal",
+          }}
         >
-          <p className="text-2xl">We are creative consultants,</p>
-          <p className="text-2xl">
+          <p className="text-2xl" style={{ lineHeight: 1.6 }}>
+            We are creative consultants,
+          </p>
+          <p className="text-2xl" style={{ lineHeight: 1.6 }}>
             committed to{" "}
             <span
               // className="font-bold"
@@ -19,14 +24,16 @@ export default function Hero() {
             </span>{" "}
             projects{" "}
           </p>
-          <p className="text-2xl">
+          <p className="text-2xl" style={{ lineHeight: 1.6 }}>
             and{" "}
             <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
               building
             </span>{" "}
             value for our clients and{" "}
           </p>
-          <p className="text-2xl">the communities around us.</p>
+          <p className="text-2xl" style={{ lineHeight: 1.6 }}>
+            the communities around us.
+          </p>
         </div>
       </div>
       <div className="w-full mt-[12rem] relative">

@@ -2,15 +2,10 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
 export default function Footer({ backgroundImage, imageOverText }) {
   return (
-    <div
-    // className="w-full bg-center bg-cover h-[60rem] mt-12"
-    // style={{
-    //   backgroundImage: `url(${backgroundImage})`,
-    // }}
-    >
+    <div style={{ fontFamily: "OpenSauceOne" }}>
       <div className="flex flex-col w-full h-full bg-opacity-50 relative">
         <div className="absolute bottom-[47rem] left-[5rem]">
-          <h1 className="text-4xl font-semibold text-white lg:text-5xl font-serif">
+          <h1 className="text-4xl font-semibold text-white lg:text-5xl">
             {imageOverText}
           </h1>
         </div>

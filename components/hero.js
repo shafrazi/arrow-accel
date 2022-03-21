@@ -1,32 +1,52 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <div className="w-full flex flex-col">
-      {/* <div className="flex w-full justify-center items-center">
-        <p className="font-bold text-2xl w-1/3 mb-12 ml-12 mt-24">
-          We are creative consultants, committed to accelerating projects and
-          building value for our clients and the communities around us.
-        </p>
-      </div>
-      <Image src="/images/hero.png" width="3456" height="1280" /> */}
       <div className="flex w-full mt-[8rem]">
-        <div className="w-1/2 px-16 mt-6 font-bold tracking-wide leading-relaxed">
+        <div
+          className="w-1/2 px-[10rem] mt-6 tracking-wider leading-relaxed"
+          style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
+        >
           <p className="text-2xl">We are creative consultants,</p>
-          <p className="text-2xl">committed to accelerating projects </p>
-          <p className="text-2xl">and building value for our clients and </p>
+          <p className="text-2xl">
+            committed to{" "}
+            <span
+              // className="font-bold"
+              style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
+            >
+              accelerating
+            </span>{" "}
+            projects{" "}
+          </p>
+          <p className="text-2xl">
+            and{" "}
+            <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
+              building
+            </span>{" "}
+            value for our clients and{" "}
+          </p>
           <p className="text-2xl">the communities around us.</p>
         </div>
       </div>
-      <div
-        className="w-full bg-center bg-cover h-[32rem] mt-[12rem]"
-        style={{
-          backgroundImage: "url(/images/hero.png)",
-        }}
-      >
-        <div className="flex w-full h-full bg-gray-500 bg-opacity-50">
+      <div className="w-full mt-[12rem] relative">
+        <video
+          loop
+          autoPlay
+          muted
+          className="w-full pointer-events-none object-cover h-[40rem]"
+        >
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div className="flex w-1/3 h-[40rem] bg-red-900 bg-opacity-25 absolute bottom-[0rem] left-[5rem]">
           <div className="mx-20 mt-36">
-            <h1 className="text-4xl font-semibold text-white lg:text-5xl font-serif">
-              Take the next step.
+            <h1
+              className="text-4xl font-semibold text-white lg:text-5xl mb-16"
+              style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
+            >
+              Take aim.
             </h1>
+            <Image src="/images/logo-icon-white.png" width={250} height={200} />
           </div>
         </div>
       </div>

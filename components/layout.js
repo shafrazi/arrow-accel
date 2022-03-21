@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div style={{ fontFamily: "OpenSauceOne" }}>
       <Head>
         <link
           rel="preload"

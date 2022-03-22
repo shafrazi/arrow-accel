@@ -22,7 +22,7 @@ export default function GetToKnowBanner() {
           trajectory. We work systematically, with deep understanding on how
           projects and ideas are financed, structured and redistributed.
         </p>
-        <button className="bg-red-900 mt-6 text-white uppercase px-4 py-2 rounded text-lg">
+        <button className="bg-red-500 mt-6 text-white uppercase px-4 py-2 rounded text-lg">
           Get to know us
         </button>
       </div>

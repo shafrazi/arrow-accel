@@ -13,7 +13,7 @@ export default function CallToActionBanner() {
           <p className="uppercase text-2xl text-center tracking-wide leading-relaxed text-white opacity-100">
             The endless possibilities of metaverse: for brands
           </p>
-          <button className="bg-red-900 mt-6 text-white uppercase px-4 py-2 rounded tracking-wide">
+          <button className="bg-red-500 mt-6 text-white uppercase px-4 py-2 rounded tracking-wide">
             Let's connect
           </button>
         </div>

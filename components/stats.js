@@ -37,17 +37,16 @@ export default function Stats() {
               className="text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
-              150+
+              100+
             </p>
-            <p className="text-xl">creative projects</p>
-            <p className="text-xl">& events</p>
+            <p className="text-xl">projects and events</p>
           </div>
           <div className="w-1/4 flex flex-col justify-center items-center text-white">
             <p
               className="text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
-              55
+              35
             </p>
             <p className="text-xl">campaigns delivered</p>
           </div>

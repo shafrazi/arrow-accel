@@ -8,6 +8,8 @@ import Layout from "../components/layout";
 import Image from "next/image";
 import homePageCanvasImg from "../public/images/home-page-canvas.png";
 import Stats from "../components/stats";
+import CallToActionBanner from "../components/call-to-action-banner";
+import GetToKnowBanner from "../components/get-to-know-banner";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Hero />
       <HeroTwo />
       <Stats />
+      <CallToActionBanner />
+      <GetToKnowBanner />
       {/* <div className="w-full h-12">
         <Image src={homePageCanvasImg} />
       </div> */}

@@ -44,7 +44,7 @@ export default function Header() {
           <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
             <ul
               className="flex flex-col mt-4 md:flex-row md:space-x-20 md:mt-0 md:text-sm"
-              style={{ fontFamily: "OpenSauceOne-Light" }}
+              style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
             >
               <li>
                 <a

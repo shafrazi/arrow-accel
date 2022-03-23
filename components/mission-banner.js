@@ -1,6 +1,6 @@
 export default function MissionBanner() {
   return (
-    <div className="flex flex-col w-full tracking-wide bg-gray-200">
+    <div className="flex flex-col w-full tracking-wide">
       <div className="w-full flex flex-col bg-black text-white justify-center items-center py-[8rem]">
         <p className="text-2xl text-center w-1/3 leading-relaxed">
           We have developed a deep understanding on how to further your

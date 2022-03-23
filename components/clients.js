@@ -1,13 +1,3 @@
-import Image from "next/image";
-import affirm from "../public/images/logos/affirm.png";
-import govNeth from "../public/images/logos/gov-neth.png";
-import lazein from "../public/images/logos/lazein.png";
-import mulder from "../public/images/logos/mulder.png";
-import neelyAir from "../public/images/logos/neely-air.png";
-import nortek from "../public/images/logos/nortek.png";
-import safeway from "../public/images/logos/safeway.png";
-import woodstock from "../public/images/logos/woodstock.png";
-
 export default function Clients() {
   return (
     <div className="flex flex-col w-full">

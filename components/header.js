@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 export default function Header() {
   return (
     <div>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-12 rounded dark:bg-gray-800 w-full">
         <div className="px-[9rem] flex flex-wrap justify-between items-center mx-auto w-full">
-          <a href="#" className="flex justify-center items-center space-x-8">
+          <a href="/" className="flex justify-center items-center space-x-8">
             <img src="/images/logo1.png" alt="Logo" className="" width="300" />
           </a>
           <button
@@ -48,7 +46,7 @@ export default function Header() {
             >
               <li>
                 <a
-                  href="#"
+                  href="/about-us"
                   className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl"
                 >
                   ABOUT US

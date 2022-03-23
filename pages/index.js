@@ -10,6 +10,7 @@ import homePageCanvasImg from "../public/images/home-page-canvas.png";
 import Stats from "../components/stats";
 import CallToActionBanner from "../components/call-to-action-banner";
 import GetToKnowBanner from "../components/get-to-know-banner";
+import Clients from "../components/clients";
 
 export default function Home() {
   return (
@@ -24,21 +25,7 @@ export default function Home() {
       <Stats />
       <CallToActionBanner />
       <GetToKnowBanner />
-      {/* <div className="w-full h-12">
-        <Image src={homePageCanvasImg} />
-      </div> */}
-      <div
-        className="flex justify-center items-center w-full py-[10rem] my-10"
-        style={{ fontFamily: "OpenSauceOne" }}
-      >
-        <div className="w-1/3 text-3xl text-center font-bold">
-          <p className="">
-            To reach your goals, you need to translate your mission effectively,
-            by understanding your audience, needs, connecting them to the brand
-          </p>
-          <p className="mt-10">and why the world should pay attention.</p>
-        </div>
-      </div>
+      <Clients />
       <Footer
         backgroundImage={"/images/about-us-footer.png"}
         imageOverText={"Keep going."}

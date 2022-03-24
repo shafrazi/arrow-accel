@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Header from "../components/header";
 import footer from "../components/footer";
 import FocusIntro from "../components/focus-intro";
+import WhatWeDo from "../components/what-we-do";
 
 export default function OurFocus() {
   return (
@@ -13,6 +14,7 @@ export default function OurFocus() {
       </Head>
       <Header />
       <FocusIntro />
+      <WhatWeDo />
     </Layout>
   );
 }

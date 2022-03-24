@@ -13,7 +13,7 @@ export default function Partners() {
           the real and virtual world.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row w-full px-[10rem] mt-12">
+      <div className="flex flex-col md:flex-row w-full px-[10rem] my-12">
         <div className="w-1/3 flex flex-col py-[10rem] text-xl text-center pr-10">
           T M M is a design studio which delivers graphic design and visual
           communication to clients and collaborators who are looking for

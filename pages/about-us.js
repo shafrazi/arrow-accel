@@ -7,6 +7,7 @@ import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
 import Partners from "../components/partners";
 import PromotionBanner from "../components/promotion-banner";
+import Footer from "../components/footer";
 
 export default function AboutUs() {
   return (
@@ -22,6 +23,19 @@ export default function AboutUs() {
       <MissionBanner />
       <PromotionBanner />
       <Partners />
+      <Footer
+        backgroundComponent={
+          <video
+            loop
+            autoPlay
+            muted
+            className="w-full pointer-events-none object-cover h-[60rem]"
+          >
+            <source src="/videos/about-us-footer-video.mp4" type="video/mp4" />
+          </video>
+        }
+        imageOverText={"Think global."}
+      />
     </Layout>
   );
 }

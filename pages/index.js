@@ -27,8 +27,8 @@ export default function Home() {
       <GetToKnowBanner />
       <Clients />
       <Footer
-        backgroundImage={"/images/about-us-footer.png"}
-        imageOverText={"Keep going."}
+        backgroundComponent={<img src="/images/about-us-footer.png" />}
+        imageOverText={"Keep moving."}
       />
     </Layout>
   );

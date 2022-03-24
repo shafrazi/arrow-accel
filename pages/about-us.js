@@ -5,6 +5,7 @@ import Header from "../components/header";
 import HeroTwo from "../components/hero2";
 import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
+import Partners from "../components/partners";
 import PromotionBanner from "../components/promotion-banner";
 
 export default function AboutUs() {
@@ -20,6 +21,7 @@ export default function AboutUs() {
       <FoundationBanner />
       <MissionBanner />
       <PromotionBanner />
+      <Partners />
     </Layout>
   );
 }

@@ -28,10 +28,10 @@ export default function Home() {
       {/* <GetToKnowBanner /> */}
       <GetToKnow />
       <Clients />
-      <Footer
+      {/* <Footer
         backgroundComponent={<img src="/images/about-us-footer.png" />}
         imageOverText={"Keep moving."}
-      />
+      /> */}
     </Layout>
   );
 }

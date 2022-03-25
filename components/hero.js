@@ -2,13 +2,14 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full flex flex-col mt-4 md:mt-16 lg:mt-[8rem]">
+    <div className="w-full flex flex-col my-4 md:my-16 lg:my-[8rem]">
       <div className="flex w-full">
         <div
           className="w-full md:w-3/4 lg:w-2/3 px-5 md:pl-[3rem] lg:pl-[5rem] mt-6 tracking-wider md:leading-loose text-lg md:text-xl lg:text-2xl"
           style={{
             fontFamily: "OpenSauceOne",
             fontWeight: "normal",
+            lineHeight: 1.6,
           }}
         >
           <p className="">We are creative consultants,</p>
@@ -29,7 +30,7 @@ export default function Hero() {
           <p className="">the communities around us.</p>
         </div>
       </div>
-      <div className="w-full mt-16 md:mt-[8rem] relative">
+      <div className="w-full mt-10 md:mt-[5rem] relative">
         <video
           loop
           autoPlay

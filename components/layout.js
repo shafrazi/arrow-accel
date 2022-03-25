@@ -4,6 +4,7 @@ export default function Layout({ children }) {
   return (
     <div className="" style={{ fontFamily: "OpenSauceOne" }}>
       <Head>
+        {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
         <link
           rel="preload"
           href="/fonts/open-sauce/OpenSauceOne-Regular.ttf"

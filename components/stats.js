@@ -10,45 +10,49 @@ export default function Stats() {
         className="flex w-full h-full bg-black justify-center items-center"
         style={{ opacity: 0.86 }}
       >
-        <div className="flex justify-center items-center w-full">
+        <div className="flex flex-wrap justify-center items-center w-full">
           <div
-            className="w-1/4 flex flex-col justify-center items-center text-white"
+            className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white"
             style={{ fontFamily: "OpenSauceOne" }}
           >
             <p
-              className="text-6xl"
+              className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
               35
             </p>
-            <p className="text-xl">clients served</p>
+            <p className="text-base md:text-lg lg:text-xl">clients served</p>
           </div>
-          <div className="w-1/4 flex flex-col justify-center items-center text-white">
+          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white">
             <p
-              className="text-6xl"
+              className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
               67m
             </p>
-            <p className="text-xl">people reached</p>
+            <p className="text-base md:text-lg lg:text-xl">people reached</p>
           </div>
-          <div className="w-1/4 flex flex-col justify-center items-center text-white">
+          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white">
             <p
-              className="text-6xl"
+              className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
               100+
             </p>
-            <p className="text-xl">projects and events</p>
+            <p className="text-base md:text-lg lg:text-xl">
+              projects and events
+            </p>
           </div>
-          <div className="w-1/4 flex flex-col justify-center items-center text-white">
+          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white">
             <p
-              className="text-6xl"
+              className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
             >
               35
             </p>
-            <p className="text-xl">campaigns delivered</p>
+            <p className="text-base md:text-lg lg:text-xl">
+              campaigns delivered
+            </p>
           </div>
         </div>
       </div>

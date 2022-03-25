@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <div>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-12 rounded dark:bg-gray-800 w-full">
-        <div className="px-[9rem] flex flex-wrap justify-between items-center mx-auto w-full">
-          <a href="/" className="flex justify-center items-center space-x-8">
+      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 md:py-12 rounded dark:bg-gray-800 w-full">
+        <div className="px-4 md:px-[5rem] lg:px-[9rem] flex flex-wrap justify-between items-center mx-auto w-full">
+          <a href="/" className="flex w-1/3 space-x-8">
             <img src="/images/logo1.png" alt="Logo" className="" width="300" />
           </a>
           <button

@@ -11,6 +11,7 @@ import Stats from "../components/stats";
 import CallToActionBanner from "../components/call-to-action-banner";
 import GetToKnowBanner from "../components/get-to-know-banner";
 import Clients from "../components/clients";
+import GetToKnow from "../components/get-to-know";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
       <HeroTwo />
       <Stats />
       <CallToActionBanner />
-      <GetToKnowBanner />
+      {/* <GetToKnowBanner /> */}
+      <GetToKnow />
       <Clients />
       <Footer
         backgroundComponent={<img src="/images/about-us-footer.png" />}

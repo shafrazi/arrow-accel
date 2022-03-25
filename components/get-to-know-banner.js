@@ -4,12 +4,15 @@ import GetToKnowBannerImg from "../public/images/get-to-know-banner-image.png";
 export default function GetToKnowBanner() {
   return (
     <div className="flex w-full relative">
-      <div className="w-1/2"></div>
+      <div className="hidden md:block w-1/2"></div>
       <div
-        className="relative w-1/2 bg-gray-200 flex flex-col justify-center items-center text-xl tracking-wide py-[13rem] px-[8rem] mr-[10rem]"
+        className="relative w-full md:w-1/2 bg-gray-200 flex flex-col justify-center items-center text-base md:text-lg lg:text-xl tracking-wide py-6 md:py-[6rem] lg:py-[13rem] px-5 md:px-[4rem] lg:px-[8rem] md:mr-[5rem] lg:mr-[10rem]"
         style={{ fontWeight: "normal" }}
       >
-        <div className="absolute -left-[51rem]">
+        <div className="w-full md:absolute lg:hidden -left-[23rem]">
+          <img src="/images/get-to-know-banner-image.png" className="w-11/12" />
+        </div>
+        <div className="hidden lg:block lg:absolute -left-[51rem]">
           <Image src={GetToKnowBannerImg} width={864} height={576} />
         </div>
         <p className="">

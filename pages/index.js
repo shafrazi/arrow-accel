@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
       <HeroTwo />
       <Stats />
-      {/* <CallToActionBanner /> */}
+      <CallToActionBanner />
       <GetToKnowBanner />
       <Clients />
       <Footer

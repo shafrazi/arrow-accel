@@ -7,11 +7,11 @@ export default function AboutUsHero() {
         loop
         autoPlay
         muted
-        className="w-full pointer-events-none object-cover h-[40rem]"
+        className="w-full pointer-events-none object-cover h-[20rem] md:h-[30rem] lg:h-[40rem]"
       >
         <source src="/videos/about-us-video.mp4" type="video/mp4" />
       </video>
-      <div className="flex w-1/3 h-[40rem] bg-red-900 bg-opacity-25 absolute bottom-[0rem] left-[5rem]">
+      <div className="flex w-1/2 h-[20rem] md:h-[30rem] lg:h-[40rem] bg-red-900 bg-opacity-25 absolute bottom-[0rem] left-6 md:left-[5rem]">
         <div className="mx-20 mt-36 text-center">
           <p
             className="tracking-wide text-2xl text-center font-semibold text-white mb-10"

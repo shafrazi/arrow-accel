@@ -11,18 +11,20 @@ export default function Clients() {
           className="flex w-full h-full justify-center items-center"
           style={{ opacity: 0.86 }}
         >
-          <div className="w-full flex flex-col justify-center items-center px-10 lg:px-[28rem] tracking-wide">
-            <p className="text-white text-lg md:text-2xl lg:text-4xl font-bold">
-              Our clients
-            </p>
-            <p className="text-white text-base md:text-xl lg:text-2xl mt-3 md:mt-12 text-center">
-              We have serviced brands, organizations, start-ups and artists,
-              using insight and creativity to launch ideas across the globe.
-            </p>
-            <p className="text-white text-base md:text-xl lg:text-2xl mt-3 md:mt-12 text-center">
-              Our clients confide in us to translate their vision into action.
-              ARROW ACCEL helps pave the road from concept to creation
-            </p>
+          <div className="w-full flex flex-col justify-center items-center  tracking-wide">
+            <div className="w-full px-4 md:px-0 md:w-2/3 lg:w-5/12">
+              <p className="text-white text-center text-lg md:text-2xl lg:text-4xl font-bold">
+                Our clients
+              </p>
+              <p className="text-white text-base md:text-xl lg:text-2xl mt-2 md:mt-8 lg:mt-12 text-center">
+                We have serviced brands, organizations, start-ups and artists,
+                using insight and creativity to launch ideas across the globe.
+              </p>
+              <p className="text-white text-base md:text-xl lg:text-2xl mt-2 md:mt-8 lg:mt-12 text-center">
+                Our clients confide in us to translate their vision into action.
+                ARROW ACCEL helps pave the road from concept to creation
+              </p>
+            </div>
           </div>
         </div>
       </div>

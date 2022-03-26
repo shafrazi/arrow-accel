@@ -19,6 +19,24 @@ export default function GetInTouch() {
             <h1 className="font-bold text-base md:text-2xl lg:text-3xl">
               Get in Touch
             </h1>
+            <div className="w-full flex mt-4 lg:mt-10 text-base md:text-xl">
+              <div className="w-1/4 flex">
+                <p>HQ</p>
+              </div>
+              <div className="w-2/3">
+                <p>Keizersgracht 391-A</p>
+                <p>1016 EJ Amsterdam</p>
+                <p>the Netherlands</p>
+              </div>
+            </div>
+            <div className="w-full flex mt-2 lg:mt-5 text-base md:text-xl">
+              <div className="w-1/4 flex>">
+                <p>Email</p>
+              </div>
+              <div className="w-2/3 text-left">
+                <p>contactus@arrowaccel.com</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

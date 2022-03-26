@@ -1,8 +1,8 @@
 export default function FoundationBanner() {
   return (
     <div className="flex flex-col w-full tracking-wide">
-      <div className="w-full flex flex-col md:flex-row">
-        <div className="w-full md:w-1/2 px-4 md:px-[10rem] py-4 md:py-[10rem]">
+      <div className="w-full flex flex-col-reverse  lg:flex-row">
+        <div className="w-full lg:w-1/2 px-4 lg:px-[10rem] py-10 lg:py-[10rem]">
           <p className="tracking-wide text-lg md:text-2xl">
             ARROW ACCEL is built on our core principle of placing our clients'​
             interests first. Our intrinsic values represent integrity, prudency,
@@ -13,17 +13,17 @@ export default function FoundationBanner() {
             and velocity of the fate of life on our planet.
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center items-center px-4 py-[7rem] md:px-[10rem] md:py-[10rem] bg-black text-white">
-          <div className="w-1/3 flex flex-col justify-center px-5">
-            <p className="text-5xl font-bold">Small</p>
-            <p className="text-5xl font-bold">steps.</p>
+        <div className="w-full lg:w-1/2 flex min-w-min  justify-center items-center px-4 py-4 lg:py-[7rem] lg:px-[10rem] bg-black text-white">
+          <div className="w-1/3 flex flex-col justify-center px-5 items-center">
+            <p className="text-xl md:text-3xl lg:text-5xl font-bold">Small</p>
+            <p className="text-xl md:text-3xl lg:text-5xl font-bold">steps.</p>
           </div>
           <div className="w-1/3 flex flex-col justify-center items-center">
             <img src="/images/logo-icon-white.png" className="w-3/4" />
           </div>
-          <div className="w-1/3 flex flex-col justify-center px-5">
-            <p className="text-5xl font-bold">Giant</p>
-            <p className="text-5xl font-bold">leaps.</p>
+          <div className="w-1/3 flex flex-col justify-center items-center px-5">
+            <p className="text-xl md:text-3xl lg:text-5xl font-bold">Giant</p>
+            <p className="text-xl md:text-3xl lg:text-5xl font-bold">leaps.</p>
           </div>
         </div>
       </div>

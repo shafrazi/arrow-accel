@@ -3,9 +3,12 @@ export default function AboutWhatWeDo() {
     <div className="flex flex-col w-full tracking-wide mt-3 md:mt-[2rem] lg:mt-[5rem] mb-[5rem]">
       <div className="w-full flex lg:mx-0 flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 lg:py-12 flex lg:pr-16 pb-16">
-          <img src="/images/what-we-do.png" className="px-4 lg:px-0 w-full" />
+          <img
+            src="/images/what-we-do.png"
+            className="px-4 md:px-8 lg:px-0 w-full"
+          />
         </div>
-        <div className="w-full px-4 lg:px-0 lg:w-1/2 flex flex-col justify-center lg:pr-[10rem]">
+        <div className="w-full px-4 md:px-8 lg:px-0 lg:w-1/2 flex flex-col justify-center lg:pr-[10rem]">
           <h2 className="tracking-wide text-lg md:text-3xl uppercase">
             What we do
           </h2>

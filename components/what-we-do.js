@@ -119,29 +119,34 @@ export default function WhatWeDo() {
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-col lg:flex-row bg-black text-white px-6 md:px-10 lg:px-[10rem] py-10 md:py-14 lg:py-[8rem] text-lg md:text-xl lg:text-2xl leading-relaxed mt-16">
-        <div className="w-full lg:w-1/2 lg:pr-16">
-          <p className="">
-            Work with us to identify your goals, to clarify the challenges ahead
-            and to strategize on solutions. Free yourself and find your flow to
-            move forward frictionless with first steps and renewed energy.
-          </p>
-        </div>
-        <div className="w-full lg:w-1/2 lg:pl-16 flex">
-          <div className="w-25 h-25 lg:w-100 lg:h-100 md:shrink-0 rounded-full bg-sky-200 flex justify-center items-center">
-            <img
-              src="/images/robert.png"
-              alt="robert"
-              className="md:shrink-0"
-            />
+      <div className="w-full flex flex-col lg:flex-row bg-black text-white text-lg md:text-xl lg:text-2xl leading-relaxed mt-16">
+        <div className="w-full flex flex-col justify-center items-center lg:w-1/2">
+          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+            <p className="">
+              Work with us to identify your goals, to clarify the challenges
+              ahead and to strategize on solutions. Free yourself and find your
+              flow to move forward frictionless with first steps and renewed
+              energy.
+            </p>
           </div>
-          <div className="flex flex-col mx-4 lg:mx-16 justify-around">
-            <p className="">Robert Schaeffer</p>
-            <p className="uppercase text-base">AMSTERDAM, The Netherlands</p>
-            <p className="text-sm">book a call with Robert</p>
-            <button className="w-5/6 text-base bg-white text-black uppercase rounded px-3 py-2">
-              set a meeting
-            </button>
+        </div>
+        <div className="w-full flex items-center lg:w-1/2">
+          <div className="w-full flex space-x-10 lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+            <div className="w-3/12 h-[w-3/12] md:shrink-0 rounded-full bg-sky-200 flex justify-center items-center">
+              <img
+                src="/images/robert.png"
+                alt="robert"
+                className="md:shrink-0"
+              />
+            </div>
+            <div className="flex flex-col w-7/12 justify-around">
+              <p className="">Robert Schaeffer</p>
+              <p className="uppercase text-base">AMSTERDAM, The Netherlands</p>
+              <p className="text-sm">book a call with Robert</p>
+              <button className="w-4/6 text-base bg-white text-black uppercase rounded px-3 py-2">
+                set a meeting
+              </button>
+            </div>
           </div>
         </div>
       </div>

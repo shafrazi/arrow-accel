@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 md:py-12 rounded dark:bg-gray-800 w-full">
-        <div className="px-4 md:px-[5rem] lg:px-[9rem] flex flex-wrap justify-between items-center mx-auto w-full">
+        <div className="flex flex-wrap justify-between items-center mx-auto w-11/12">
           <a href="/" className="flex w-1/3 space-x-8">
             <img src="/images/logo1.png" alt="Logo" className="" width="300" />
           </a>
@@ -41,7 +41,7 @@ export default function Header() {
           </button>
           <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
             <ul
-              className="flex flex-col mt-4 md:flex-row md:space-x-20 md:mt-0 md:text-sm"
+              className="flex flex-col mt-4 md:flex-row md:space-x-10 lg:space-x-20 md:mt-0 md:text-sm"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
             >
               <li>

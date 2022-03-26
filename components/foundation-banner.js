@@ -27,20 +27,20 @@ export default function FoundationBanner() {
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-col md:flex-row mt-10">
-        <div className="w-full md:w-1/2">
+      <div className="w-full flex flex-col lg:flex-row lg:py-[5rem]">
+        <div className="w-full lg:w-1/2">
           <img src="/images/foundation.png" className="w-full" />
         </div>
-        <div className="w-full md:w-1/2 px-4 md:px-[10rem] py-4 md:py-10">
-          <h2 className="tracking-wide text-lg md:text-3xl uppercase">
+        <div className="w-full lg:w-1/2 px-4 lg:px-[10rem] py-6 lg:py-10">
+          <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
             foundation
           </h2>
-          <p className="tracking-wide text-lg md:text-2xl mt-10">
+          <p className="tracking-wide text-lg md:text-2xl mt-4 md:mt-10">
             A strong, visionary strategy and creative team, directing projects
             together with specialized execution partners, each operating at the
             top of their respective fields of expertise.
           </p>
-          <p className="tracking-wide text-lg md:text-2xl mt-10">
+          <p className="tracking-wide text-lg md:text-2xl mt-4 md:mt-10">
             Together we help raise visibility, break into the marketplace and
             help secure funds for ground-breaking projects, disruptive ideas and
             companies in the Netherlands and around the globe.

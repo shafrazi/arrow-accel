@@ -36,7 +36,7 @@ export default function PromotionBanner() {
           </p>
         </div>
         <div className="w-full md:w-1/2 py-12 flex justify-center items-center">
-          <img src="/images/progress.png" className="w-full" />
+          <img src="/images/promotion-idea.png" className="w-full" />
         </div>
       </div>
     </div>

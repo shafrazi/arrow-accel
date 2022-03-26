@@ -11,11 +11,11 @@ export default function Footer({ backgroundComponent, imageOverText }) {
             </h1>
           </div>
           {backgroundComponent}
+
           <img
             src="/images/logo-icon-white.png"
             alt="logo-icon"
-            width="680"
-            className="opacity-20 absolute bottom-[25rem] left-[2rem]"
+            className="w-3/12 opacity-20 absolute lg:bottom-[36rem] lg:left-[2rem]"
           />
           <div className="flex bg-black opacity-80 w-full h-10 md:h-20 lg:h-[25rem] absolute bottom-0 left-0 py-[6rem]">
             <div className="w-1/3 mx-20">
@@ -53,10 +53,10 @@ export default function Footer({ backgroundComponent, imageOverText }) {
                     className="text-xl font-bold text-gray-800 hover:text-gray-700"
                   >
                     <img
-                      src="/images/logo-icon-white.png"
+                      src="/images/logo-white.png"
                       alt="logo"
                       width={160}
-                      className="rounded-lg shadow-lg opacity-30"
+                      className="rounded-lg shadow-lg"
                     />
                   </a>
                 </div>
@@ -65,51 +65,17 @@ export default function Footer({ backgroundComponent, imageOverText }) {
 
             <div className="mt-6 lg:mt-0 lg:flex-1">
               <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
-                <div>
-                  <h3 className="font-bold uppercase dark:text-white">About</h3>
-                  <a
-                    href="/about"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    About us
-                  </a>
-                  <a
-                    href="/terms-and-conditions"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Terms and conditions
-                  </a>
-                  <a
-                    href="/privacy-policy"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Privacy Policy
-                  </a>
+                <div className="flex w-full">
+                  <ul>
+                    <li className="py-2">About us</li>
+                    <li className="py-2">Our partners</li>
+                    <li className="py-2">Our focus</li>
+                  </ul>
                 </div>
-
-                <div>
-                  <h3 className="font-bold uppercase dark:text-white">
-                    Help Centre
-                  </h3>
-                  <a
-                    href="/faqs"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    FAQs
-                  </a>
-                </div>
-
-                <div>
-                  <h3 className="font-bold uppercase dark:text-white">
-                    Contact
-                  </h3>
-                  <a
-                    href="/contact-us"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Contact us
-                  </a>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"></span>
+                <div className="flex w-full">
+                  <ul>
+                    <li className="py-2">Get to know us</li>
+                  </ul>
                 </div>
               </div>
             </div>

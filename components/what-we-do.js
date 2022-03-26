@@ -132,18 +132,18 @@ export default function WhatWeDo() {
         </div>
         <div className="w-full flex items-center lg:w-1/2">
           <div className="w-full flex space-x-10 lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
-            <div className="w-3/12 h-[w-3/12] md:shrink-0 rounded-full bg-sky-200 flex justify-center items-center">
+            <div className="md:shrink-0 rounded-full bg-sky-200 flex justify-center items-center">
               <img
                 src="/images/robert.png"
                 alt="robert"
-                className="md:shrink-0"
+                className="md:shrink-0 w-full"
               />
             </div>
             <div className="flex flex-col w-7/12 justify-around">
               <p className="">Robert Schaeffer</p>
               <p className="uppercase text-base">AMSTERDAM, The Netherlands</p>
               <p className="text-sm">book a call with Robert</p>
-              <button className="w-4/6 text-base bg-white text-black uppercase rounded px-3 py-2">
+              <button className="w-full md:w-4/6 text-base bg-white text-black uppercase rounded px-3 py-2">
                 set a meeting
               </button>
             </div>

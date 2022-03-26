@@ -15,7 +15,7 @@ export default function Footer({ backgroundComponent, imageOverText }) {
                 alt="logo-icon"
                 className="w-10/12 opacity-20 absolute -top-[4rem]"
               />
-              <h1 className="md:text-3xl font-semibold text-white lg:text-5xl">
+              <h1 className="w-full xmd:text-3xl font-semibold text-white lg:text-5xl">
                 {imageOverText}
               </h1>
             </div>

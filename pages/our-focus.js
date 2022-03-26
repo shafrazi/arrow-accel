@@ -17,7 +17,7 @@ export default function OurFocus() {
       <WhatWeDo />
       <Footer
         backgroundComponent={<img src="/images/focus-footer.png" />}
-        imageOverText={"The best way to predict the future is to create it."}
+        imageOverText={""}
       />
     </Layout>
   );

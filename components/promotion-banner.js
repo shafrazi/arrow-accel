@@ -1,12 +1,12 @@
 export default function PromotionBanner() {
   return (
     <div className="flex flex-col w-full tracking-wide">
-      <div className="flex flex-col md:flex-row w-full">
-        <div className="w-full md:w-1/2 py-12 flex justify-center items-center">
+      <div className="flex flex-col-reverse lg:flex-row w-full">
+        <div className="w-full lg:w-1/2 py-12 flex justify-center items-center">
           <img src="/images/promotion-idea.png" className="w-full" />
         </div>
-        <div className="w-full md:w-1/2 px-4 md:px-[10rem] py-4 md:py-[10rem]">
-          <h2 className="tracking-wide text-lg md:text-3xl uppercase">
+        <div className="w-full lg:w-1/2 px-4 md:px-6 lg:px-[10rem] py-4 md:py-12 lg:py-[10rem]">
+          <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
             Promoting good ideas
           </h2>
           <p className="tracking-wide text-lg md:text-2xl mt-10">
@@ -21,9 +21,9 @@ export default function PromotionBanner() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row w-full bg-gray-200">
-        <div className="w-full md:w-1/2 px-4 md:px-[10rem] py-4 md:py-[10rem]">
-          <h2 className="tracking-wide text-lg md:text-3xl uppercase">
+      <div className="flex flex-col lg:flex-row w-full bg-gray-200">
+        <div className="w-full lg:w-1/2 px-4 md:px-6 lg:px-[10rem] py-4 md:py-12 lg:py-[10rem]">
+          <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
             and accelerating progress
           </h2>
           <p className="tracking-wide text-lg md:text-2xl mt-10">
@@ -35,7 +35,7 @@ export default function PromotionBanner() {
             We connect sharp minds to accelerate extraordinary development.
           </p>
         </div>
-        <div className="w-full md:w-1/2 py-12 flex justify-center items-center">
+        <div className="w-full px-6 lg:px-0 lg:w-1/2 py-4 lg:py-12 flex justify-center items-center">
           <img src="/images/promotion-idea.png" className="w-full" />
         </div>
       </div>

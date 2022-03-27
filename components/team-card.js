@@ -6,7 +6,7 @@ export default function TeamCard({
   description,
 }) {
   return (
-    <div className="w-full flex md:w-1/2 justify-center items-center">
+    <div className="w-full px-4 md:px-0 mt-5 md:mt-0 flex md:w-1/2 justify-center items-center">
       <div className="w-full md:w-10/12 flex flex-col">
         <div className="w-full flex space-x-5">
           <div className="flex items-center w-3/12 md:w-4/12 lg:w-3/12">

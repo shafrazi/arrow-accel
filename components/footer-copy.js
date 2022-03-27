@@ -49,15 +49,21 @@ export default function Footer({
               <div className="flex w-2/3 text-white text-xl">
                 <div className="flex w-1/2 items-center">
                   <ul>
-                    <li className="py-2">About us</li>
-                    <li className="py-2">Our partners</li>
-                    <li className="py-2">Our focus</li>
+                    <li className="py-2">
+                      <a href="/about-us">About us</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/about-us">Our partners</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/our-focus">Our focus</a>
+                    </li>
                   </ul>
                 </div>
                 <div className="flex w-1/2 py-2">
                   <div className="">
                     <div className="w-full flex font-bold items-center">
-                      <a href="">Get to know us</a>
+                      <a href="/contact">Get to know us</a>
                       <p>
                         <ArrowNarrowRightIcon className="mx-3 w-10" />
                       </p>
@@ -94,14 +100,22 @@ export default function Footer({
               <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                 <div className="flex w-full">
                   <ul>
-                    <li className="py-2">About us</li>
-                    <li className="py-2">Our partners</li>
-                    <li className="py-2">Our focus</li>
+                    <li className="py-2">
+                      <a href="/about-us">About us</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/about-us">Our partners</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/our-focus">Our focus</a>
+                    </li>
                   </ul>
                 </div>
                 <div className="flex w-full">
                   <ul>
-                    <li className="py-2">Get to know us</li>
+                    <li className="py-2">
+                      <a href="/contact">Get to know us</a>
+                    </li>
                   </ul>
                 </div>
               </div>

@@ -2,7 +2,7 @@ import TeamCard from "./team-card";
 
 export default function GetInTouch() {
   return (
-    <div className="flex flex-col w-full h-screen tracking-wide relative">
+    <div className="flex flex-col w-full tracking-wide relative">
       <img
         src="/images/logo-icon-black-large-crop.png"
         className=""

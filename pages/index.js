@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Hero from "../components/hero";
 import HeroTwo from "../components/hero2";
 import HeroThree from "../components/hero3";
-import Footer from "../components/footer";
+import Footer from "../components/footer-copy";
 import Layout from "../components/layout";
 import Image from "next/image";
 import homePageCanvasImg from "../public/images/home-page-canvas.png";
@@ -29,7 +29,9 @@ export default function Home() {
       <GetToKnow />
       <Clients />
       <Footer
-        backgroundComponent={<img src="/images/about-us-footer.png" />}
+        backgroundComponent={
+          <img src="/images/about-us-footer.png" className="w-full" />
+        }
         imageOverText={"Keep moving."}
       />
     </Layout>

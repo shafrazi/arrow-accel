@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Header from "../components/header";
 import Footer from "../components/footer-copy";
 import GetInTouch from "../components/get-in-touch";
+import Services from "../components/services";
 
 export default function Contact() {
   return (
@@ -13,6 +14,7 @@ export default function Contact() {
       </Head>
       <Header />
       <GetInTouch />
+      <Services />
       <Footer
         backgroundComponent={
           <video

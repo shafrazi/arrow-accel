@@ -1,8 +1,13 @@
 export default function WhatWeDo() {
   return (
     <div className="flex flex-col w-full tracking-wide">
-      <div className="w-full">
+      <div className="w-full relative">
         <img src="/images/build.png" className="w-full" />
+        <div className="w-full flex justify-center items-center absolute bottom-1/2">
+          <p className="w-10/12 text-white text-xl md:text-5xl lg:text-7xl font-bold">
+            Build it.
+          </p>
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row w-full mt-6 lg:mt-16">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">

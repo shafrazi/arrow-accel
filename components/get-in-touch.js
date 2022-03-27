@@ -1,3 +1,5 @@
+import TeamCard from "./team-card";
+
 export default function GetInTouch() {
   return (
     <div className="flex flex-col w-full h-screen tracking-wide relative">
@@ -50,33 +52,37 @@ export default function GetInTouch() {
             </div>
           </div>
         </div>
-        <div className="w-full flex-col lg:flex-row mt-4">
-          <div className="w-full flex md:w-1/2 justify-center items-center">
-            <div className="w-full px-5 md:px-5 md:w-10/12 flex flex-col">
-              <div className="w-full flex space-x-5">
-                <div className="flex items-center w-3/12 md:w-4/12 lg:w-3/12">
-                  <img
-                    src="/images/robert.png"
-                    className="w-20 h-20 lg:w-full lg:h-full rounded-full bg-gray-800"
-                  />
-                </div>
-                <div className="w-8/12 flex flex-col">
-                  <p className="text-base md:text-xl lg:text-2xl">
-                    Robert Schaeffer,
-                  </p>
-                  <p className="text-base md:text-xl lg:text-2xl">
-                    Creative Director
-                  </p>
-                  <div className="flex flex-col h-full py-5 w-full justify-end">
-                    <p className="font-bold uppercase">
-                      AMSTERDAM, THE NETHERLANDS
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full"></div>
-            </div>
-          </div>
+        <div className="w-full flex flex-col md:flex-row mt-4 md:mt-8 lg:mt-[3rem]">
+          <TeamCard
+            image="/images/robert.png"
+            name="Robert Schaeffer"
+            position="Creative Director"
+            location="Amsterdam, The Netherlands"
+            description="Robert has over two decades of experience in creative management, consultancy, communication, marketing strategy, innovation, and growth."
+          />
+          <TeamCard
+            image="/images/sander.png"
+            name="Sander Epema"
+            position="Creative Director"
+            location="AMSTERDAM, The Netherlands"
+            description="Sander is a seasoned, creative professional, investment writer, financial advisor, sustainability expert and art lover. Fostering relationships is his second nature to seal the deal."
+          />
+        </div>
+        <div className="w-full flex flex-col md:flex-row mt-4 md:mt-12 lg:mt-[5rem]">
+          <TeamCard
+            image="/images/margo.png"
+            name="Margo Neely"
+            position="Creative Strategist"
+            location="NEW york, Usa"
+            description="Margo is a thought leader, director, designer, innovator, and creative strategist, specialized in media, film production, and design studio specializing in the creation of original multi-platform streaming digital content for global brands"
+          />
+          <TeamCard
+            image="/images/keweul.png"
+            name="Keweul Hailand"
+            position="Creative Strategist"
+            location="AMSTERDAM, The Netherlands"
+            description="Keweul has been working with online channels since 2013. Reaching a young audience is one of his strengths on an executive, managerial and strategic level. He has proven this at various commercial companies and public organizations. Keweul has a preference for data-driven working, content distribution and video content creation"
+          />
         </div>
       </div>
     </div>

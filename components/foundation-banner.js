@@ -1,6 +1,6 @@
 export default function FoundationBanner() {
   return (
-    <div className="flex flex-col w-full tracking-wide my-4 md:my-10 lg:my-16">
+    <div className="flex flex-col w-full tracking-wide my-4 md:mt-10 lg:mt-16">
       <div className="w-full flex flex-col-reverse  lg:flex-row">
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
           <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">

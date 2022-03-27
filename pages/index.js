@@ -33,6 +33,7 @@ export default function Home() {
           <img src="/images/about-us-footer.png" className="w-full" />
         }
         imageOverText={"Keep moving."}
+        showIcon={true}
       />
     </Layout>
   );

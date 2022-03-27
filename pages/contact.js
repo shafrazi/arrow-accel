@@ -25,6 +25,7 @@ export default function Contact() {
           </video>
         }
         imageOverText={"Connect the dots."}
+        showIcon={false}
       />
     </Layout>
   );

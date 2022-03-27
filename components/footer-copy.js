@@ -1,6 +1,11 @@
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
-export default function Footer({ backgroundComponent, imageOverText }) {
+export default function Footer({
+  backgroundComponent,
+  imageOverText,
+  showIcon,
+  fontSize,
+}) {
   return (
     <div style={{ fontFamily: "OpenSauceOne" }}>
       <footer className="hidden lg:block">
@@ -9,14 +14,17 @@ export default function Footer({ backgroundComponent, imageOverText }) {
           <div className="w-full flex absolute bottom-2/3">
             <div className="w-1/2 flex justify-center items-center">
               <p
-                className="w-10/12 text-white font-bold text-center"
-                style={{ fontSize: "5vw" }}
+                className="w-11/12 text-white font-bold px-12"
+                style={{ fontSize: fontSize || "5vw" }}
               >
                 {imageOverText}
               </p>
             </div>
           </div>
-          <div className="w-full flex absolute" style={{ bottom: "55%" }}>
+          <div
+            className={`w-full flex absolute ${showIcon ? "block" : "hidden"}`}
+            style={{ bottom: "55%", right: "5%" }}
+          >
             <div className="w-1/2 flex justify-center items-center">
               <img
                 src="/images/logo-icon-white-crop.png"

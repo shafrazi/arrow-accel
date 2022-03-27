@@ -6,7 +6,7 @@ export default function CallToActionBanner() {
     <div
       className="flex w-full bg-center bg-cover h-60 md:h-[30rem] lg:h-[40rem] relative"
       style={{
-        backgroundImage: "url(/images/cta-banner.png)",
+        backgroundImage: "url(/images/canvas.png)",
       }}
     >
       {/* <Image src={BannerImage} height={800} /> */}

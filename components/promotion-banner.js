@@ -41,7 +41,7 @@ export default function PromotionBanner() {
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex">
-            <img src="/images/promotion-idea.png" className="w-full" />
+            <img src="/images/samurai.png" className="w-full" />
           </div>
         </div>
       </div>

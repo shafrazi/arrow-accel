@@ -23,25 +23,27 @@ export default function Partners() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row w-full px-4 lg:px-[10rem] my-5 lg:my-12">
-        <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-10 lg:py-[10rem] text-xl text-center lg:pr-10">
-          T M M is a design studio which delivers graphic design and visual
-          communication to clients and collaborators who are looking for
-          engaging and strong output that is able to challenge expectations and
-          goals.
-        </div>
-        <div className="w-full px-4 lg:px-8 lg:w-1/3 flex flex-col py-10 lg:py-[10rem] text-xl text-center bg-neutral-100">
-          K-line achieves objectives through measurable and accountable
-          marketing. They work as an extension of your team by filling the gaps
-          with the right specialists. Our full-service capabilities allow us to
-          provide professional recommendations a;nd solutions across every
-          aspect of your marketing.
-        </div>
-        <div className="w-full px-4 lg:px-8 lg:w-1/3 flex flex-col py-10 lg:py-[10rem] text-xl text-center lg:pr-10">
-          Neely & Daughters is a think tank, creative incubator, and studio
-          where visionary innovations are born. Neely & Daughters are renegade
-          creatives producing revolutionary content embraced by millions over
-          the world.
+      <div className="w-full flex flex-col justify-center items-center my-5 md:my-10 lg:my-[3rem] leading-relaxed">
+        <div className="flex flex-col md:flex-row w-11/12 text-center">
+          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-4 md:py-8 lg:py-[3rem]">
+            T M M is a design studio which delivers graphic design and visual
+            communication to clients and collaborators who are looking for
+            engaging and strong output that is able to challenge expectations
+            and goals.
+          </div>
+          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-4 md:py-8 lg:py-[3rem] bg-neutral-100">
+            K-line achieves objectives through measurable and accountable
+            marketing. They work as an extension of your team by filling the
+            gaps with the right specialists. Our full-service capabilities allow
+            us to provide professional recommendations a;nd solutions across
+            every aspect of your marketing.
+          </div>
+          <div className="w-full px-4 lg:px-8 lg:w-1/3 flex py-4 md:py-8 lg:py-[3rem] flex-col">
+            Neely & Daughters is a think tank, creative incubator, and studio
+            where visionary innovations are born. Neely & Daughters are renegade
+            creatives producing revolutionary content embraced by millions over
+            the world.
+          </div>
         </div>
       </div>
     </div>

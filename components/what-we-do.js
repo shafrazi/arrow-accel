@@ -2,7 +2,7 @@ export default function WhatWeDo() {
   return (
     <div className="flex flex-col w-full tracking-wide">
       <div className="w-full">
-        <img src="/images/build-it.png" className="w-full" />
+        <img src="/images/build.png" className="w-full" />
       </div>
       <div className="flex flex-col lg:flex-row w-full mt-6 lg:mt-16">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">

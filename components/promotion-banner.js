@@ -23,22 +23,26 @@ export default function PromotionBanner() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row w-full bg-gray-200">
-        <div className="w-full lg:w-1/2 px-4 md:px-6 lg:px-[10rem] py-4 md:py-12 lg:py-[10rem]">
-          <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
-            and accelerating progress
-          </h2>
-          <p className="tracking-wide text-lg md:text-2xl mt-10">
-            Our decisions are based on data and research, leaning on our
-            extensive experience, working for companies and organizations who
-            have their ambitions set beyond the horizon.
-          </p>
-          <p className="tracking-wide text-lg md:text-2xl mt-10">
-            We connect sharp minds to accelerate extraordinary development.
-          </p>
-        </div>
-        <div className="w-full px-6 lg:px-0 lg:w-1/2 py-4 lg:py-12 flex justify-center items-center">
-          <img src="/images/promotion-idea.png" className="w-full" />
+      <div className="flex flex-col lg:flex-row w-full bg-gray-200 mt-5 md:mt-10 lg:mt-[5rem]">
+        <div className="py-5 md:py-8 lg:py-[3rem] flex w-full">
+          <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
+            <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+              <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
+                and accelerating progress
+              </h2>
+              <p className="tracking-wide text-lg md:text-2xl mt-10">
+                Our decisions are based on data and research, leaning on our
+                extensive experience, working for companies and organizations
+                who have their ambitions set beyond the horizon.
+              </p>
+              <p className="tracking-wide text-lg md:text-2xl mt-10">
+                We connect sharp minds to accelerate extraordinary development.
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 flex">
+            <img src="/images/promotion-idea.png" className="w-full" />
+          </div>
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ export default function Clients() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-4 gap-x-5 md:gap-x-10 gap-y-2 justify-items-center w-full px-4 md:px-10 lg:px-[15rem] py-3 md:py-8 lg:py-[10rem]">
+      <div className="grid grid-cols-3 md:grid-cols-4 gap-x-5 md:gap-x-10 gap-y-2 justify-items-center w-full px-4 md:px-10 lg:px-[15rem] py-10 md:py-16 lg:py-[10rem]">
         <img src="/images/logos/affirm.png" className="w-[12rem]" />
         <img src="/images/logos/neely-air.png" className="w-[12rem]" />
         <img src="/images/logos/safeway.png" className="w-[12rem]" />

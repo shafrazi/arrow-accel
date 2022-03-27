@@ -18,7 +18,7 @@ export default function WhatWeDo() {
       </div>
       <div className="flex flex-col lg:flex-row w-full mt-6 lg:mt-16">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Energy transition
             </h2>
@@ -37,7 +37,7 @@ export default function WhatWeDo() {
           </div>
         </div>
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center bg-black text-white">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Art & entertainment
             </h2>
@@ -57,7 +57,7 @@ export default function WhatWeDo() {
       </div>
       <div className="flex flex-col-reverse lg:flex-row w-full mt-6 lg:mt-16">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center bg-black text-white">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Industrial innovation
             </h2>
@@ -77,7 +77,7 @@ export default function WhatWeDo() {
           </div>
         </div>
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Future technologies
             </h2>
@@ -98,7 +98,7 @@ export default function WhatWeDo() {
       </div>
       <div className="flex flex-col lg:flex-row w-full mt-6 lg:mt-16">
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Investment readiness
             </h2>
@@ -115,7 +115,7 @@ export default function WhatWeDo() {
           </div>
         </div>
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-center bg-black text-white">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-xl md:text-3xl font-bold">
               Transformational technology
             </h2>
@@ -133,7 +133,7 @@ export default function WhatWeDo() {
       </div>
       <div className="w-full flex flex-col lg:flex-row bg-black text-white text-lg md:text-xl lg:text-2xl leading-relaxed mt-16">
         <div className="w-full flex flex-col justify-center items-center lg:w-1/2">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <p className="">
               Work with us to identify your goals, to clarify the challenges
               ahead and to strategize on solutions. Free yourself and find your

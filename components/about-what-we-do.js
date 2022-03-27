@@ -8,7 +8,7 @@ export default function AboutWhatWeDo() {
             className="px-4 md:px-8 lg:px-0 w-full"
           />
         </div>
-        <div className="w-full px-4 my-4 md:my-10 lg:my-0 lg:py-0 md:px-8 lg:px-12 lg:w-1/2 flex flex-col justify-center">
+        <div className="w-full px-4 my-8 md:my-10 lg:my-0 lg:py-0 md:px-8 lg:px-12 lg:w-1/2 flex flex-col justify-center">
           <h2 className="tracking-wide text-lg md:text-3xl uppercase">
             What we do
           </h2>

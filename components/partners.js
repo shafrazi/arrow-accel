@@ -25,7 +25,7 @@ export default function Partners() {
       </div>
       <div className="w-full flex flex-col justify-center items-center my-5 md:my-10 lg:my-[3rem] leading-relaxed">
         <div className="flex flex-col md:flex-row w-11/12 text-center">
-          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-4 md:py-8 lg:py-[3rem]">
+          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-10 md:py-10 lg:py-[3rem]">
             <h2 className="font-bold text-lg md:text-xl lg:text-2xl">
               House TMM
             </h2>
@@ -36,7 +36,7 @@ export default function Partners() {
               and goals.
             </p>
           </div>
-          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-4 md:py-8 lg:py-[3rem] bg-neutral-100">
+          <div className="w-full px-6 lg:px-8 lg:w-1/3 flex flex-col py-10 md:py-10 lg:py-[3rem] bg-neutral-100">
             <h2 className="font-bold text-lg md:text-xl lg:text-2xl">
               K-Line media
             </h2>
@@ -48,7 +48,7 @@ export default function Partners() {
               across every aspect of your marketing.
             </p>
           </div>
-          <div className="w-full px-4 lg:px-8 lg:w-1/3 flex py-4 md:py-8 lg:py-[3rem] flex-col">
+          <div className="w-full px-4 lg:px-8 lg:w-1/3 flex py-10 md:py-10 lg:py-[3rem] flex-col">
             <h2 className="font-bold text-lg md:text-xl lg:text-2xl">
               Neely & daughters
             </h2>

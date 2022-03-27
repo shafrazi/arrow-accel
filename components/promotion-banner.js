@@ -6,7 +6,7 @@ export default function PromotionBanner() {
           <img src="/images/promotion-idea.png" className="w-full" />
         </div>
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
               Promoting good ideas
             </h2>
@@ -24,9 +24,9 @@ export default function PromotionBanner() {
         </div>
       </div>
       <div className="flex w-full bg-gray-200 mt-5 md:mt-10 lg:mt-[5rem]">
-        <div className="py-5 md:py-8 lg:py-[3rem] flex flex-col lg:flex-row w-full">
+        <div className="py-10 md:py-12 lg:py-[3rem] flex flex-col lg:flex-row w-full">
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
-            <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+            <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
               <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
                 and accelerating progress
               </h2>

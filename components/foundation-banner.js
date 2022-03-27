@@ -3,7 +3,7 @@ export default function FoundationBanner() {
     <div className="flex flex-col w-full tracking-wide my-4 md:mt-10 lg:mt-16">
       <div className="w-full flex flex-col-reverse  lg:flex-row">
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 lg:py-16 px-4 md:px-10 lg:px-0">
             <p className="tracking-wide text-lg md:text-2xl">
               ARROW ACCEL is built on our core principle of placing our
               clients'​ interests first. Our intrinsic values represent
@@ -40,7 +40,7 @@ export default function FoundationBanner() {
           <img src="/images/foundation.png" className="w-full" />
         </div>
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
-          <div className="w-full lg:w-10/12 py-6 px-4 md:px-10 lg:px-0">
+          <div className="w-full lg:w-10/12 py-12 md:py-16 px-4 md:px-10 lg:px-0">
             <h2 className="tracking-wide text-lg md:text-3xl uppercase text-center lg:text-left">
               foundation
             </h2>

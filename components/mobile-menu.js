@@ -19,9 +19,15 @@ export default function MobileMenu() {
         &times;
       </a>
       <div className="overlay-content">
-        <a href="/about-us">About us</a>
-        <a href="/our-focus">Our focus</a>
-        <a href="/contact">Contact</a>
+        <a href="/about-us" className="uppercase text-2xl my-3">
+          About us
+        </a>
+        <a href="/our-focus" className="uppercase text-2xl my-3">
+          Our focus
+        </a>
+        <a href="/contact" className="uppercase text-2xl my-3">
+          Contact
+        </a>
       </div>
     </div>
   );

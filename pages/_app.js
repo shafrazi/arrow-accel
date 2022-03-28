@@ -1,6 +1,6 @@
 import "../styles/global.css";
 import Head from "next/head";
-import { AppContextProvider } from "./app-context";
+import { AppContextProvider } from "../app-context";
 
 export default function App({ Component, pageProps }) {
   return (

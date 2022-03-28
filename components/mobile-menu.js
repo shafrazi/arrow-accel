@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../pages/app-context";
+import { AppContext } from "../app-context";
 
 export default function MobileMenu() {
   const { isOpen, setIsOpen } = useContext(AppContext);

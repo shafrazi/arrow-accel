@@ -8,6 +8,7 @@ import Stats from "../components/stats";
 import CallToActionBanner from "../components/call-to-action-banner";
 import Clients from "../components/clients";
 import GetToKnow from "../components/get-to-know";
+import CanvasBanner from "../components/canvas-banner";
 
 export default function Home() {
   return (
@@ -20,8 +21,9 @@ export default function Home() {
       <Hero />
       <HeroTwo />
       <Stats />
-      <CallToActionBanner />
+      {/* <CallToActionBanner /> */}
       {/* <GetToKnowBanner /> */}
+      <CanvasBanner />
       <GetToKnow />
       <Clients />
       <Footer

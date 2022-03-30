@@ -18,7 +18,7 @@ export default function MobileMenu() {
       >
         &times;
       </a>
-      <div className="overlay-content">
+      <div className={`overlay-content ${isOpen ? "block" : "hidden"}`}>
         <a href="/about-us" className="uppercase text-2xl my-3">
           About us
         </a>

@@ -19,7 +19,6 @@ export default function Header() {
             aria-controls="mobile-menu-2"
             aria-expanded="false"
             onClick={() => {
-              console.log("hello");
               setIsOpen(true);
             }}
           >

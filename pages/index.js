@@ -9,6 +9,7 @@ import CallToActionBanner from "../components/call-to-action-banner";
 import Clients from "../components/clients";
 import GetToKnow from "../components/get-to-know";
 import CanvasBanner from "../components/canvas-banner";
+import MoveForwardBanner from "../components/move-forward-banner";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Hero />
+      {/* <Hero /> */}
+      <MoveForwardBanner />
       <HeroTwo />
       <Stats />
       {/* <CallToActionBanner /> */}

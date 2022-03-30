@@ -10,6 +10,7 @@ import Clients from "../components/clients";
 import GetToKnow from "../components/get-to-know";
 import CanvasBanner from "../components/canvas-banner";
 import MoveForwardBanner from "../components/move-forward-banner";
+import Carousel from "../components/carousel";
 
 export default function Home() {
   return (
@@ -20,12 +21,13 @@ export default function Home() {
       </Head>
       <Header />
       {/* <Hero /> */}
-      <MoveForwardBanner />
+      <Carousel />
+      {/* <MoveForwardBanner /> */}
       <HeroTwo />
       <Stats />
       {/* <CallToActionBanner /> */}
       {/* <GetToKnowBanner /> */}
-      <CanvasBanner />
+      {/* <CanvasBanner /> */}
       <GetToKnow />
       <Clients />
       <Footer

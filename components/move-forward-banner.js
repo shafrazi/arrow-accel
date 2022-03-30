@@ -4,33 +4,26 @@ export default function MoveForwardBanner() {
   return (
     <div className="w-full flex flex-col">
       <SlideTopText>
-        <div className="flex w-full">
-          <div
-            className="w-full md:w-3/4 lg:w-2/3 px-5 md:pl-[3rem] lg:pl-[5rem] mt-6 tracking-wider md:leading-loose text-2xl"
-            style={{
-              fontFamily: "OpenSauceOne",
-              fontWeight: "normal",
-              lineHeight: 1.6,
-            }}
-          >
-            <p className="">We are creative consultants,</p>
-            <p className="">
-              committed to{" "}
-              <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
-                accelerating
-              </span>{" "}
-              projects{" "}
-            </p>
-            <p className="">
-              and{" "}
-              <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
-                building
-              </span>{" "}
-              value for our clients and{" "}
-            </p>
-            <p className="">the communities around us.</p>
-          </div>
-        </div>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          We are creative consultants,
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          committed to{" "}
+          <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
+            accelerating
+          </span>{" "}
+          projects{" "}
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          and{" "}
+          <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
+            building
+          </span>{" "}
+          value for our clients and{" "}
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          the communities around us.
+        </p>
       </SlideTopText>
 
       <div className="w-full mt-10 md:mt-[5rem] relative">
@@ -52,7 +45,7 @@ export default function MoveForwardBanner() {
               }}
             >
               <div className="w-2/3 flex flex-col">
-                <h1 className="font-bold text-4xl">Moving forward.</h1>
+                <h1 className="font-bold">Moving forward.</h1>
                 <div className="mt-2 md:mt-4 lg:mt-12 w-full text-base leading-normal md:leading-loose">
                   <p>Which opportunities are within</p>
                   <p>reach and which are on the</p>

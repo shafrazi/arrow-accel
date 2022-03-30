@@ -18,7 +18,7 @@ export default function CanvasBanner() {
           And together, we build.
         </p>
       </SlideTopText>
-      <div className="w-full relative">
+      <div className="w-full relative mt-10 md:mt-[5rem]">
         <Image src="/images/canvas.png" width={2290} height={916} />
         <div className="px-4 md:px-0 w-full md:w-1/2 lg:w-1/2 flex flex-col justify-center md:justify-start items-center md:items-start absolute top-12 md:top-[25%] md:left-[10%]">
           <div className="hidden md:block">

@@ -20,15 +20,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {/* <Hero /> */}
       <Carousel />
-      {/* <MoveForwardBanner /> */}
-      <HeroTwo />
-      <Stats />
+
       {/* <CallToActionBanner /> */}
       {/* <GetToKnowBanner /> */}
       {/* <CanvasBanner /> */}
       <GetToKnow />
+      <Stats />
       <Clients />
       <Footer
         backgroundComponent={

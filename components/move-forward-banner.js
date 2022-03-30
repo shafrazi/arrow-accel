@@ -31,7 +31,7 @@ export default function MoveForwardBanner() {
           loop
           autoPlay
           muted
-          className="w-full pointer-events-none object-cover h-[300px] md:h-[565px]"
+          className="w-full pointer-events-none object-cover h-[300px] md:h-[565px] lg:h-[716px]"
         >
           <source src="/videos/move-forward-video.mp4" type="video/mp4" />
         </video>
@@ -46,14 +46,14 @@ export default function MoveForwardBanner() {
             >
               <div className="w-2/3 flex flex-col">
                 <h1 className="font-bold">Moving forward.</h1>
-                <div className="mt-2 md:mt-4 lg:mt-12 w-full text-base leading-normal md:leading-loose">
+                <div className="mt-2 md:mt-4 lg:mt-12 w-full text-base lg:text-xl leading-normal md:leading-loose">
                   <p>Which opportunities are within</p>
                   <p>reach and which are on the</p>
                   <p>horizon? What strategy should </p>
                   <p>your company adopt to achieve</p>
                   <p>your most daring projects?</p>
                 </div>
-                <button className="w-full text-base md:w-2/3 self-center md:self-end border-white border-solid border-2 mt-8 text-white uppercase px-2 py-2 rounded tracking-wide">
+                <button className="w-full text-base md:w-2/3 self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-2 rounded tracking-wide">
                   Talk to us
                 </button>
               </div>

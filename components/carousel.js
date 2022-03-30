@@ -12,8 +12,9 @@ export default function Carousel() {
         autoPlay={true}
         infinite
         autoPlayStrategy="none"
-        autoPlayInterval={3000}
-        disableButtonsControls
+        autoPlayInterval={5000}
+        disableDotsControls={true}
+        disableButtonsControls={true}
       />
     </div>
   );

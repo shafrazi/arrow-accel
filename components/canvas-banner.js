@@ -17,9 +17,16 @@ export default function CanvasBanner() {
         <p className="" style={{ lineHeight: 1.6 }}>
           And together, we build.
         </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          {}
+        </p>
       </SlideTopText>
       <div className="w-full relative mt-10 md:mt-[5rem]">
-        <Image src="/images/canvas.png" width={2290} height={916} />
+        {/* <Image src="/images/canvas.png" width={2290} height={916} /> */}
+        <img
+          src="/images/canvas.png"
+          className="w-full min-h-[300px] md:min-h-[565px] lg:min-h-[716px]"
+        />
         <div className="px-4 md:px-0 w-full md:w-1/2 lg:w-1/2 flex flex-col justify-center md:justify-start items-center md:items-start absolute top-12 md:top-[25%] md:left-[10%]">
           <div className="hidden md:block">
             <p className="font-bold text-white text-xl md:text-3xl lg:text-5xl">

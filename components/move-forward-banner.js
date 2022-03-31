@@ -26,7 +26,7 @@ export default function MoveForwardBanner() {
         </p>
       </SlideTopText>
 
-      <div className="w-full mt-10 md:mt-[5rem] relative">
+      <div className="w-full relative">
         <video
           loop
           autoPlay

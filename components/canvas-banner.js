@@ -21,7 +21,7 @@ export default function CanvasBanner() {
           {}
         </p>
       </SlideTopText>
-      <div className="w-full relative mt-10 md:mt-[5rem]">
+      <div className="w-full relative">
         {/* <Image src="/images/canvas.png" width={2290} height={916} /> */}
         <img
           src="/images/canvas.png"

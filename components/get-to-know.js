@@ -1,30 +1,34 @@
-import Image from "next/image";
-import GetToKnowBannerImg from "../public/images/get-to-know-banner-image.png";
-
 export default function GetToKnow() {
   return (
     <div className="relative">
-      <div className="flex w-full relative">
-        <div className="hidden lg:block w-1/2 z-10 relative"></div>
-        <div className="w-full lg:w-1/2 lg:mr-20 bg-gray-200 flex flex-col justify-center items-center text-base md:text-lg lg:text-xl tracking-wide py-10 md:py-[3rem] lg:py-[13rem] px-5 md:px-10 lg:px-[8rem]">
-          {/* <div className="lg:hidden w-full">
-            <img src="/images/get-to-know.png" className="w-full" />
-          </div> */}
-          <p className="mt-6 md:mt-12 lg:mt-0">
-            We are lateral thinkers that provide expert advice and bold ideas,
-            the people and the tools to create real-life results.
-          </p>
-          <p className="mt-6">
-            Our experience, knowledge and ability to quickly grasp complex
-            matter and theory, accelerates creative design and your go-to-market
-            trajectory. We work systematically, with deep understanding on how
-            projects and ideas are financed, structured and redistributed.
-          </p>
+      <div className="flex w-full relative justify-center items-center">
+        <div className="flex w-full lg:w-11/12">
+          <div className="hidden lg:block w-1/2"></div>
+          <div
+            className="w-full lg:w-1/2 bg-gray-200 flex flex-col justify-center items-center text-base md:text-lg lg:text-xl tracking-wide px-8 py-12 md:px-[5vw] md:py-[8vw]"
+            style={{ lineHeight: 1.6 }}
+          >
+            <h2 className="font-bold text-lg md:text-xl lg:text-2xl">
+              WE'RE CREATIVE CONSULTANTS
+            </h2>
+            <p className="mt-6">
+              We are lateral thinkers that provide expert advice and bold ideas,
+              the people and the tools to create real-life results.
+            </p>
+            <p className="mt-6">
+              Our experience, knowledge and ability to quickly grasp complex
+              matter and theory, accelerates creative design and your
+              go-to-market trajectory. We work systematically, with deep
+              understanding on how projects and ideas are financed, structured
+              and redistributed.
+            </p>
+            <p className="mt-6">
+              We work systematically, with deep understanding on how projects
+              and ideas are financed, structured and redistributed.
+            </p>
+          </div>
         </div>
       </div>
-      {/* <div className="hidden lg:block w-6/12 py-20 absolute top-10">
-        <img src="/images/get-to-know.png" className="w-full" />
-      </div> */}
     </div>
   );
 }

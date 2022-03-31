@@ -36,7 +36,7 @@ export default function MoveForwardBanner() {
           <source src="/videos/move-forward-video.mp4" type="video/mp4" />
         </video>
         <div className="w-full flex justify-center">
-          <div className="flex w-full lg:w-10/12 h-full  absolute bottom-[0rem]">
+          <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div
               className="w-full md:w-7/12 flex flex-col justify-center items-center text-4xl"
               style={{

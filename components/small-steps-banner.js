@@ -1,4 +1,9 @@
+import { useState } from "react";
+import VisibilitySensor from "react-visibility-sensor";
+
 export default function SmallSteps() {
+  const [inViewPort, setInViewPort] = useState(false);
+
   return (
     <div className="flex w-full relative justify-center items-center">
       <div className="w-full flex flex-col justify-center items-center px-[5vw] py-[7vw] bg-black text-white">
@@ -11,8 +16,19 @@ export default function SmallSteps() {
               </p>
             </div>
           </div>
-          <div className="w-1/3 flex flex-col justify-center items-center animate__animated animate__rotateIn">
-            <img src="/images/logo-icon-white.png" className="w-5/12" />
+          <div className="w-1/3 flex flex-col justify-center items-center">
+            <VisibilitySensor
+              onChange={(isVisible) => {
+                setInViewPort(isVisible);
+              }}
+            >
+              <img
+                src="/images/logo-icon-white.png"
+                className={`w-5/12 ${
+                  inViewPort && "animate__animated animate__rotateIn"
+                }`}
+              />
+            </VisibilitySensor>
           </div>
           <div className="w-1/3 flex flex-col justify-center items-center px-5">
             <div className="flex flex-col justify-center self-start">

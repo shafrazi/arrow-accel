@@ -18,12 +18,19 @@ export default function MobileMenu() {
       >
         &times;
       </a>
-      <div className={`overlay-content ${isOpen ? "block" : "hidden"}`}>
-        <a href="/about-us" className="uppercase text-2xl my-3">
-          About us
+      <div
+        className={`animate__animated animate__fadeInUp overlay-content ${
+          isOpen ? "block" : "hidden"
+        }`}
+      >
+        <a href="/company" className="uppercase text-2xl my-3">
+          company
         </a>
-        <a href="/our-focus" className="uppercase text-2xl my-3">
-          Our focus
+        <a href="#" className="uppercase text-2xl my-3">
+          cases
+        </a>
+        <a href="/industries" className="uppercase text-2xl my-3">
+          industries
         </a>
         <a href="/contact" className="uppercase text-2xl my-3">
           Contact

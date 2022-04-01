@@ -7,6 +7,8 @@ import Clients from "../components/clients";
 import GetToKnow from "../components/get-to-know";
 import Carousel from "../components/carousel";
 import SmallSteps from "../components/small-steps-banner";
+import LinkItem from "../components/link-item";
+import SideLinks from "../components/side-links";
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       <Carousel />
       <GetToKnow />
       <SmallSteps />
+      <SideLinks />
       <Stats />
       <Clients />
       <Footer

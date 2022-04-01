@@ -3,9 +3,9 @@ export default function GetToKnow() {
     <div className="relative">
       <div className="flex w-full relative justify-center items-center">
         <div className="flex w-full lg:w-11/12">
-          <div className="hidden lg:block w-1/2"></div>
+          <div className="hidden lg:block w-5/12"></div>
           <div
-            className="w-full lg:w-1/2 bg-gray-200 flex flex-col justify-center items-center text-base md:text-lg lg:text-xl tracking-wide px-8 py-12 md:px-[5vw] md:py-[8vw]"
+            className="w-full lg:w-7/12 bg-gray-200 flex flex-col justify-center items-center text-base md:text-lg lg:text-xl tracking-wide px-8 py-12 md:px-[5vw] md:py-[8vw]"
             style={{ lineHeight: 1.6 }}
           >
             <h2 className="font-bold text-lg md:text-xl lg:text-2xl">

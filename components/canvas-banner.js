@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SlideTopText from "./slide-top-text";
 
 export default function CanvasBanner() {

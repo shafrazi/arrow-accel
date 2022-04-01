@@ -1,11 +1,4 @@
-import { useState } from "react";
-import VisibilitySensor from "react-visibility-sensor";
-
 export default function Clients() {
-  const [inViewPort, setInViewPort] = useState(false);
-
-  console.log(inViewPort);
-
   return (
     <div className="flex flex-col w-full">
       <div
@@ -35,30 +28,21 @@ export default function Clients() {
           </div>
         </div>
       </div>
-      <VisibilitySensor
-        onChange={(isVisible) => {
-          setInViewPort(isVisible);
-        }}
-      >
-        <div
-          className={`${
-            inViewPort && "animate__animated animate__fadeInRight"
-          } grid grid-cols-3 gap-x-5 md:gap-x-10 gap-y-2 justify-items-center w-full px-4 md:px-10 lg:px-[15rem] py-10 md:py-16 lg:py-[10rem]`}
-        >
-          <img src="/images/logos/affirm.png" className="w-[12rem]" />
-          <img src="/images/logos/neely-air.png" className="w-[12rem]" />
-          <img src="/images/logos/safeway.png" className="w-[12rem]" />
-          <img src="/images/logos/nortek.png" className="w-[12rem]" />
-          <img src="/images/logos/gov-neth.png" className="w-[12rem]" />
-          <img src="/images/logos/woodstock.png" className="w-[12rem]" />
-          <img src="/images/logos/lazein.png" className="w-[12rem]" />
-          <img src="/images/logos/mulder.png" className="w-[12rem]" />
-          <img src="/images/logos/founder.png" className="w-[12rem]" />
-          <img src="/images/logos/sustainable.png" className="w-[12rem]" />
-          <img src="/images/logos/ars.png" className="w-[12rem]" />
-          <img src="/images/logos/antler.png" className="w-[12rem]" />
-        </div>
-      </VisibilitySensor>
+
+      <div className="animate__animated animate__fadeInRight grid grid-cols-3 gap-x-5 md:gap-x-10 gap-y-2 justify-items-center w-full px-4 md:px-10 lg:px-[15rem] py-10 md:py-16 lg:py-[10rem]`">
+        <img src="/images/logos/affirm.png" className="w-[12rem]" />
+        <img src="/images/logos/neely-air.png" className="w-[12rem]" />
+        <img src="/images/logos/safeway.png" className="w-[12rem]" />
+        <img src="/images/logos/nortek.png" className="w-[12rem]" />
+        <img src="/images/logos/gov-neth.png" className="w-[12rem]" />
+        <img src="/images/logos/woodstock.png" className="w-[12rem]" />
+        <img src="/images/logos/lazein.png" className="w-[12rem]" />
+        <img src="/images/logos/mulder.png" className="w-[12rem]" />
+        <img src="/images/logos/founder.png" className="w-[12rem]" />
+        <img src="/images/logos/sustainable.png" className="w-[12rem]" />
+        <img src="/images/logos/ars.png" className="w-[12rem]" />
+        <img src="/images/logos/antler.png" className="w-[12rem]" />
+      </div>
     </div>
   );
 }

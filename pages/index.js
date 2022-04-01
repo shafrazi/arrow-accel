@@ -9,6 +9,7 @@ import Carousel from "../components/carousel";
 import SmallSteps from "../components/small-steps-banner";
 import LinkItem from "../components/link-item";
 import SideLinks from "../components/side-links";
+import ClientLogos from "../components/client-logos";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <SideLinks />
       <Stats />
       <Clients />
+      <ClientLogos />
       <Footer
         backgroundComponent={
           <img src="/images/about-us-footer.png" className="w-full" />

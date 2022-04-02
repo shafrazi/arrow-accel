@@ -8,8 +8,6 @@ export default function SideLinks() {
   const { sideContent, linkClicked, startLinkAnimation } =
     useContext(AppContext);
 
-  console.log(startLinkAnimation);
-
   return (
     <Container>
       <div className="flex w-full">

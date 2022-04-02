@@ -15,7 +15,7 @@ export default function Header() {
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-2"
             aria-expanded="false"
             onClick={() => {
@@ -24,7 +24,7 @@ export default function Header() {
           >
             <img src="/images/menus.png" className="w-10" />
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+          <div className="hidden w-full lg:block md:w-auto" id="mobile-menu">
             <ul
               className="flex flex-col mt-4 md:flex-row md:space-x-10 lg:space-x-15 md:mt-0 md:text-sm"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}

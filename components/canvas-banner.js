@@ -24,7 +24,7 @@ export default function CanvasBanner() {
         {/* <Image src="/images/canvas.png" width={2290} height={916} /> */}
         <img
           src="/images/canvas.png"
-          className="w-full min-h-[300px] md:min-h-[565px] lg:min-h-[716px]"
+          className="w-full h-[42vh] md:h-[565px] lg:h-[716px]"
         />
         <div className="px-4 md:px-0 w-full md:w-1/2 lg:w-1/2 flex flex-col justify-center md:justify-start items-center md:items-start absolute top-12 md:top-[25%] md:left-[10%]">
           <div className="hidden md:block">

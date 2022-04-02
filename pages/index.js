@@ -11,6 +11,7 @@ import LinkItem from "../components/link-item";
 import SideLinks from "../components/side-links";
 import ClientLogos from "../components/client-logos";
 import Partners from "../components/partners";
+import ContactBanner from "../components/contact-banner";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Stats />
       <Clients />
       <ClientLogos />
+      <ContactBanner />
       <Footer
         backgroundComponent={
           <img src="/images/about-us-footer.png" className="w-full" />

@@ -115,7 +115,7 @@ export default function Footer({
           </div>
         </div>
       </footer>
-      <footer className="lg:hidden bg-black text-white mt-10">
+      <footer className="lg:hidden bg-black text-white">
         <div className="container px-6 py-4 mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">

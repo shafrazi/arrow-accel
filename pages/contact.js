@@ -4,7 +4,7 @@ import Header from "../components/header";
 import Footer from "../components/footer-copy";
 import GetInTouch from "../components/get-in-touch";
 import Services from "../components/services";
-
+import Coffee from "../components/coffee";
 export default function Contact() {
   return (
     <Layout>
@@ -14,21 +14,8 @@ export default function Contact() {
       </Head>
       <Header />
       <GetInTouch />
-      <Services />
-      <Footer
-        backgroundComponent={
-          <video
-            loop
-            autoPlay
-            muted
-            className="w-full pointer-events-none object-cover h-[55rem]"
-          >
-            <source src="/videos/connect-dots-video.mp4" type="video/mp4" />
-          </video>
-        }
-        imageOverText={"Connect the dots."}
-        showIcon={false}
-      />
+      <Coffee/>
+  
     </Layout>
   );
 }

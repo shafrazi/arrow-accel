@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../app-context";
 
-export default function SideLinkContent({ sideContent }) {
-  // const { sideContent } = useContext(AppContext);
+export default function SideLinkContent() {
+  const { sideContent, linkName } = useContext(AppContext);
   const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {
@@ -10,12 +10,17 @@ export default function SideLinkContent({ sideContent }) {
   }, []);
 
   return (
-    <div className="flex w-1/2 flex-col">
-      <p
-        className={`${startAnimation && "animate__animated animate__fadeInUp"}`}
-      >
-        {sideContent}
-      </p>
+    <div className="flex w-2/3 flex-col items-center py-3">
+      <div className="flex flex-col w-3/4 justify-center items-center">
+        <h2 className="text-lg md:text-2xl">{linkName}</h2>
+        <p
+          className={`${
+            startAnimation && "animate__animated animate__fadeInUp"
+          } my-3 md:my-6`}
+        >
+          {sideContent}
+        </p>
+      </div>
     </div>
   );
 }

@@ -13,10 +13,10 @@ export default function ContactBanner() {
             petal to progress together. We have the drive for it!
           </p>
           <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">
-            <button className="w-full text-base md:w-2/3 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
+            <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
               send us an email
             </button>
-            <button className="w-full text-base md:w-2/3 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
+            <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
               schedule a call
             </button>
           </div>

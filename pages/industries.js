@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import Header from "../components/header";
-import Footer from "../components/footer-copy";
+import Footer from "../components/footer";
 import FocusIntro from "../components/focus-intro";
 import WhatWeDo from "../components/what-we-do";
 

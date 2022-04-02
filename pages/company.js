@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
 import Partners from "../components/partners";
 import PromotionBanner from "../components/promotion-banner";
-import Footer from "../components/footer-copy";
+import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
 
 export default function AboutUs() {

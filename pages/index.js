@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/header";
-import Footer from "../components/footer-copy";
+import Footer from "../components/footer";
 import Layout from "../components/layout";
 import Stats from "../components/stats";
 import Clients from "../components/clients";
@@ -34,8 +34,8 @@ export default function Home() {
         backgroundComponent={
           <img src="/images/about-us-footer.png" className="w-full" />
         }
-        imageOverText={"Keep moving."}
-        showIcon={true}
+        imageOverText={"Pushing limits."}
+        showIcon={false}
       />
     </Layout>
   );

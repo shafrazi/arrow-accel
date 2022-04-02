@@ -1,46 +1,114 @@
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-export default function Footer({ backgroundComponent, imageOverText }) {
+export default function Footer({
+  backgroundComponent,
+  imageOverText,
+  showIcon,
+  fontSize,
+}) {
   return (
     <div style={{ fontFamily: "OpenSauceOne" }}>
       <footer className="hidden lg:block">
-        <div className="flex flex-col w-full bg-opacity-50 relative">
+        <div className="w-full relative">
+          {backgroundComponent}
+          <div className="w-full flex absolute bottom-2/3">
+            <div className="w-1/2 flex justify-center items-center">
+              <p
+                className="w-11/12 text-white font-bold px-12"
+                style={{ fontSize: fontSize || "5vw" }}
+              >
+                {imageOverText}
+              </p>
+            </div>
+          </div>
           <div
-            className="w-full flex flex-col px-[5rem] absolute"
-            style={{ bottom: "70%" }}
+            className={`w-full flex absolute ${showIcon ? "block" : "hidden"}`}
+            style={{ bottom: "55%", right: "5%" }}
           >
-            <div className="w-3/12 px-10 relative">
+            <div className="w-1/2 flex justify-center items-center">
               <img
                 src="/images/logo-icon-white-crop.png"
                 alt="logo-icon"
-                className="w-10/12 opacity-20 absolute -top-[4rem]"
+                className="w-6/12 opacity-20"
               />
-              <h1 className="w-full xmd:text-3xl font-semibold text-white lg:text-5xl">
-                {imageOverText}
-              </h1>
             </div>
           </div>
-          {backgroundComponent}
-
-          <div className="flex bg-black opacity-80 w-full h-10 md:h-20 lg:h-[20rem] absolute bottom-0 left-0 lg:py-[6rem]">
-            <div className="md:w-1/2 lg:w-1/3 mx-20">
-              <img src="/images/logo-white.png" alt="logo" width="400" />
-            </div>
-            <div className="flex w-2/3 text-white text-2xl mx-12">
-              <div className="flex w-1/2">
-                <ul>
-                  <li className="py-2">About us</li>
-                  <li className="py-2">Our partners</li>
-                  <li className="py-2">Our focus</li>
-                </ul>
+          <div
+            className="flex justify-center items-center bg-black opacity-80 w-full absolute bottom-0 left-0"
+            style={{ height: "25vw" }}
+          >
+            <div className="flex flex-col w-10/12">
+              <div className="flex w-full">
+                <div className="flex flex-col w-3/12 py-3">
+                  <img
+                    src="/images/logo-white.png"
+                    alt="logo"
+                    className="w-full"
+                  />
+                  <div className="text-white mt-12 flex flex-col">
+                    <div className="py-2 border-t-2 border-white">
+                      <p className="text-xs">
+                        We are creative consultants, committed to accelerating
+                        projects and building value for our clients and the
+                        communities around us.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-2/12"></div>
+                <div className="flex w-7/12 text-white text-sm">
+                  <div className="flex w-1/4 uppercase">
+                    <ul>
+                      <li className="py-2">
+                        <a href="/company">company</a>
+                      </li>
+                      <li className="py-2">
+                        <a href="/about-us">cases</a>
+                      </li>
+                      <li className="py-2">
+                        <a href="/industries">industries</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex w-1/4 uppercase">
+                    <ul>
+                      <li className="py-2">
+                        <a href="/company">neely/ arrow</a>
+                      </li>
+                      <li className="py-2">
+                        <a href="/about-us">k-line/ arrow</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex w-1/2 uppercase justify-center">
+                    <ul>
+                      <li className="py-2">
+                        <div className="w-full flex text-center font-bold">
+                          <a href="/contact">Get to know us</a>
+                          <div className="flex flex-col justify-center items-center text-blue-500">
+                            <FontAwesomeIcon
+                              icon={faArrowRight}
+                              className="w-4 mx-3"
+                            />
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <a href="/about-us">instagram</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div className="flex w-1/2 py-2">
-                <div className="w-full flex font-bold">
-                  <a href="">Get to know us</a>
-                  {/* <ArrowNarrowRightIcon className="w-10" /> */}
-                  <p>
-                    <ArrowNarrowRightIcon className="mx-3 w-10" />
-                  </p>
+              <div className="w-full text-white flex">
+                <div className="flex flex-col w-3/12 py-3">
+                  © ARROW ACCEL 2022
+                </div>
+                <div className="w-2/12"></div>
+                <div className="flex w-7/12 text-white text-sm items-center">
+                  <a href="/company">PRIVACY POLICY</a>
                 </div>
               </div>
             </div>
@@ -72,14 +140,22 @@ export default function Footer({ backgroundComponent, imageOverText }) {
               <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                 <div className="flex w-full">
                   <ul>
-                    <li className="py-2">About us</li>
-                    <li className="py-2">Our partners</li>
-                    <li className="py-2">Our focus</li>
+                    <li className="py-2">
+                      <a href="/about-us">About us</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/about-us">Our partners</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/our-focus">Our focus</a>
+                    </li>
                   </ul>
                 </div>
                 <div className="flex w-full">
                   <ul>
-                    <li className="py-2">Get to know us</li>
+                    <li className="py-2">
+                      <a href="/contact">Get to know us</a>
+                    </li>
                   </ul>
                 </div>
               </div>

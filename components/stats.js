@@ -1,10 +1,10 @@
 export default function Stats() {
   return (
-    <div className="w-full bg-center bg-cover h-40 md:h-[22rem] mt-12">
-      <div className="flex w-full h-full bg-black justify-center items-center">
+    <div className="w-full bg-center bg-cover mt-12">
+      <div className="flex w-full h-full bg-black justify-center items-center py-10 md:py-16 lg:py-[6rem]">
         <div className="flex flex-wrap justify-center items-center w-full">
           <div
-            className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white py-4"
+            className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4"
             style={{ fontFamily: "OpenSauceOne" }}
           >
             <p
@@ -15,7 +15,7 @@ export default function Stats() {
             </p>
             <p className="text-sm md:text-lg lg:text-xl">clients served</p>
           </div>
-          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white py-4">
+          <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
             <p
               className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
@@ -24,7 +24,7 @@ export default function Stats() {
             </p>
             <p className="text-sm md:text-lg lg:text-xl">people reached</p>
           </div>
-          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white py-4">
+          <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
             <p
               className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
@@ -33,7 +33,7 @@ export default function Stats() {
             </p>
             <p className="text-sm md:text-lg lg:text-xl">projects and events</p>
           </div>
-          <div className="w-1/2 md:w-1/4 flex flex-col justify-center items-center text-white py-4">
+          <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
             <p
               className="text-xl md:text-4xl lg:text-6xl"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}

@@ -15,6 +15,7 @@ export default function Carousel() {
         autoPlayInterval={5000}
         disableDotsControls={true}
         disableButtonsControls={true}
+        animationDuration={1500}
         // animationType="fadeout"
       />
     </div>

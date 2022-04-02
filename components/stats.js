@@ -17,7 +17,7 @@ export default function Stats() {
                   style={{ fontFamily: "OpenSauceOne" }}
                 >
                   <p
-                    className="text-xl md:text-4xl lg:text-6xl"
+                    className="text-4xl md:text-4xl lg:text-6xl"
                     style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
                   >
                     <CountUp end={inView && 35} />
@@ -28,7 +28,7 @@ export default function Stats() {
                 </div>
                 <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
                   <p
-                    className="text-xl md:text-4xl lg:text-6xl"
+                    className="text-4xl md:text-4xl lg:text-6xl"
                     style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
                   >
                     <CountUp end={inView && 67} />m
@@ -39,7 +39,7 @@ export default function Stats() {
                 </div>
                 <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
                   <p
-                    className="text-xl md:text-4xl lg:text-6xl"
+                    className="text-4xl md:text-4xl lg:text-6xl"
                     style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
                   >
                     <CountUp end={inView && 100} /> +
@@ -50,7 +50,7 @@ export default function Stats() {
                 </div>
                 <div className="w-full md:w-1/4 flex flex-col justify-center items-center text-white py-4">
                   <p
-                    className="text-xl md:text-4xl lg:text-6xl"
+                    className="text-4xl md:text-4xl lg:text-6xl"
                     style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}
                   >
                     <CountUp end={inView && 35} />

@@ -2,7 +2,7 @@ import Container from "./container";
 
 export default function ClientLogos() {
   return (
-    <Container backgroundColor="bg-orange-50">
+    <Container backgroundColor="bg-orange-50" topMargin={16}>
       <div className="animate__animated animate__fadeInRight grid grid-cols-2 md:grid-cols-3 gap-x-5 md:gap-x-10 gap-y-2 justify-items-center w-full">
         <img src="/images/logos/affirm.png" className="w-20 md:w-[12rem]" />
         <img src="/images/logos/neely.png" className="w-20 md:w-[12rem]" />

@@ -2,7 +2,7 @@ import Container from "./container";
 
 export default function Clients() {
   return (
-    <Container>
+    <Container topMargin={16}>
       <div className="hidden md:block w-1/2"></div>
       <div className="flex flex-col w-full md:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">

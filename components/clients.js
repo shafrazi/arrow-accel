@@ -5,7 +5,7 @@ export default function Clients() {
     <Container>
       <div className="hidden md:block w-1/2"></div>
       <div className="flex flex-col w-full md:w-1/2 justify-center items-center">
-        <div className="w-10/12 flex flex-col md:w-full">
+        <div className="flex flex-col w-full">
           <h2 className="text-2xl md:text-xl lg:text-2xl font-bold">
             Our clients
           </h2>

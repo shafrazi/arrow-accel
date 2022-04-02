@@ -2,10 +2,13 @@ import { useState, useContext } from "react";
 import LinkItem from "./link-item";
 import Container from "./container";
 import { AppContext } from "../app-context";
+import SideLinkContent from "./side-link-content";
 
 export default function SideLinks() {
   const { sideContent, linkClicked, startLinkAnimation } =
     useContext(AppContext);
+
+  console.log(startLinkAnimation);
 
   return (
     <Container>
@@ -23,15 +26,7 @@ export default function SideLinks() {
           content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
         />
       </div>
-      <div className="flex w-1/2 flex-col">
-        <p
-          className={`${
-            startLinkAnimation && "animate__animated animate__fadeInUp"
-          }`}
-        >
-          {sideContent}
-        </p>
-      </div>
+      <SideLinkContent sideContent={sideContent} />
     </Container>
   );
 }

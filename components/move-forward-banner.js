@@ -38,22 +38,24 @@ export default function MoveForwardBanner() {
         <div className="w-full flex justify-center">
           <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div
-              className="w-full md:w-7/12 flex flex-col justify-center items-center text-4xl"
+              className="w-7/12 flex flex-col justify-center items-center"
               style={{
                 color: "white",
                 background: "rgba(16, 6, 21, 0.8)",
               }}
             >
-              <div className="w-2/3 flex flex-col">
-                <h1 className="font-bold">Moving forward.</h1>
-                <div className="mt-2 md:mt-4 lg:mt-12 w-full text-base lg:text-xl leading-normal md:leading-loose">
+              <div className="w-full px-4 md:px-0 md:w-2/3 flex flex-col">
+                <h1 className="font-bold text-xl md:text-4xl">
+                  Moving forward.
+                </h1>
+                <div className="mt-2 md:mt-4 lg:mt-12 w-full text-xs lg:text-xl leading-normal md:leading-loose">
                   <p>Which opportunities are within</p>
                   <p>reach and which are on the</p>
                   <p>horizon? What strategy should </p>
                   <p>your company adopt to achieve</p>
                   <p>your most daring projects?</p>
                 </div>
-                <button className="w-full text-base md:w-2/3 self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-2 rounded tracking-wide">
+                <button className="w-2/3 text-sm md:text-base md:w-2/3 self-end md:self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
                   Talk to us
                 </button>
               </div>

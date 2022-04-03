@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 md:py-12 rounded dark:bg-gray-800 w-full">
-        <div className="flex flex-wrap justify-between items-center mx-auto w-10/12">
+        <div className="flex flex-wrap justify-between items-center mx-auto w-11/12 md:w-10/12">
           <a href="/" className="flex w-1/3 space-x-8">
             <img src="/images/logo1.png" alt="Logo" className="" width="300" />
           </a>
@@ -15,7 +15,7 @@ export default function Header() {
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-xs text-black rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-3 text-[8px] text-black rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-2"
             aria-expanded="false"
             onClick={() => {

@@ -5,19 +5,19 @@ export default function CanvasBanner() {
     <div className="w-full flex-flex-col">
       <SlideTopText>
         <p className="" style={{ lineHeight: 1.6 }}>
-          Our agency acts as a system of thinkers{" "}
+          Our agency acts as a system
         </p>
         <p className="" style={{ lineHeight: 1.6 }}>
-          that creatively connects the dots and{" "}
+          of thinkers that creatively
         </p>
         <p className="" style={{ lineHeight: 1.6 }}>
-          energizes impactful ideas.{" "}
+          connects the dots and
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          energizes impactful ideas.
         </p>
         <p className="" style={{ lineHeight: 1.6 }}>
           And together, we build.
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          {}
         </p>
       </SlideTopText>
       <div className="w-full relative">

@@ -16,7 +16,7 @@ export default function AboutUs() {
         <title>About Us | Arrow Accel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header backgroundColor="bg-black" textColor="text-white" />
       <AboutUsHero />
       <AboutWhatWeDo />
       <FoundationBanner />

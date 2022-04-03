@@ -12,7 +12,7 @@ export default function Carousel() {
         autoPlay={true}
         infinite
         autoPlayStrategy="none"
-        autoPlayInterval={5000}
+        autoPlayInterval={12000}
         disableDotsControls={true}
         disableButtonsControls={true}
         animationDuration={1500}

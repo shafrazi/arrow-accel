@@ -15,14 +15,15 @@ export default function Header() {
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-3 text-xs text-black rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-2"
             aria-expanded="false"
             onClick={() => {
               setIsOpen(true);
             }}
           >
-            <img src="/images/menus.png" className="w-10" />
+            MENU
+            <img src="/images/equal.png" className="ml-2 w-6" />
           </button>
           <div className="hidden w-full lg:block md:w-auto" id="mobile-menu">
             <ul

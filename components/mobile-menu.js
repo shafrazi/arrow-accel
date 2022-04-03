@@ -9,9 +9,12 @@ export default function MobileMenu() {
         isOpen ? "block overlay-w-full" : "hidden"
       }`}
     >
+      <div className="text-white logo">
+        <img src="/images/logo-white.png" alt="logo" className="w-[9rem]" />
+      </div>
       <a
         href="#"
-        className="closebtn"
+        className="closebtn flex justify-center items-center"
         onClick={() => {
           setIsOpen(false);
         }}
@@ -23,11 +26,17 @@ export default function MobileMenu() {
           isOpen ? "block" : "hidden"
         }`}
       >
+        <a href="/" className="uppercase text-2xl my-3">
+          home
+        </a>
         <a href="/company" className="uppercase text-2xl my-3">
           company
         </a>
         <a href="#" className="uppercase text-2xl my-3">
-          cases
+          projects
+        </a>
+        <a href="#" className="uppercase text-2xl my-3">
+          causes
         </a>
         <a href="/industries" className="uppercase text-2xl my-3">
           industries

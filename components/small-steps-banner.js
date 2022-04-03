@@ -18,7 +18,7 @@ export default function SmallSteps() {
                   ref={ref}
                   src="/images/logo-icon-white.png"
                   className={`w-3/12 md:w-5/12 ${
-                    inView && "animate__animated animate__rotateIn"
+                    inView && "animate__animated animate__flip"
                   }`}
                 />
               )}

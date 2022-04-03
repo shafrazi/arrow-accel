@@ -11,7 +11,7 @@ export default function MobileLinkItem({ title, children }) {
         type="button"
         aria-label="Open item"
         title="Open item"
-        className="flex items-center justify-between w-full py-1 focus:outline-none"
+        className="flex items-center justify-between w-full py-1 focus:outline-none cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex w-full border-b-2 border-black py-3">
@@ -28,7 +28,7 @@ export default function MobileLinkItem({ title, children }) {
       </button>
       {isOpen && (
         <div className="pt-0">
-          <div className="animate__animated animate__fadeInUp text-gray-700 text-sm md:text-base">
+          <div className="animate__animated animate__fadeInUp text-gray-700 text-sm md:text-base py-4">
             {children}
           </div>
         </div>

@@ -3,7 +3,7 @@ import { InView } from "react-intersection-observer";
 
 export default function Stats() {
   return (
-    <div className="w-full bg-center bg-cover mt-12">
+    <div className="w-full bg-center bg-cover mt-[6rem]">
       <div className="flex w-full h-full bg-black justify-center items-center py-10 md:py-16 lg:py-[6rem]">
         <InView>
           {({ inView, ref, entry }) => {

@@ -3,14 +3,15 @@ import LinkItem from "./link-item";
 import Container from "./container";
 import { AppContext } from "../app-context";
 import SideLinkContent from "./side-link-content";
+import MobileSideLinks from "./mobile-side-links";
 
 export default function SideLinks() {
   const { sideContent, linkClicked, startLinkAnimation } =
     useContext(AppContext);
 
   return (
-    <Container>
-      <div className="hidden md:flex w-full">
+    <Container topMargin={16}>
+      <div className="hidden lg:flex w-full">
         <div className="flex w-1/3 flex-col">
           <LinkItem
             name="House TMM"
@@ -18,7 +19,7 @@ export default function SideLinks() {
           />
           <LinkItem
             name="K-Line media"
-            content="K-line achieves objectives through measurable and accountable marketing. They work as an extension of your team by filling the gaps with the right specialists. Our full-service capabilities allow us to provide professional recommendations a;nd solutions across every aspect of your marketing."
+            content="K-line achieves objectives through measurable and accountable marketing. They work as an extension of your team by filling the gaps with the right specialists. Our full-service capabilities allow us to provide professional recommendations and solutions across every aspect of your marketing."
           />
           <LinkItem
             name="Neely & daughters"
@@ -26,6 +27,9 @@ export default function SideLinks() {
           />
         </div>
         <SideLinkContent />
+      </div>
+      <div className="lg:hidden flex w-full">
+        <MobileSideLinks />
       </div>
     </Container>
   );

@@ -9,12 +9,12 @@ export default function Carousel() {
     <div className="flex flex-col items-center justify-center">
       <AliceCarousel
         items={items}
-        autoPlay={false}
+        autoPlay={true}
         infinite
         autoPlayStrategy="none"
         autoPlayInterval={5000}
         disableDotsControls={true}
-        disableButtonsControls={false}
+        disableButtonsControls={true}
         animationDuration={1500}
         // animationType="fadeout"
       />

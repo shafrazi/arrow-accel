@@ -4,7 +4,7 @@ export default function Partners() {
   return (
     <Container topMargin={16}>
       <div className="hidden lg:block w-1/2">
-        <h2 className="text-3xl font-bold">Our partners</h2>
+        <h2 className="text-4xl font-bold">Our partners</h2>
       </div>
       <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">

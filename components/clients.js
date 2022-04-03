@@ -3,10 +3,12 @@ import Container from "./container";
 export default function Clients() {
   return (
     <Container topMargin={16}>
-      <div className="hidden md:block w-1/2"></div>
+      <div className="hidden md:block w-1/2">
+        <h2 className="md:text-2xl lg:text-4xl font-bold">Our clients</h2>
+      </div>
       <div className="flex flex-col w-full md:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
-          <h2 className="text-2xl md:text-xl lg:text-2xl font-bold">
+          <h2 className="md:hidden text-2xl md:text-xl lg:text-2xl font-bold">
             Our clients
           </h2>
           <p

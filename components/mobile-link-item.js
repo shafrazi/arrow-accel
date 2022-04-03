@@ -28,7 +28,9 @@ export default function MobileLinkItem({ title, children }) {
       </button>
       {isOpen && (
         <div className="pt-0">
-          <div className="text-gray-700 text-sm md:text-base">{children}</div>
+          <div className="animate__animated animate__fadeInUp text-gray-700 text-sm md:text-base">
+            {children}
+          </div>
         </div>
       )}
     </div>

@@ -14,6 +14,7 @@ export default function SideLinks() {
       <div className="hidden lg:flex w-full">
         <div className="flex w-1/3 flex-col">
           <LinkItem
+            defaultClicked={true}
             name="House TMM"
             content="T M M is a design studio which delivers graphic design and visual communication to clients and collaborators who are looking for engaging and strong output that is able to challenge expectations and goals."
           />

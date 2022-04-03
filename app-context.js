@@ -4,9 +4,11 @@ const AppContext = React.createContext(null);
 
 function AppContextProvider(props) {
   const [isOpen, setIsOpen] = useState(false);
-  const [sideContent, setSideContent] = useState(null);
+  const [sideContent, setSideContent] = useState(
+    "T M M is a design studio which delivers graphic design and visual communication to clients and collaborators who are looking for engaging and strong output that is able to challenge expectations and goals."
+  );
   const [linkClicked, setLinkClicked] = useState(false);
-  const [linkName, setLinkName] = useState(null);
+  const [linkName, setLinkName] = useState("House TMM");
   const [startLinkAnimation, setStartLinkAnimation] = useState(false);
 
   return (

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { AppContext } from "../app-context";
 
-export default function LinkItem({ name, content }) {
+export default function LinkItem({ name, content, defaultClicked }) {
   const {
     setSideContent,
     linkName,
@@ -11,7 +11,7 @@ export default function LinkItem({ name, content }) {
     setStartLinkAnimation,
     sideContent,
   } = useContext(AppContext);
-  const [linkClicked, setLinkClicked] = useState(false);
+  const [linkClicked, setLinkClicked] = useState(defaultClicked);
 
   return (
     <div className="flex flex-col border-b-2 border-black">

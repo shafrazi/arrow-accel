@@ -16,7 +16,7 @@ export default function LinkItem({ name, content, defaultClicked }) {
   return (
     <div className="flex flex-col border-b-2 border-black">
       <div
-        className="w-full flex py-3"
+        className="w-full flex py-6"
         onClick={() => {
           setLinkClicked(true);
           setSideContent(content);

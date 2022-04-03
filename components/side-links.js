@@ -10,7 +10,7 @@ export default function SideLinks() {
 
   return (
     <Container>
-      <div className="flex w-full">
+      <div className="hidden md:flex w-full">
         <div className="flex w-1/3 flex-col">
           <LinkItem
             name="House TMM"

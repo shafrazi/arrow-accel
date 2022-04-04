@@ -8,6 +8,7 @@ import Partners from "../components/partners";
 import PromotionBanner from "../components/promotion-banner";
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
+import MissionImage from "../components/mission-image";
 
 export default function AboutUs() {
   return (
@@ -19,9 +20,10 @@ export default function AboutUs() {
       <Header backgroundColor="bg-black" textColor="text-white" />
       <AboutUsHero />
       <AboutWhatWeDo />
-      <FoundationBanner />
+      {/* <FoundationBanner /> */}
       <MissionBanner />
-      <PromotionBanner />
+      <MissionImage />
+      {/* <PromotionBanner /> */}
       <Partners />
       <Footer
         backgroundComponent={

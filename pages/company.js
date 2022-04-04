@@ -9,6 +9,7 @@ import PromotionBanner from "../components/promotion-banner";
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
 import MissionImage from "../components/mission-image";
+import Projects from "../components/projects";
 
 export default function AboutUs() {
   return (
@@ -23,6 +24,7 @@ export default function AboutUs() {
       {/* <FoundationBanner /> */}
       <MissionBanner />
       <MissionImage />
+      <Projects />
       {/* <PromotionBanner /> */}
       <Partners />
       <Footer

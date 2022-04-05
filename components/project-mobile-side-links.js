@@ -2,7 +2,7 @@ import MobileLinkItem from "./mobile-link-item";
 
 export default function ProjectMobileSideLinks() {
   return (
-    <div className="flex flex-col w-full text-white">
+    <div className="flex flex-col w-full text-white pb-10">
       <MobileLinkItem title="AFFIRM RESEARCH">
         <div>
           <p>

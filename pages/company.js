@@ -4,12 +4,12 @@ import AboutUsHero from "../components/about-us-hero";
 import Header from "../components/header";
 import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
-import Partners from "../components/partners";
 
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
 import MissionImage from "../components/mission-image";
 import Projects from "../components/projects";
+import TeamTopSection from "../components/team-top-section";
 
 export default function AboutUs() {
   return (
@@ -24,7 +24,7 @@ export default function AboutUs() {
       <MissionBanner />
       <MissionImage />
       <Projects />
-      <Partners />
+      <TeamTopSection />
       <Footer
         backgroundComponent={
           <video

@@ -14,7 +14,7 @@ export default function MobileLinkItem({ title, children }) {
         className="flex items-center justify-between w-full py-1 focus:outline-none cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <div className="flex w-full border-b-2 border-black py-3">
+        <div className="flex w-full border-b-2 py-3">
           <p className="text-sm text-left font-bold w-11/12">{title}</p>
           <div className="w-1/12 flex flex-col justify-center items-center text-blue-500">
             <FontAwesomeIcon
@@ -28,7 +28,7 @@ export default function MobileLinkItem({ title, children }) {
       </button>
       {isOpen && (
         <div className="pt-0">
-          <div className="animate__animated animate__fadeInUp text-gray-700 text-sm md:text-base py-4">
+          <div className="animate__animated animate__fadeInUp text-sm md:text-base py-4">
             {children}
           </div>
         </div>

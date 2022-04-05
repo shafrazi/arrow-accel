@@ -1,13 +1,16 @@
 import Head from "next/head";
 import AboutUsHero from "../components/about-us-hero";
-import FoundationBanner from "../components/foundation-banner";
+
 import Header from "../components/header";
 import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
-import Partners from "../components/partners";
-import PromotionBanner from "../components/promotion-banner";
+
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
+import MissionImage from "../components/mission-image";
+import Projects from "../components/projects";
+import TeamTopSection from "../components/team-top-section";
+import TeamMembers from "../components/team-members";
 
 export default function AboutUs() {
   return (
@@ -16,13 +19,14 @@ export default function AboutUs() {
         <title>About Us | Arrow Accel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header backgroundColor="bg-black" textColor="text-white" />
       <AboutUsHero />
       <AboutWhatWeDo />
-      <FoundationBanner />
       <MissionBanner />
-      <PromotionBanner />
-      <Partners />
+      <MissionImage />
+      <Projects />
+      <TeamTopSection />
+      <TeamMembers />
       <Footer
         backgroundComponent={
           <video

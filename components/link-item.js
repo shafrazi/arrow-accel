@@ -3,7 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { AppContext } from "../app-context";
 
-export default function LinkItem({ name, content, defaultClicked }) {
+export default function LinkItem({
+  name,
+  content,
+  defaultClicked,
+  borderColor,
+  fontSize,
+}) {
   const {
     setSideContent,
     linkName,
@@ -14,7 +20,7 @@ export default function LinkItem({ name, content, defaultClicked }) {
   const [linkClicked, setLinkClicked] = useState(defaultClicked);
 
   return (
-    <div className="flex flex-col border-b-2 border-black">
+    <div className={`flex flex-col border-b-2 border-${borderColor}`}>
       <div
         className="w-full flex py-6 cursor-pointer"
         onClick={() => {
@@ -24,7 +30,9 @@ export default function LinkItem({ name, content, defaultClicked }) {
           setStartLinkAnimation(sideContent === content);
         }}
       >
-        <div className="w-10/12 flex flex-col justify-center text-lg md:text-2xl">
+        <div
+          className={`w-10/12 flex flex-col justify-center text-lg md:${fontSize}`}
+        >
           <p className={`${linkClicked && linkName === name && "font-bold"}`}>
             {name}
           </p>

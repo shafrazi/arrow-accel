@@ -1,11 +1,11 @@
 import Head from "next/head";
 import AboutUsHero from "../components/about-us-hero";
-import FoundationBanner from "../components/foundation-banner";
+
 import Header from "../components/header";
 import Layout from "../components/layout";
 import MissionBanner from "../components/mission-banner";
 import Partners from "../components/partners";
-import PromotionBanner from "../components/promotion-banner";
+
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
 import MissionImage from "../components/mission-image";
@@ -21,11 +21,9 @@ export default function AboutUs() {
       <Header backgroundColor="bg-black" textColor="text-white" />
       <AboutUsHero />
       <AboutWhatWeDo />
-      {/* <FoundationBanner /> */}
       <MissionBanner />
       <MissionImage />
       <Projects />
-      {/* <PromotionBanner /> */}
       <Partners />
       <Footer
         backgroundComponent={

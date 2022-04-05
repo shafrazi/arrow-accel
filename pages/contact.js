@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import Header from "../components/header";
-import Footer from "../components/footer-copy";
+// import Footer from "../components/footer-copy";
 
 import Services from "../components/services";
 import Coffee from "../components/coffee";
@@ -10,6 +10,7 @@ import Promoting from "../components/promoting12";
 import MobileFooter from "../components/footerMobile";
 import MobileAffirm from "../components/affirmMobile";
 import GetInTouch from "../components/getInTouch";
+import Footer from "../components/footer";
 export default function Contact() {
   return (
     <Layout>
@@ -20,9 +21,9 @@ export default function Contact() {
       <Header />
 
       <GetInTouch />
-      <Mission />
-      <Promoting />
-      <MobileFooter />
+      {/* <Mission /> */}
+      {/* <Promoting /> */}
+      <Footer />
     </Layout>
   );
 }

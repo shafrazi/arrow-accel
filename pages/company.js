@@ -10,6 +10,7 @@ import AboutWhatWeDo from "../components/about-what-we-do";
 import MissionImage from "../components/mission-image";
 import Projects from "../components/projects";
 import TeamTopSection from "../components/team-top-section";
+import TeamMembers from "../components/team-members";
 
 export default function AboutUs() {
   return (
@@ -25,6 +26,7 @@ export default function AboutUs() {
       <MissionImage />
       <Projects />
       <TeamTopSection />
+      <TeamMembers />
       <Footer
         backgroundComponent={
           <video

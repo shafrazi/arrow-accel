@@ -23,7 +23,20 @@ export default function Contact() {
       <GetInTouch />
       {/* <Mission /> */}
       {/* <Promoting /> */}
-      <Footer />
+      <Footer
+        backgroundComponent={
+          <video
+            loop
+            autoPlay
+            muted
+            className="w-full pointer-events-none object-cover h-[55rem]"
+          >
+            <source src="/videos/connect-dots-video.mp4" type="video/mp4" />
+          </video>
+        }
+        imageOverText={"Connect the dots."}
+        showIcon={false}
+      />
     </Layout>
   );
 }

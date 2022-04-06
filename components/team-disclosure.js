@@ -6,7 +6,7 @@ export default function TeamDisclosure({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full mb-4 md:mb-6 lg:mb-16">
       <div className="flex flex-col w-full lg:w-1/5">
         <button
           type="button"

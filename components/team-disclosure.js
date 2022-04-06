@@ -7,7 +7,7 @@ export default function TeamDisclosure({ title, children }) {
 
   return (
     <div className="flex flex-col w-full">
-      <div className="flex flex-col w-full md:w-1/5">
+      <div className="flex flex-col w-full lg:w-1/5">
         <button
           type="button"
           aria-label="Open item"

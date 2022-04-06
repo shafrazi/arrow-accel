@@ -38,7 +38,7 @@ export default function AboutUs() {
             <source src="/videos/global-video-low.mp4" type="video/mp4" />
           </video>
         }
-        imageOverText={"Think global."}
+        imageOverText={"Creation."}
       />
     </Layout>
   );

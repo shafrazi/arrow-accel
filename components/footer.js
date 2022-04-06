@@ -96,7 +96,20 @@ export default function Footer({
                         </div>
                       </li>
                       <li className="py-2">
-                        <a href="/about-us">instagram</a>
+                        <a
+                          href="https://www.instagram.com/arrow.accel.agency/"
+                          target="blank"
+                        >
+                          instagram
+                        </a>
+                      </li>
+                      <li className="py-2">
+                        <a
+                          href="https://www.linkedin.com/company/arrow-accel-agency/"
+                          target="blank"
+                        >
+                          linkedin
+                        </a>
                       </li>
                     </ul>
                   </div>

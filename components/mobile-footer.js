@@ -15,7 +15,9 @@ function MobileFooter() {
           Pushing
           <br /> limits.
         </h6>
-        <img src="/images/logo-white.png" className="w-2/3 mt-20" />
+        <a href="/">
+          <img src="/images/logo-white.png" className="w-2/3 mt-20" />
+        </a>
         <div className="mt-4 border border-white w-5/6"></div>
         <div className="text-white mt-4 text-xs leading-normal">
           <p>
@@ -24,16 +26,22 @@ function MobileFooter() {
           </p>
         </div>
 
-        <p className="text-white uppercase text-xs mt-10">company</p>
-        <p className="text-white uppercase text-xs mt-4">cases</p>
-        <p className="text-white uppercase  text-xs mt-4">industries</p>
+        <p className="text-white uppercase text-xs mt-10">
+          <a href="/company">company</a>
+        </p>
+        <p className="text-white uppercase text-xs mt-4">
+          <a href="/industries">causes</a>
+        </p>
+        <p className="text-white uppercase  text-xs mt-4">
+          <a href="/#">projects</a>
+        </p>
       </div>
       <div className="w-9/12">
         <p className="text-white uppercase text-xs mt-6">NEELY/ ARROW</p>
         <p className="text-white uppercase text-xs mt-4">K-LINE/ ARROW</p>
         <div className="text-blue-900 flex flex-row mt-8">
           <p className="text-white font-bold uppercase text-xs mt-1 ">
-            Get to know us
+            <a href="/contact">Get to know us</a>
           </p>
           <ArrowNarrowRightIcon className="w-5 ml-2" />
         </div>

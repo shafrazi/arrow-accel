@@ -7,7 +7,7 @@ import Services from "../components/services";
 import Coffee from "../components/coffee";
 import Mission from "../components/mission11";
 import Promoting from "../components/promoting12";
-import MobileFooter from "../components/footerMobile";
+import MobileFooter from "../components/mobile-footer";
 import MobileAffirm from "../components/affirmMobile";
 import GetInTouch from "../components/getInTouch";
 import Footer from "../components/footer";

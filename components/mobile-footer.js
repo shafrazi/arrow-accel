@@ -1,0 +1,69 @@
+import React from "react";
+import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+function MobileFooter() {
+  return (
+    <div
+      className="w-full only:lg:hidden bg-black py-10 flex flex-col items-center"
+      style={{
+        fontFamily: "OpenSauceOne",
+        fontWeight: "normal",
+        lineHeight: 1,
+      }}
+    >
+      <div className="w-9/12">
+        <h6 className="text-white text-cxl text-4xl font-bold mt-6">
+          Pushing
+          <br /> limits.
+        </h6>
+        <img src="/images/logo-white.png" className="w-2/3 mt-20" />
+        <div className="mt-4 border border-white w-5/6"></div>
+        <div className="text-white mt-4 text-xs leading-normal">
+          <p>
+            We are creative consultants, committed to accelerating projects and
+            building value for our clients and the communities around us.
+          </p>
+        </div>
+
+        <p className="text-white uppercase text-xs mt-10">company</p>
+        <p className="text-white uppercase text-xs mt-4">cases</p>
+        <p className="text-white uppercase  text-xs mt-4">industries</p>
+      </div>
+      <div className="w-9/12">
+        <p className="text-white uppercase text-xs mt-6">NEELY/ ARROW</p>
+        <p className="text-white uppercase text-xs mt-4">K-LINE/ ARROW</p>
+        <div className="text-blue-900 flex flex-row mt-8">
+          <p className="text-white font-bold uppercase text-xs mt-1 ">
+            Get to know us
+          </p>
+          <ArrowNarrowRightIcon className="w-5 ml-2" />
+        </div>
+
+        <div className="flex flex-row justify-between">
+          <div className="">
+            <div className="flex flex-col  items-start">
+              <a
+                class="text-white mt-4 text-xs"
+                href="https://www.instagram.com/reel/Ca1iC4EA9S_/?utm_medium=share_sheet"
+              >
+                INSTAGRAM
+              </a>
+              <a
+                class="text-white text-xs mt-2 md:mr-2"
+                href="https://www.linkedin.com/company/arrow-accel-agency/?viewAsMember=true"
+              >
+                LINKEDIN
+              </a>
+            </div>{" "}
+          </div>
+          <div className="flex flex-col items-end">
+            <p className="text-white text-xxs mt-5 ">PRIVACY POLICY</p>
+
+            <p className="text-white text-xxs mt-2">ARROW ACCEL 2O22 &copy;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default MobileFooter;

@@ -1,6 +1,6 @@
-import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import MobileFooter from "./mobile-footer";
 
 export default function Footer({
   backgroundComponent,
@@ -115,7 +115,7 @@ export default function Footer({
           </div>
         </div>
       </footer>
-      <footer className="lg:hidden bg-black text-white">
+      {/* <footer className="lg:hidden bg-black text-white">
         <div className="container px-6 py-4 mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">
@@ -162,7 +162,8 @@ export default function Footer({
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
+      <MobileFooter />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function GetToKnow() {
             </h2>
           </div>
           <div
-            className="w-full lg:w-7/12 bg-gray-200 flex flex-col justify-center items-center text-xs text-center md:text-left md:text-lg lg:text-xl tracking-wide px-8 py-[6rem] md:px-[5vw] md:py-[8vw]"
+            className="w-full lg:w-7/12 bg-gray-200 flex flex-col justify-center items-center text-base text-center md:text-left md:text-lg lg:text-xl tracking-wide px-8 py-[6rem] md:px-[5vw] md:py-[8vw]"
             style={{ lineHeight: 1.6 }}
           >
             <h2 className="lg:hidden font-semibold text-lg md:text-xl lg:text-2xl">

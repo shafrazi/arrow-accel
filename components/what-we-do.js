@@ -142,7 +142,7 @@ export default function WhatWeDo() {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center lg:w-1/2">
+        {/* <div className="w-full flex items-center lg:w-1/2">
           <div className="w-full flex space-x-10 lg:w-10/12 py-6 md:py-10 lg:py-16 px-4 md:px-10 lg:px-0">
             <div className="md:shrink-0 rounded-full bg-sky-200 flex justify-center items-center">
               <img
@@ -160,7 +160,7 @@ export default function WhatWeDo() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -41,13 +41,13 @@ export default function CanvasBanner() {
             </p>
           </div>
           <div className="flex flex-col w-full mt-3 md:mt-6 lg:mt-12 justify-center items-start md:justify-start md:items-start">
-            <p className="uppercase text-xs md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
+            <p className="uppercase text-[10px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
               The endless possibilities of
             </p>
-            <p className="uppercase text-xs md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
+            <p className="uppercase text-[10px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
               metaverse: for brands
             </p>
-            <button className="w-2/3 text-sm md:text-base md:w-2/3 self-end md:self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+            <button className="w-2/3 text-[9px] md:text-base md:w-2/3 self-end md:self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
               Talk to us
             </button>
           </div>

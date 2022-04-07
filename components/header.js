@@ -27,7 +27,7 @@ export default function Header() {
           </button>
           <div className="hidden w-full lg:block md:w-auto" id="mobile-menu">
             <ul
-              className="flex flex-col mt-4 md:flex-row md:space-x-10 lg:space-x-15 md:mt-0 md:text-sm"
+              className="flex flex-col mt-4 md:flex-row md:space-x-10 lg:space-x-[70px] md:mt-0 md:text-sm"
               style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
             >
               <li>

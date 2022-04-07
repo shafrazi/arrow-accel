@@ -29,7 +29,18 @@ export default function Home() {
       <Stats />
       <Clients />
       <ClientLogos />
-      <ContactBanner />
+      <ContactBanner
+        title="Let's strategize"
+        description={
+          <div>
+            <p>Unlock the future's unlimited</p>
+            <p>potential. Work with us and </p>
+            <p>make your mark.</p>
+          </div>
+        }
+        topButtonText="Send us an email"
+        bottomButtonText="Schedule a call"
+      />
       <Footer
         backgroundComponent={
           <img src="/images/about-us-footer.png" className="w-full" />

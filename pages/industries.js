@@ -3,8 +3,8 @@ import Layout from "../components/layout";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import FocusIntro from "../components/focus-intro";
-import WhatWeDo from "../components/what-we-do";
 import BuildIt from "../components/build-it";
+import ContactBanner from "../components/contact-banner";
 
 export default function OurFocus() {
   return (
@@ -16,7 +16,18 @@ export default function OurFocus() {
       <Header />
       <FocusIntro />
       <BuildIt />
-      {/* <WhatWeDo /> */}
+      <ContactBanner
+        title="Let's talk"
+        description={
+          <div>
+            <p>Let's have a good talk about your latest</p>
+            <p>venture. Book an exploratory meeting</p>
+            <p>with us and discuss your next moves.</p>
+          </div>
+        }
+        topButtonText="Book appointment"
+        bottomButtonText="call us"
+      />
       <Footer
         backgroundComponent={<img src="/images/focus-footer.png" />}
         imageOverText={"The best way to predict the future is to create it."}

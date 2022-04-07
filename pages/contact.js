@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import Header from "../components/header";
-// import Footer from "../components/footer-copy";
 
 import Services from "../components/services";
 import Coffee from "../components/coffee";
@@ -11,6 +10,8 @@ import MobileFooter from "../components/mobile-footer";
 import MobileAffirm from "../components/affirmMobile";
 import GetInTouch from "../components/getInTouch";
 import Footer from "../components/footer";
+import ContactBanner from "../components/contact-banner";
+
 export default function Contact() {
   return (
     <Layout>
@@ -21,8 +22,20 @@ export default function Contact() {
       <Header />
 
       <GetInTouch />
-      {/* <Mission /> */}
-      {/* <Promoting /> */}
+      <ContactBanner
+        title="Let's do coffee"
+        description={
+          <div>
+            <p>We love a good cup of coffee, on a sunny</p>
+            <p>terrace in Amsterdam Centre for instance!</p>
+            <p>Let's discuss your bold ideas or outrageous</p>
+            <p>plans and determine your new course of </p>
+            <p>action from there.</p>
+          </div>
+        }
+        topButtonText="Book appointment"
+        bottomButtonText="call us"
+      />
       <Footer
         backgroundComponent={
           <video

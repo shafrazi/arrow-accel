@@ -34,16 +34,74 @@ export default function BuildItSideLinks() {
             }
           />
           <LinkItem
-            name="FLOES / FINANCIAL HEALTH"
-            content="K-line achieves objectives through measurable and accountable marketing. They work as an extension of your team by filling the gaps with the right specialists. Our full-service capabilities allow us to provide professional recommendations and solutions across every aspect of your marketing."
+            name="Art & entertainment"
+            content={
+              <div>
+                <p>
+                  As a brand, collective or independent artist, in order to
+                  succeed you must master both the creative and the strategic
+                  side of your business.
+                </p>
+                <p className="mt-6">
+                  We work for and with artists, and creative entrepreneurs to
+                  create and promote commercially viable new business, products
+                  and projects, using keen strategic and marketing insight and
+                  powerful design.
+                </p>
+              </div>
+            }
           />
           <LinkItem
-            name="LASER 3.14"
-            content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
+            name="Future technologies"
+            content={
+              <div>
+                <p>
+                  The world around us is rapidly changing and a clear view of
+                  what the future holds, is diluted by every deeper avenue that
+                  technological advance takes us into. It can be hard to keep
+                  up, let alone to stay ahead. We are ahead of the tech curve.
+                </p>
+                <p className="mt-6">
+                  Our background in innovative media and fintech spans two
+                  decades. Our knowledge pool covers banks, consultants,
+                  insurers, cybersecurity, digital asset trading, biomimetic
+                  development and fintech companies.
+                </p>
+              </div>
+            }
           />
           <LinkItem
-            name="METAVERSE"
-            content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
+            name="Transformational technology"
+            content={
+              <div>
+                <p>
+                  Digital transformation is a key word in marketing toolbox
+                  nowadays. To us, it's more than just a phrase.
+                </p>
+                <p className="mt-6">
+                  We are digital transformation leaders, able to tokenize
+                  real-world and digital assets. Our AR/VR/Metaverse and blended
+                  experiences make your projects come to life.
+                </p>
+              </div>
+            }
+          />
+          <LinkItem
+            name="Investment readiness"
+            content={
+              <div>
+                <p>
+                  Through our global network we are able to make introductions
+                  to capital sources for project of any size and strategy,
+                  growth equity, funds and philantropy for sustainable
+                  investment solutions.
+                </p>
+                <p className="mt-6">
+                  With the right marketing & sales collateral we work on
+                  sharpening your aim to shoot for the moon.
+                </p>
+              </div>
+            }
           />
         </div>
         <SideLinkContent

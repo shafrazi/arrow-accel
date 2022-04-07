@@ -1,12 +1,17 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../app-context";
 
-export default function SideLinkContent({ centerItems, showLinkName }) {
-  const { sideContent, linkName } = useContext(AppContext);
+export default function SideLinkContent({
+  centerItems,
+  showLinkName,
+  defaultContent,
+}) {
+  const { sideContent, setSideContent, linkName } = useContext(AppContext);
   const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {
     setStartAnimation(false);
+    setSideContent(defaultContent);
   }, []);
 
   return (

@@ -33,7 +33,10 @@ export default function SideLinks() {
             content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
           />
         </div>
-        <SideLinkContent centerItems={true} />
+        <SideLinkContent
+          centerItems={true}
+          defaultContent="T M M is a design studio which delivers graphic design and visual communication to clients and collaborators who are looking for engaging and strong output that is able to challenge expectations and goals."
+        />
       </div>
       <div className="lg:hidden flex w-full">
         <MobileSideLinks />

@@ -15,22 +15,20 @@ export default function BuildItSideLinks() {
         <div className="flex w-1/2 flex-col">
           <LinkItem
             defaultClicked={true}
-            name="AFFIRM RESEARCH"
+            name="Energy transition"
             content={
               <div>
                 <p>
-                  We promote products, ideas and companies, that inspire and
-                  prioritize the best interest of the world and the quality of
-                  peoples lives. We promote products, ideas and companies, that
-                  inspire and prioritize the best interest of the world and the
-                  quality of peoples lives.
+                  We are committed to drive the energy transition past Net Zero
+                  targets to meet 1.5 ºC sustainability goals of the Paris
+                  Agreement. The transition needs to be accelerated as the world
+                  is running our of time.
                 </p>
                 <p className="mt-6">
-                  We promote products, ideas and companies, that inspire and
-                  prioritize the best interest of the world and the quality of
-                  peoples lives. We promote products, ideas and companies, that
-                  inspire and prioritize the best interest of the world and the
-                  quality of peoples lives.
+                  We create compelling content for companies and foundations
+                  that actively address contemporary challenges with
+                  breakthrough solutions that contribute to protecting nature
+                  and life on Earth.
                 </p>
               </div>
             }
@@ -48,7 +46,26 @@ export default function BuildItSideLinks() {
             content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
           />
         </div>
-        <SideLinkContent centerItems={false} showLinkName={false} />
+        <SideLinkContent
+          centerItems={false}
+          showLinkName={false}
+          defaultContent={
+            <div>
+              <p>
+                We are committed to drive the energy transition past Net Zero
+                targets to meet 1.5 ºC sustainability goals of the Paris
+                Agreement. The transition needs to be accelerated as the world
+                is running our of time.
+              </p>
+              <p className="mt-6">
+                We create compelling content for companies and foundations that
+                actively address contemporary challenges with breakthrough
+                solutions that contribute to protecting nature and life on
+                Earth.
+              </p>
+            </div>
+          }
+        />
       </div>
       <div className="lg:hidden flex w-full">
         <BuildItMobileSideLinks />

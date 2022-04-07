@@ -48,7 +48,28 @@ export default function ProjectSideLinks() {
             content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
           />
         </div>
-        <SideLinkContent centerItems={false} showLinkName={false} />
+        <SideLinkContent
+          centerItems={false}
+          showLinkName={false}
+          defaultContent={
+            <div>
+              <p>
+                We promote products, ideas and companies, that inspire and
+                prioritize the best interest of the world and the quality of
+                peoples lives. We promote products, ideas and companies, that
+                inspire and prioritize the best interest of the world and the
+                quality of peoples lives.
+              </p>
+              <p className="mt-6">
+                We promote products, ideas and companies, that inspire and
+                prioritize the best interest of the world and the quality of
+                peoples lives. We promote products, ideas and companies, that
+                inspire and prioritize the best interest of the world and the
+                quality of peoples lives.
+              </p>
+            </div>
+          }
+        />
       </div>
       <div className="lg:hidden flex w-full">
         <ProjectMobileSideLinks />

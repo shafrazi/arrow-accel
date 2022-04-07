@@ -30,7 +30,7 @@ export default function TeamMembers() {
           />
           <TeamCard
             image="/images/keweul.png"
-            name="Margo Neely"
+            name="Keweul Hailand"
             position="Creative Strategist"
             location="AMSTERDAM, The Netherlands"
             description="Keweul has been working with online channels since 2013. Reaching a young audience is one of his strengths on an executive, managerial and strategic level. He has proven this at various commercial companies and public organizations. Keweul has a preference for data-driven working, content distribution and video content creation."

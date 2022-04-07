@@ -8,10 +8,11 @@ export default function ContactBanner() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             Let's strategize
           </h2>
-          <p className="md:hidden mt-10 text-center">
-            Unlock the future's unlimited potential. Work with us and make your
-            mark.
-          </p>
+          <div className="md:hidden mt-10 text-center">
+            <p>Unlock the future's unlimited</p>
+            <p>potential. Work with us and </p>
+            <p>make your mark.</p>
+          </div>
           <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">
             <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
               send us an email

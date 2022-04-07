@@ -1,33 +1,28 @@
+import SlideTopText from "./slide-top-text";
+
 export default function FocusIntro() {
   return (
     <div className="flex flex-col w-full tracking-wide">
-      <div className="w-full flex flex-col my-4 mb-10 md:my-16 lg:my-[8rem]">
-        <div className="flex w-full">
-          <div
-            className="w-full md:w-3/4 lg:w-2/3 px-5 md:pl-[3rem] lg:pl-[5rem] mt-6 tracking-wider md:leading-loose text-base md:text-xl lg:text-2xl"
-            style={{ fontFamily: "OpenSauceOne" }}
-          >
-            <p className="" style={{ lineHeight: 1.6 }}>
-              Our current economic system rewards
-            </p>
-            <p className="" style={{ lineHeight: 1.6 }}>
-              exploitation and harm. Our focus lies on how
-            </p>
-            <p className="" style={{ lineHeight: 1.6 }}>
-              to transition to nature-based solutions, bio-
-            </p>
-            <p className="" style={{ lineHeight: 1.6 }}>
-              mimetic technologies and transition analysis
-            </p>
-            <p className="" style={{ lineHeight: 1.6 }}>
-              which can be applied to any industry.
-            </p>
-          </div>
-        </div>
-      </div>
+      <SlideTopText>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          Our current economic system rewards
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          exploitation and harm. Our focus lies on how
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          to transition to nature-based solutions, bio-
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          mimetic technologies and transition analysis
+        </p>
+        <p className="" style={{ lineHeight: 1.6 }}>
+          which can be applied to any industry.
+        </p>
+      </SlideTopText>
 
-      <div className="w-full flex flex-col lg:flex-row bg-black text-white px-10 lg:px-[10rem] py-6 lg:py-[8rem] text-lg lg:text-2xl leading-relaxed">
-        <div className="w-full lg:w-1/2 py-10 lg:py-0 lg:pr-16">
+      <div className="w-full flex flex-col lg:flex-row bg-black text-white px-10 lg:px-[10rem] py-6 lg:py-[8rem] text-xs lg:text-2xl leading-relaxed">
+        <div className="w-full lg:w-1/2 pt-6 lg:py-0 lg:pr-16">
           <p className="">
             <span className="font-bold">Transitions</span> have social and
             communicative challenges constituting behavioral change, change
@@ -35,7 +30,7 @@ export default function FocusIntro() {
             seems as opportunities abound.
           </p>
         </div>
-        <div className="w-full lg:w-1/2 py-10 lg:py-0 lg:pl-16">
+        <div className="w-full lg:w-1/2 pt-6 lg:py-0 lg:pl-16">
           <p className="">
             <span className="font-bold">Transformations</span> produce
             real-world outcomes which vary greatly by industry and between

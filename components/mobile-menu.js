@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../app-context";
+import Link from "next/link";
 
 export default function MobileMenu() {
   const { isOpen, setIsOpen } = useContext(AppContext);
@@ -32,9 +33,10 @@ export default function MobileMenu() {
         <a href="/company" className="uppercase text-2xl my-3">
           company
         </a>
-        <a href="#" className="uppercase text-2xl my-3">
-          projects
-        </a>
+        <Link href="/company#projects" scroll={false}>
+          <a className="uppercase text-2xl my-3">projects</a>
+        </Link>
+
         <a href="/industries" className="uppercase text-2xl my-3">
           causes
         </a>

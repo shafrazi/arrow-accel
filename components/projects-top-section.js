@@ -3,7 +3,10 @@ import Container from "./container";
 export default function ProjectsTopSection() {
   return (
     <Container backgroundColor={"bg-black"} verticalPadding={16}>
-      <div className="w-full flex flex-col lg:flex-row text-white">
+      <div
+        className="w-full flex flex-col lg:flex-row text-white"
+        id="projects"
+      >
         <div className="w-3/4 lg:w-1/2">
           <h2 className="text-2xl md:text-xl lg:text-4xl font-bold">
             Projects/ Cases

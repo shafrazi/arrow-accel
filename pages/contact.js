@@ -49,6 +49,14 @@ export default function Contact() {
         }
         imageOverText={"Connect the dots."}
         showIcon={false}
+        topImage="/images/connect-dots-mobile.png"
+        mobileTitleText={
+          <p>
+            Connect
+            <br />
+            the dots.
+          </p>
+        }
       />
     </Layout>
   );

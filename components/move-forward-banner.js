@@ -4,26 +4,36 @@ export default function MoveForwardBanner() {
   return (
     <div className="w-full flex flex-col">
       <SlideTopText>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          We are creative consultants,
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          committed to{" "}
-          <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
-            accelerating
-          </span>{" "}
-          projects{" "}
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          and{" "}
-          <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
-            building
-          </span>{" "}
-          value for our clients and{" "}
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          the communities around us.
-        </p>
+        <div className="hidden md:block">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            We are creative consultants,
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            committed to{" "}
+            <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
+              accelerating
+            </span>{" "}
+            projects{" "}
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            and{" "}
+            <span style={{ fontFamily: "OpenSauceOne", fontWeight: "bold" }}>
+              building
+            </span>{" "}
+            value for our clients and{" "}
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            the communities around us.
+          </p>
+        </div>
+        <div className="md:hidden">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            We are creative consultants, committed to{" "}
+            <span className="font-bold">accelerating</span> projects and{" "}
+            <span className="font-bold">building</span> value for our clients
+            and the communities around us.
+          </p>
+        </div>
       </SlideTopText>
 
       <div className="w-full relative">

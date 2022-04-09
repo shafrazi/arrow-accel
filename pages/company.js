@@ -39,6 +39,8 @@ export default function AboutUs() {
           </video>
         }
         imageOverText={"Creation."}
+        topImage="/images/globe-mobile.png"
+        mobileTitleText="Creation."
       />
     </Layout>
   );

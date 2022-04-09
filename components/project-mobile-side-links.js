@@ -6,19 +6,14 @@ export default function ProjectMobileSideLinks() {
       <MobileLinkItem title="AFFIRM RESEARCH">
         <div>
           <p>
-            We promote products, ideas and companies, that inspire and
-            prioritize the best interest of the world and the quality of peoples
-            lives. We promote products, ideas and companies, that inspire and
-            prioritize the best interest of the world and the quality of peoples
-            lives.
+            Margo Neely and Robert Schaeffer teamed up to provide business
+            development, communication strategy, leadership coaching, and a full
+            suite of brand identity for AFFIRM: The American Foundation for
+            Firearm Injury Reduction in Medicine.
           </p>
-          <p className="mt-6">
-            We promote products, ideas and companies, that inspire and
-            prioritize the best interest of the world and the quality of peoples
-            lives. We promote products, ideas and companies, that inspire and
-            prioritize the best interest of the world and the quality of peoples
-            lives.
-          </p>
+          <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+            read more
+          </button>
         </div>
       </MobileLinkItem>
       <MobileLinkItem title="FLOES / FINANCIAL HEALTH">

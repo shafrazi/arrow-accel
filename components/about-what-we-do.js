@@ -8,11 +8,11 @@ export default function AboutWhatWeDo() {
       </div>
       <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
-          <h2 className="lg:hidden text-lg md:text-xl lg:text-2xl font-bold text-center">
+          <h2 className="lg:hidden text-lg md:text-xl lg:text-2xl">
             What we do
           </h2>
           <p
-            className="text-xs md:text-lg lg:text-xl mt-4 text-center lg:text-left"
+            className="text-xs md:text-lg lg:text-xl mt-4 lg:text-left"
             style={{ lineHeight: 1.6 }}
           >
             We improve advertising campaigns, creative ideas or other art
@@ -20,14 +20,14 @@ export default function AboutWhatWeDo() {
             the goals of our clients.
           </p>
           <p
-            className="text-xs md:text-lg lg:text-xl mt-4 text-center lg:text-left"
+            className="text-xs md:text-lg lg:text-xl mt-4 lg:text-left"
             style={{ lineHeight: 1.6 }}
           >
             We create concepts, shape ideas, form teams and together, we move
             them to where they need to be.
           </p>
           <p
-            className="text-xs md:text-lg lg:text-xl mt-4 text-center lg:text-left"
+            className="text-xs md:text-lg lg:text-xl mt-4 lg:text-left"
             style={{ lineHeight: 1.6 }}
           >
             We partner with the brands of the future, innovative entrepreneurs,

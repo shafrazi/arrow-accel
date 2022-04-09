@@ -19,18 +19,10 @@ export default function ProjectSideLinks() {
             content={
               <div>
                 <p>
-                  We promote products, ideas and companies, that inspire and
-                  prioritize the best interest of the world and the quality of
-                  peoples lives. We promote products, ideas and companies, that
-                  inspire and prioritize the best interest of the world and the
-                  quality of peoples lives.
-                </p>
-                <p className="mt-6">
-                  We promote products, ideas and companies, that inspire and
-                  prioritize the best interest of the world and the quality of
-                  peoples lives. We promote products, ideas and companies, that
-                  inspire and prioritize the best interest of the world and the
-                  quality of peoples lives.
+                  Margo Neely and Robert Schaeffer teamed up to provide business
+                  development, communication strategy, leadership coaching, and
+                  a full suite of brand identity for AFFIRM: The American
+                  Foundation for Firearm Injury Reduction in Medicine.
                 </p>
               </div>
             }

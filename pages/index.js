@@ -48,6 +48,12 @@ export default function Home() {
         imageOverText={"Pushing limits."}
         showIcon={false}
         topImage="/images/about-us-footer-crop.png"
+        mobileTitleText={
+          <p>
+            Pushing <br />
+            limits.
+          </p>
+        }
       />
     </Layout>
   );

@@ -118,3 +118,10 @@
     font-size: 15px;
   }
 }
+
+@media (min-width: 768px) {
+  .banner-overlay {
+    color: white;
+    background: rgba(16, 6, 21, 0.8);
+  }
+}

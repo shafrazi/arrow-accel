@@ -21,7 +21,10 @@ function MobileFooter({ topImage, mobileTitleText }) {
         ""
       )}
       <div className="w-9/12">
-        <h6 className="text-white text-4xl md:text-6xl font-bold mt-6">
+        <h6
+          className="text-white text-4xl md:text-6xl font-bold mt-6"
+          style={{ lineHeight: 1.4 }}
+        >
           {mobileTitleText}
         </h6>
         <a href="/">

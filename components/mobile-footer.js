@@ -50,13 +50,13 @@ function MobileFooter() {
           <div className="">
             <div className="flex flex-col  items-start">
               <a
-                class="text-white mt-4 text-xs"
+                className="text-white mt-4 text-xs"
                 href="https://www.instagram.com/reel/Ca1iC4EA9S_/?utm_medium=share_sheet"
               >
                 INSTAGRAM
               </a>
               <a
-                class="text-white text-xs mt-2 md:mr-2"
+                className="text-white text-xs mt-2 md:mr-2"
                 href="https://www.linkedin.com/company/arrow-accel-agency/?viewAsMember=true"
               >
                 LINKEDIN

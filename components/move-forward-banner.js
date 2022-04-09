@@ -41,31 +41,29 @@ export default function MoveForwardBanner() {
           loop
           autoPlay
           muted
-          className="w-full pointer-events-none object-cover h-[42vh] md:h-[565px] lg:h-[716px]"
+          className="w-full pointer-events-none object-cover h-screen md:h-[565px] lg:h-[716px]"
         >
           <source src="/videos/move-forward-video.mp4" type="video/mp4" />
         </video>
         <div className="w-full flex justify-center">
           <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div
-              className="w-8/12 flex flex-col justify-center items-center"
-              style={{
-                color: "white",
-                background: "rgba(16, 6, 21, 0.8)",
-              }}
+              className="px-10 md:px-0 w-full md:w-8/12 flex flex-col text-white justify-center items-center banner-overlay"
+              // style={{
+              //   color: "white",
+              //   background: "rgba(16, 6, 21, 0.8)",
+              // }}
             >
               <div className="w-full px-3 md:px-0 md:w-2/3 flex flex-col">
-                <h1 className="font-bold text-lg md:text-4xl">
-                  Moving forward.
-                </h1>
-                <div className="mt-2 md:mt-4 lg:mt-12 w-full text-[10px] lg:text-xl leading-normal md:leading-loose">
-                  <p>Which opportunities are within</p>
-                  <p>reach and which are on the</p>
-                  <p>horizon? What strategy should </p>
-                  <p>your company adopt to achieve</p>
-                  <p>your most daring projects?</p>
+                <h1 className="font-bold text-4xl md:text-5xl">Moving</h1>
+                <h1 className="font-bold text-4xl md:text-5xl">forward.</h1>
+                <div className="mt-8 md:mt-4 lg:mt-12 w-full text-[20px] lg:text-xl leading-loose md:leading-loose">
+                  <p style={{ lineHeight: 1.6 }}>
+                    What strategy should your company adopt to achieve your most
+                    daring projects?
+                  </p>
                 </div>
-                <button className="w-2/3 text-[9px] md:text-base md:w-2/3 self-end md:self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
                   Talk to us
                 </button>
               </div>

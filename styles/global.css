@@ -28,6 +28,9 @@
   font-display: swap;
 }
 
+.loose-text {
+  line-height: 1.6;
+}
 
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */

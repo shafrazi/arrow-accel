@@ -50,7 +50,7 @@ export default function FocusIntro() {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center py-12 md:py-16 lg:py-[8rem]">
-        <div className="text-xs md:text-lg lg:text-2xl text-center w-full px-10 md:px-0 md:w-2/3 lg:w-1/3 leading-relaxed">
+        <div className="text-xs md:text-lg lg:text-2xl text-center w-full px-10 md:px-0 md:w-2/3 lg:w-2/3 leading-relaxed">
           <p>To reach your goals, you need to translate your</p>
           <p>mission effectively, with an understanding of</p>
           <p>your audience, the and you are building and</p>

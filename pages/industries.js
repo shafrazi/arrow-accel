@@ -29,10 +29,18 @@ export default function OurFocus() {
         bottomButtonText="call us"
       />
       <Footer
-        backgroundComponent={<img src="/images/focus-footer.png" />}
+        backgroundComponent={<img src="/images/causes-footer.png" />}
         imageOverText={"The best way to predict the future is to create it."}
-        showIcon={true}
+        showIcon={false}
         fontSize="3vw"
+        topImage="/images/city-mobile.png"
+        mobileTitleText={
+          <p className="text-2xl md:text-5xl">
+            The best way to <br />
+            predict the future <br />
+            is to create it.
+          </p>
+        }
       />
     </Layout>
   );

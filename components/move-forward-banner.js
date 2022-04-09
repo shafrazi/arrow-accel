@@ -1,4 +1,5 @@
 import SlideTopText from "./slide-top-text";
+import LazyLoad from "react-lazyload";
 
 export default function MoveForwardBanner() {
   return (
@@ -37,14 +38,16 @@ export default function MoveForwardBanner() {
       </SlideTopText>
 
       <div className="w-full relative">
-        <video
-          loop
-          autoPlay
-          muted
-          className="w-full pointer-events-none object-cover h-screen md:h-[565px] lg:h-[716px]"
-        >
-          <source src="/videos/move-forward-video.mp4" type="video/mp4" />
-        </video>
+        <LazyLoad>
+          <video
+            loop
+            autoPlay
+            muted
+            className="w-full pointer-events-none object-cover h-screen md:h-[565px] lg:h-[716px]"
+          >
+            <source src="/videos/move-forward-video.mp4" type="video/mp4" />
+          </video>
+        </LazyLoad>
         <div className="w-full flex justify-center">
           <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div

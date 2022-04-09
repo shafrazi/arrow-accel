@@ -15,7 +15,7 @@ export default function TeamCard({
               className="rounded-full bg-black w-full self-start"
             />
           </div>
-          <div className="w-8/12 flex flex-col py-2">
+          <div className="w-8/12 flex flex-col py-2 h-[5rem] lg:h-[8rem]">
             <p className="text-base md:text-lg lg:text-xl">{name},</p>
             <p
               className="text-base md:text-lg lg:text-xl"

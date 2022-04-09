@@ -1,4 +1,5 @@
 import SlideTopText from "./slide-top-text";
+import Image from "next/image";
 
 export default function CanvasBanner() {
   return (
@@ -21,12 +22,12 @@ export default function CanvasBanner() {
         </p>
       </SlideTopText>
       <div className="w-full relative">
-        {/* <Image src="/images/canvas.png" width={2290} height={916} /> */}
+        {/* <Image src="/images/canvas.png" layout="fill" objectFit="contain" /> */}
         <img
           src="/images/canvas.png"
-          className="w-full h-[42vh] md:h-[565px] lg:h-[716px]"
+          className="w-full h-screen md:h-[565px] lg:h-[716px] object-cover"
         />
-        <div className="px-10 md:px-0 w-3/4 md:w-1/2 flex flex-col justify-center md:justify-start items-center md:items-start absolute top-12 md:top-[25%] md:left-[10%]">
+        <div className="px-10 md:px-0 w-full md:w-1/2 flex flex-col justify-center md:justify-start md:items-start absolute top-[25%] md:top-[25%] md:left-[10%]">
           <div className="hidden md:block">
             <p className="font-bold text-white text-xl md:text-3xl lg:text-5xl">
               The future is our
@@ -35,19 +36,20 @@ export default function CanvasBanner() {
               canvas.
             </p>
           </div>
-          <div className="md:hidden">
-            <p className="font-bold text-white text-xl lg:text-5xl">
-              The future is our canvas.
-            </p>
+          <div className="md:hidden text-4xl lg:text-5xl">
+            <p className="font-bold text-white">The</p>
+            <p className="font-bold text-white">future</p>
+            <p className="font-bold text-white">is our</p>
+            <p className="font-bold text-white">canvas.</p>
           </div>
-          <div className="flex flex-col w-full mt-3 md:mt-6 lg:mt-12 justify-center items-start md:justify-start md:items-start">
-            <p className="uppercase text-[10px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
-              The endless possibilities of
+          <div className="flex flex-col w-full mt-3 md:mt-6 lg:mt-12 justify-center md:justify-start md:items-start">
+            <p className="uppercase text-[14px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
+              The endless possibilities to
             </p>
-            <p className="uppercase text-[10px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
-              metaverse: for brands
+            <p className="uppercase text-[14px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
+              market the metaverse
             </p>
-            <button className="w-2/3 text-[9px] md:text-base md:w-2/3 self-end md:self-start border-white border-solid border-2 mt-8 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+            <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
               Talk to us
             </button>
           </div>

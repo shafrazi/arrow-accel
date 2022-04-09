@@ -10,7 +10,7 @@ export default function Carousel() {
     <div className="flex flex-col items-center justify-center">
       <AliceCarousel
         items={items}
-        autoPlay={true}
+        autoPlay={false}
         infinite
         autoPlayStrategy="none"
         autoPlayInterval={12000}

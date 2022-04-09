@@ -5,21 +5,30 @@ export default function CanvasBanner() {
   return (
     <div className="w-full flex-flex-col">
       <SlideTopText>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          Our agency acts as a system
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          of thinkers that creatively
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          connects the dots and
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          energizes impactful ideas.
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          And together, we build.
-        </p>
+        <div className="hidden md:block">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            Our agency acts as a system
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            of thinkers that creatively
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            connects the dots and
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            energizes impactful ideas.
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            And together, we build.
+          </p>
+        </div>
+        <div className="md:hidden">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            Our agency acts as a system of thinkers that creatively connects the
+            dots and energizes impactful ideas. And{" "}
+            <span className="font-bold">together</span>, we build.
+          </p>
+        </div>
       </SlideTopText>
       <div className="w-full relative">
         {/* <Image src="/images/canvas.png" layout="fill" objectFit="contain" /> */}

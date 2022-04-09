@@ -31,7 +31,7 @@ export default function FocusIntro() {
         </div>
       </SlideTopText>
 
-      <div className="w-full flex flex-col lg:flex-row justify-center h-screen md:h-full bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-xs md:text-lg lg:text-2xl leading-relaxed">
+      <div className="w-full flex flex-col lg:flex-row justify-center h-screen md:h-full bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-[14px] md:text-lg lg:text-2xl leading-relaxed">
         <div className="w-full lg:w-1/2 py-6 md:py-12 lg:py-0 lg:pr-16">
           <p className="text-center md:text-left">
             <span className="font-bold">Transitions</span> have social and

@@ -11,14 +11,17 @@ function MobileFooter({ topImage, mobileTitleText }) {
       }}
     >
       {topImage ? (
-        <div className="w-full h-screen">
-          <img src={topImage} className="w-full h-screen object-cover" />
+        <div className="w-full">
+          <img
+            src={topImage}
+            className="w-full h-screen md:h-[60vh] object-cover"
+          />
         </div>
       ) : (
         ""
       )}
       <div className="w-9/12">
-        <h6 className="text-white text-cxl text-4xl font-bold mt-6">
+        <h6 className="text-white text-4xl md:text-6xl font-bold mt-6">
           {mobileTitleText}
         </h6>
         <a href="/">

@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function AboutUsHero() {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative h-[90vh] md:h-0 bg-black">
       <video
         loop
         autoPlay
         muted
-        className="w-full pointer-events-none object-cover h-screen md:h-[30rem] lg:h-[40rem]"
+        className="hidden md:block w-full pointer-events-none object-cover h-screen md:h-[30rem] lg:h-[40rem]"
       >
         <source src="/videos/about-us-video.mp4" type="video/mp4" />
       </video>

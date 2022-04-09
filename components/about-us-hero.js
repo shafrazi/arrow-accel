@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUsHero() {
   return (
-    <div className="w-full relative h-[90vh] md:h-0 bg-black">
+    <div className="w-full relative h-[90vh] md:h-full bg-black">
       <video
         loop
         autoPlay

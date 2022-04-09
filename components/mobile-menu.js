@@ -1,9 +1,17 @@
 import { useContext } from "react";
 import { AppContext } from "../app-context";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { scroller } from "react-scroll";
 
 export default function MobileMenu() {
   const { isOpen, setIsOpen } = useContext(AppContext);
+  const router = useRouter();
+
+  async function handleNavigation() {
+    router.push("/company");
+  }
+
   return (
     <div
       className={`overlay lg:hidden ${
@@ -33,9 +41,25 @@ export default function MobileMenu() {
         <a href="/company" className="uppercase text-2xl my-3">
           company
         </a>
-        <Link href="/company#projects" scroll={false}>
-          <a className="uppercase text-2xl my-3">projects</a>
-        </Link>
+
+        <a
+          href="/company#projects"
+          onClick={() => {
+            if (router.pathname !== "/company") {
+              handleNavigation().then(() => {
+                setIsOpen(false);
+                scroller.scrollTo("projects", { smooth: true });
+              });
+            } else {
+              handleNavigation().then(() => {
+                scroller.scrollTo("projects", { smooth: true });
+              });
+            }
+          }}
+          className="uppercase text-2xl my-3"
+        >
+          projects
+        </a>
 
         <a href="/industries" className="uppercase text-2xl my-3">
           causes

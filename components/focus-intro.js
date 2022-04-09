@@ -4,21 +4,31 @@ export default function FocusIntro() {
   return (
     <div className="flex flex-col w-full tracking-wide">
       <SlideTopText>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          Our current economic system rewards
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          exploitation and harm. Our focus lies on how
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          to transition to nature-based solutions, bio-
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          mimetic technologies and transition analysis
-        </p>
-        <p className="" style={{ lineHeight: 1.6 }}>
-          which can be applied to any industry.
-        </p>
+        <div className="hidden md:block">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            Our current economic system rewards
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            exploitation and harm. Our focus lies on how
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            to transition to nature-based solutions, bio-
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            mimetic technologies and transition analysis
+          </p>
+          <p className="" style={{ lineHeight: 1.6 }}>
+            which can be applied to any industry.
+          </p>
+        </div>
+        <div className="md:hidden">
+          <p className="" style={{ lineHeight: 1.6 }}>
+            Our current economic system rewards exploitation and harm. Our focus
+            lies on how to transition to nature-based solutions, bio-mimetic
+            technologies and transition analysis which can be applied to any
+            industry.
+          </p>
+        </div>
       </SlideTopText>
 
       <div className="w-full flex flex-col lg:flex-row bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-xs md:text-lg lg:text-2xl leading-relaxed">

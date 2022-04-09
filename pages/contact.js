@@ -11,6 +11,7 @@ import MobileAffirm from "../components/affirmMobile";
 import GetInTouch from "../components/getInTouch";
 import Footer from "../components/footer";
 import ContactBanner from "../components/contact-banner";
+import Map from "../components/map";
 
 export default function Contact() {
   return (
@@ -22,6 +23,20 @@ export default function Contact() {
       <Header />
 
       <GetInTouch />
+      <Map
+        location={{
+          address: "Keizersgracht 391-A, 1016 EJ Amsterdam",
+          lat: 52.36800324329436,
+          lng: 4.8850198986950755,
+        }}
+        zoomLevel={14}
+        address={
+          <p>
+            Keizersgracht 391-A, <br />
+            1016 EJ Amsterdam
+          </p>
+        }
+      />
       <ContactBanner
         title="Let's do coffee"
         description={

@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
-function MobileFooter() {
+function MobileFooter({ topImage }) {
   return (
     <div
       className="w-full lg:hidden bg-black py-10 flex flex-col items-center"
@@ -10,6 +10,13 @@ function MobileFooter() {
         lineHeight: 1,
       }}
     >
+      {topImage ? (
+        <div className="w-full h-screen">
+          <img src={topImage} className="w-full h-screen object-cover" />
+        </div>
+      ) : (
+        ""
+      )}
       <div className="w-9/12">
         <h6 className="text-white text-cxl text-4xl font-bold mt-6">
           Pushing

@@ -7,6 +7,7 @@ export default function Footer({
   imageOverText,
   showIcon,
   fontSize,
+  topImage,
 }) {
   return (
     <div style={{ fontFamily: "OpenSauceOne" }}>
@@ -176,7 +177,7 @@ export default function Footer({
           </div>
         </div>
       </footer> */}
-      <MobileFooter />
+      <MobileFooter topImage={topImage} />
     </div>
   );
 }

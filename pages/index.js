@@ -47,6 +47,7 @@ export default function Home() {
         }
         imageOverText={"Pushing limits."}
         showIcon={false}
+        topImage="/images/about-us-footer-crop.png"
       />
     </Layout>
   );

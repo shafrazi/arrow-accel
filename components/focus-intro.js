@@ -31,9 +31,9 @@ export default function FocusIntro() {
         </div>
       </SlideTopText>
 
-      <div className="w-full flex flex-col lg:flex-row h-screen md:h-0 bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-xs md:text-lg lg:text-2xl leading-relaxed">
+      <div className="w-full flex flex-col lg:flex-row justify-center h-screen md:h-full bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-xs md:text-lg lg:text-2xl leading-relaxed">
         <div className="w-full lg:w-1/2 py-6 md:py-12 lg:py-0 lg:pr-16">
-          <p className="">
+          <p className="text-center md:text-left">
             <span className="font-bold">Transitions</span> have social and
             communicative challenges constituting behavioral change, change
             management, disruption and resistance. The future is closer than it
@@ -41,7 +41,7 @@ export default function FocusIntro() {
           </p>
         </div>
         <div className="w-full lg:w-1/2 py-6 md:py-12 lg:py-0 lg:pl-16">
-          <p className="">
+          <p className="text-center md:text-left">
             <span className="font-bold">Transformations</span> produce
             real-world outcomes which vary greatly by industry and between
             competitors, cascading through value chains, defined by the focus

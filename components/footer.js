@@ -67,7 +67,7 @@ export default function Footer({
                         <a href="/company">company</a>
                       </li>
                       <li className="py-2">
-                        <a href="/about-us">cases</a>
+                        <a href="/company#projects">projects</a>
                       </li>
                       <li className="py-2">
                         <a href="/industries">industries</a>
@@ -80,7 +80,7 @@ export default function Footer({
                         <a href="/company">neely/ arrow</a>
                       </li>
                       <li className="py-2">
-                        <a href="/about-us">k-line/ arrow</a>
+                        <a href="/company">k-line/ arrow</a>
                       </li>
                     </ul>
                   </div>

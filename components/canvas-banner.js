@@ -1,5 +1,6 @@
 import SlideTopText from "./slide-top-text";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CanvasBanner() {
   return (
@@ -58,9 +59,11 @@ export default function CanvasBanner() {
             <p className="uppercase text-[14px] md:text-xl lg:text-3xl tracking-wide leading-relaxed text-white opacity-100">
               market the metaverse
             </p>
-            <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
-              Talk to us
-            </button>
+            <Link href="/contact">
+              <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                Talk to us
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SlideTopText from "./slide-top-text";
 
 export default function GetSetBanner() {
@@ -55,9 +56,11 @@ export default function GetSetBanner() {
                     world. Are you ready to move with the tide?
                   </p>
                 </div>
-                <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
-                  talk to us
-                </button>
+                <Link href="/contact">
+                  <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                    talk to us
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

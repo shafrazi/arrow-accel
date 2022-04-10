@@ -3,7 +3,6 @@ import AboutUsHero from "../components/about-us-hero";
 
 import Header from "../components/header";
 import Layout from "../components/layout";
-import MissionBanner from "../components/mission-banner";
 
 import Footer from "../components/footer";
 import AboutWhatWeDo from "../components/about-what-we-do";
@@ -11,6 +10,7 @@ import MissionImage from "../components/mission-image";
 import Projects from "../components/projects";
 import TeamTopSection from "../components/team-top-section";
 import TeamMembers from "../components/team-members";
+import MissionStatement from "../components/mission-statement";
 
 export default function AboutUs() {
   return (
@@ -22,7 +22,7 @@ export default function AboutUs() {
       <Header backgroundColor="bg-black" textColor="text-white" />
       <AboutUsHero />
       <AboutWhatWeDo />
-      <MissionBanner />
+      <MissionStatement />
       <MissionImage />
       <Projects />
       <TeamTopSection />

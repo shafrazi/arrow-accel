@@ -26,6 +26,7 @@ export default function OurFocus() {
           </div>
         }
         topButtonText="Book appointment"
+        topButtonLink="https://meetings-eu1.hubspot.com/robert-schaeffer"
         bottomButtonText="call us"
       />
       <Footer

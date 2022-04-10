@@ -49,6 +49,7 @@ export default function Contact() {
           </div>
         }
         topButtonText="Book appointment"
+        topButtonLink="https://meetings-eu1.hubspot.com/robert-schaeffer"
         bottomButtonText="call us"
       />
       <Footer

@@ -1,10 +1,13 @@
+import Link from "next/link";
 import Container from "./container";
 
 export default function ContactBanner({
   title,
   description,
   topButtonText,
+  topButtonLink,
   bottomButtonText,
+  bottomButtonLink,
 }) {
   return (
     <Container backgroundColor={"bg-black"} topMargin={0}>
@@ -17,12 +20,16 @@ export default function ContactBanner({
             {description}
           </div>
           <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">
-            <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
-              {topButtonText}
-            </button>
-            <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
-              {bottomButtonText}
-            </button>
+            <Link href={topButtonLink || ""}>
+              <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
+                {topButtonText}
+              </button>
+            </Link>
+            <Link href={bottomButtonLink || ""}>
+              <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
+                {bottomButtonText}
+              </button>
+            </Link>
           </div>
         </div>
         <div className="hidden md:flex flex-col w-full items-center md:items-start md:w-1/2 text-white">

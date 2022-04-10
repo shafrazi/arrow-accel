@@ -39,6 +39,7 @@ export default function Home() {
           </div>
         }
         topButtonText="Send us an email"
+        topButtonLink={"mailto:agency@arrowaccel.com"}
         bottomButtonText="Schedule a call"
       />
       <Footer

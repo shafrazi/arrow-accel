@@ -15,7 +15,7 @@ export default function MobileLinkItem({ title, children }) {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex w-full border-b-2 py-3">
-          <p className="text-sm text-left font-bold w-11/12">{title}</p>
+          <p className="text-lg text-left font-bold w-11/12">{title}</p>
           <div className="w-1/12 flex flex-col justify-center items-center text-blue-500">
             <FontAwesomeIcon
               icon={faArrowRight}

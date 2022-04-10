@@ -61,7 +61,7 @@ export default function MobileMenu() {
           projects
         </a>
 
-        <a href="/industries" className="uppercase text-2xl my-3">
+        <a href="/causes" className="uppercase text-2xl my-3">
           causes
         </a>
         <a href="/contact" className="uppercase text-2xl my-3">

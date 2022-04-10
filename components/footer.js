@@ -70,7 +70,7 @@ export default function Footer({
                         <a href="/company#projects">projects</a>
                       </li>
                       <li className="py-2">
-                        <a href="/industries">industries</a>
+                        <a href="/causes">causes</a>
                       </li>
                     </ul>
                   </div>

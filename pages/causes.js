@@ -6,11 +6,11 @@ import FocusIntro from "../components/focus-intro";
 import BuildIt from "../components/build-it";
 import ContactBanner from "../components/contact-banner";
 
-export default function OurFocus() {
+export default function Causes() {
   return (
     <Layout>
       <Head>
-        <title>Our focus | Arrow Accel</title>
+        <title>Causes | Arrow Accel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />

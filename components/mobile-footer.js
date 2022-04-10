@@ -42,7 +42,7 @@ function MobileFooter({ topImage, mobileTitleText }) {
           <a href="/company">company</a>
         </p>
         <p className="text-white uppercase text-xs mt-4">
-          <a href="/industries">causes</a>
+          <a href="/causes">causes</a>
         </p>
         <p className="text-white uppercase  text-xs mt-4">
           <a href="/company#projects">projects</a>

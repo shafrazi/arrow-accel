@@ -16,7 +16,7 @@ export default function ContactBanner({
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             {title}
           </h2>
-          <div className="md:hidden mt-10 text-[13px] text-center">
+          <div className="md:hidden mt-10 text-[19px] text-center">
             {description}
           </div>
           <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">
@@ -34,7 +34,7 @@ export default function ContactBanner({
         </div>
         <div className="hidden md:flex flex-col w-full items-center md:items-start md:w-1/2 text-white">
           <div
-            className="mt-10 md:text-lg lg:text-xl"
+            className="mt-10 md:text-lg lg:text-2xl"
             style={{ lineHeight: 1.6 }}
           >
             {description}

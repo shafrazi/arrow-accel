@@ -24,21 +24,15 @@ export default function ProjectSideLinks() {
                   a full suite of brand identity for AFFIRM: The American
                   Foundation for Firearm Injury Reduction in Medicine.
                 </p>
+                <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                  read more
+                </button>
               </div>
             }
           />
-          <LinkItem
-            name="FLOES / FINANCIAL HEALTH"
-            content="K-line achieves objectives through measurable and accountable marketing. They work as an extension of your team by filling the gaps with the right specialists. Our full-service capabilities allow us to provide professional recommendations and solutions across every aspect of your marketing."
-          />
-          <LinkItem
-            name="LASER 3.14"
-            content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
-          />
-          <LinkItem
-            name="METAVERSE"
-            content="Neely & Daughters is a think tank, creative incubator, and studio where visionary innovations are born. Neely & Daughters are renegade creatives producing revolutionary content embraced by millions over the world."
-          />
+          <LinkItem name="FLOES / FINANCIAL HEALTH" content="" />
+          <LinkItem name="LASER 3.14" content="" />
+          <LinkItem name="METAVERSE" content="" />
         </div>
         <SideLinkContent
           centerItems={false}
@@ -46,19 +40,14 @@ export default function ProjectSideLinks() {
           defaultContent={
             <div>
               <p>
-                We promote products, ideas and companies, that inspire and
-                prioritize the best interest of the world and the quality of
-                peoples lives. We promote products, ideas and companies, that
-                inspire and prioritize the best interest of the world and the
-                quality of peoples lives.
+                Margo Neely and Robert Schaeffer teamed up to provide business
+                development, communication strategy, leadership coaching, and a
+                full suite of brand identity for AFFIRM: The American Foundation
+                for Firearm Injury Reduction in Medicine.
               </p>
-              <p className="mt-6">
-                We promote products, ideas and companies, that inspire and
-                prioritize the best interest of the world and the quality of
-                peoples lives. We promote products, ideas and companies, that
-                inspire and prioritize the best interest of the world and the
-                quality of peoples lives.
-              </p>
+              <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                read more
+              </button>
             </div>
           }
         />

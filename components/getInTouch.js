@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function getInTouch() {
@@ -27,12 +28,16 @@ function getInTouch() {
               </p>
             </div>
             <div className="w-full flex flex-col md:w-1/3">
-              <button className="flex items-center justify-center uppercase border border-double-2 text-black border-black  mt-20 md:mt-5 px-8 p-2 w-full lg:w-4/5">
-                Schedule a call
-              </button>
-              <button className="flex items-center justify-center uppercase border border-double-2 text-black border-black  mt-6 px-8 p-2 w-full lg:w-4/5">
-                Send us an email
-              </button>
+              <Link href="tel:0031625283072">
+                <button className="flex items-center justify-center uppercase border border-double-2 text-black border-black  mt-20 md:mt-5 px-8 p-2 w-full lg:w-4/5">
+                  Schedule a call
+                </button>
+              </Link>
+              <Link href="mailto:agency@arrowaccel.com">
+                <button className="flex items-center justify-center uppercase border border-double-2 text-black border-black  mt-6 px-8 p-2 w-full lg:w-4/5">
+                  Send us an email
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -51,6 +51,7 @@ export default function Contact() {
         topButtonText="Book appointment"
         topButtonLink="https://meetings-eu1.hubspot.com/robert-schaeffer"
         bottomButtonText="call us"
+        bottomButtonLink="tel:0031625283072"
       />
       <Footer
         backgroundComponent={

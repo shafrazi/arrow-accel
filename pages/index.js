@@ -41,6 +41,7 @@ export default function Home() {
         topButtonText="Send us an email"
         topButtonLink={"mailto:agency@arrowaccel.com"}
         bottomButtonText="Schedule a call"
+        bottomButtonLink="tel:0031625283072"
       />
       <Footer
         backgroundComponent={

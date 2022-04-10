@@ -12,11 +12,11 @@ import TeamTopSection from "../components/team-top-section";
 import TeamMembers from "../components/team-members";
 import MissionStatement from "../components/mission-statement";
 
-export default function AboutUs() {
+export default function Company() {
   return (
     <Layout>
       <Head>
-        <title>About Us | Arrow Accel</title>
+        <title>Company | Arrow Accel</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header backgroundColor="bg-black" textColor="text-white" />

@@ -52,9 +52,9 @@ function MobileFooter({ topImage, mobileTitleText }) {
         <p className="text-white uppercase text-xs mt-6">NEELY/ ARROW</p>
         <p className="text-white uppercase text-xs mt-4">K-LINE/ ARROW</p>
         <div className="text-blue-900 flex flex-row mt-8">
-          <p className="text-white font-bold uppercase text-xs mt-1 ">
+          <div className="text-white font-bold uppercase text-xs mt-1 ">
             <a href="/contact">Get to know us</a>
-          </p>
+          </div>
           <ArrowNarrowRightIcon className="w-5 ml-2" />
         </div>
 

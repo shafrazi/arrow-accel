@@ -8,7 +8,7 @@ export default function Clients() {
       </div>
       <div className="flex flex-col w-full md:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
-          <h2 className="md:hidden text-2xl md:text-xl lg:text-2xl font-bold">
+          <h2 className="md:hidden text-2xl md:text-xl lg:text-2xl">
             Our clients
           </h2>
           <p

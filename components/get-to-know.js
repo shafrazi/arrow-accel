@@ -15,8 +15,12 @@ export default function GetToKnow() {
             className="w-full lg:w-7/12 flex flex-col justify-center text-base text-left md:text-lg lg:text-xl tracking-wide px-8 py-[6rem] md:px-[5vw] md:py-[8vw]"
             style={{ lineHeight: 1.6 }}
           >
-            <h2 className="lg:hidden font-semibold text-xl">We're creative</h2>
-            <h2 className="lg:hidden font-semibold text-xl">consultants</h2>
+            <h2 className="lg:hidden text-2xl" style={{ lineHeight: 1.4 }}>
+              We're creative
+            </h2>
+            <h2 className="lg:hidden text-2xl" style={{ lineHeight: 1.4 }}>
+              consultants
+            </h2>
             <p className="mt-6">
               We are lateral thinkers that provide expert advice and bold ideas,
               the people and the tools to create real-life results.

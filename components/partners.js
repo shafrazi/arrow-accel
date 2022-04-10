@@ -8,9 +8,7 @@ export default function Partners() {
       </div>
       <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
-          <h2 className="text-2xl md:text-xl lg:hidden font-bold">
-            Our partners
-          </h2>
+          <h2 className="text-2xl md:text-2xl lg:hidden">Our partners</h2>
           <p
             className="text-base md:text-lg lg:text-xl mt-4"
             style={{ lineHeight: 1.6 }}

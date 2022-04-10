@@ -9,13 +9,13 @@ export default function MissionStatement() {
     <div className="w-full flex flex-col bg-black pb-12 md:pb-16">
       <MissionBanner />
       <MissionItem
-        icon={[<IoRocket />]}
+        icon={[<IoRocket key={1} />]}
         title={<h2>We are on a mission</h2>}
         description="
         Our mission is  to create, commercialize, and capture strategic value sustainably as we take interest into humanitarian and philanthropic ventures to address global issues"
       />
       <MissionItem
-        icon={[<FaThumbsUp />]}
+        icon={[<FaThumbsUp key={2} />]}
         title={<h2>Promoting good ideas</h2>}
         description={
           <div>
@@ -33,7 +33,7 @@ export default function MissionStatement() {
         }
       />
       <MissionItem
-        icon={[<BsLightningFill />]}
+        icon={[<BsLightningFill key={3} />]}
         title={<h2>and accelerating progress</h2>}
         description={
           <div>

@@ -8,7 +8,7 @@ export default function AboutWhatWeDo() {
       </div>
       <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
-          <h2 className="lg:hidden text-lg md:text-xl lg:text-2xl">
+          <h2 className="lg:hidden text-2xl md:text-xl lg:text-2xl">
             What we do
           </h2>
           <p

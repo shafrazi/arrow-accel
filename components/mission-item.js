@@ -10,9 +10,9 @@ export default function MissionItem({ icon, title, description }) {
         <div className="text-xl md:text-2xl text-center w-2/3 mt-6 md:mt-9 leading-relaxed uppercase">
           {title}
         </div>
-        <p className="text-[14px] md:text-xl text-center w-full md:w-10/12 lg:w-8/12 mt-6 md:mt-9 leading-relaxed">
+        <div className="text-[14px] md:text-xl text-center w-full md:w-10/12 lg:w-8/12 mt-6 md:mt-9 leading-relaxed">
           {description}
-        </p>
+        </div>
       </div>
     </div>
   );

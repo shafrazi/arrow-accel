@@ -23,6 +23,18 @@ export default function Layout({ children }) {
           as="font"
           crossOrigin=""
         />
+        <meta
+          name="description"
+          content="We are consultants for brands, entertainment professionals, start-ups and artists, ready to create, develop or reinvigorate your business."
+        />
+        <meta
+          property="og:description"
+          content="We are consultants for brands, entertainment professionals, start-ups and artists, ready to create, develop or reinvigorate your business."
+        />
+        <meta
+          property="og:image"
+          content="//cdn.mcauto-images-production.sendgrid.net/fd24d1210e70a527/2be7eda0-c204-42fd-be12-6dfd2f070137/300x216.png"
+        />
       </Head>
       {children}
     </div>

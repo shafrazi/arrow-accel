@@ -33,7 +33,7 @@ export default function Causes() {
       <Footer
         backgroundComponent={<img src="/images/causes-footer.png" />}
         imageOverText={
-          <p className="text-2xl md:text-5xl">
+          <p className="text-2xl md:text-4xl">
             The best way to <br />
             predict the future <br />
             is to create it.

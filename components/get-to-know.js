@@ -4,12 +4,8 @@ export default function GetToKnow() {
       <div className="flex w-full relative justify-center items-center">
         <div className="flex w-full lg:w-11/12">
           <div className="hidden lg:block w-5/12 md:py-[8vw]">
-            <h2 className="font-semibold text-lg md:text-2xl lg:text-4xl">
-              We're creative
-            </h2>
-            <h2 className="font-semibold text-lg md:text-2xl lg:text-4xl">
-              consultants
-            </h2>
+            <h2 className="text-lg md:text-2xl lg:text-4xl">We're creative</h2>
+            <h2 className="text-lg md:text-2xl lg:text-4xl">consultants</h2>
           </div>
           <div
             className="w-full lg:w-7/12 flex flex-col justify-center text-base text-left md:text-lg lg:text-xl tracking-wide px-8 py-[6rem] md:px-[5vw] md:py-[8vw]"

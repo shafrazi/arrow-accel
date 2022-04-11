@@ -5,13 +5,16 @@ export default function SideLinkContent({
   centerItems,
   showLinkName,
   defaultContent,
+  defaultLinkName,
 }) {
-  const { sideContent, setSideContent, linkName } = useContext(AppContext);
+  const { sideContent, setSideContent, linkName, setLinkName } =
+    useContext(AppContext);
   const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {
     setStartAnimation(false);
     setSideContent(defaultContent);
+    setLinkName(defaultLinkName);
   }, []);
 
   return (

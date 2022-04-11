@@ -57,7 +57,13 @@ export default function Contact() {
             <source src="/videos/connect-dots-video.mp4" type="video/mp4" />
           </video>
         }
-        imageOverText={"Connect the dots."}
+        imageOverText={
+          <p>
+            Connect
+            <br />
+            the dots.
+          </p>
+        }
         showIcon={false}
         topImage="/images/connect-dots-mobile.png"
         mobileTitleText={

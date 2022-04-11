@@ -17,12 +17,12 @@ export default function Footer({
           {backgroundComponent}
           <div className="w-full flex absolute bottom-2/3 justify-center">
             <div className="w-11/12 flex justify-center items-center">
-              <p
+              <div
                 className="w-11/12 text-white font-bold"
                 style={{ fontSize: fontSize || "5vw" }}
               >
                 {imageOverText}
-              </p>
+              </div>
             </div>
           </div>
           <div

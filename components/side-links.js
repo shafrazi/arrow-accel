@@ -31,6 +31,7 @@ export default function SideLinks() {
         <SideLinkContent
           centerItems={true}
           showLinkName={true}
+          defaultLinkName="House TMM"
           defaultContent="T M M is a design studio which delivers graphic design and visual communication to clients and collaborators who are looking for engaging and strong output that is able to challenge expectations and goals."
         />
       </div>

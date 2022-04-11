@@ -107,6 +107,7 @@ export default function BuildItSideLinks() {
         <SideLinkContent
           centerItems={false}
           showLinkName={true}
+          defaultLinkName="Energy transition"
           defaultContent={
             <div>
               <p>

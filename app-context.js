@@ -10,7 +10,7 @@ function AppContextProvider(props) {
   const [sideContent, setSideContent] = useState("");
 
   const [linkClicked, setLinkClicked] = useState(false);
-  const [linkName, setLinkName] = useState("House TMM");
+  const [linkName, setLinkName] = useState("");
   const [startLinkAnimation, setStartLinkAnimation] = useState(false);
 
   return (

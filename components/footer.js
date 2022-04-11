@@ -15,10 +15,10 @@ export default function Footer({
       <footer className="hidden lg:block">
         <div className="w-full relative">
           {backgroundComponent}
-          <div className="w-full flex absolute bottom-2/3">
-            <div className="w-1/2 flex justify-center items-center">
+          <div className="w-full flex absolute bottom-2/3 justify-center">
+            <div className="w-11/12 flex justify-center items-center">
               <p
-                className="w-11/12 text-white font-bold px-12"
+                className="w-11/12 text-white font-bold"
                 style={{ fontSize: fontSize || "5vw" }}
               >
                 {imageOverText}

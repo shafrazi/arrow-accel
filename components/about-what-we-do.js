@@ -4,7 +4,7 @@ export default function AboutWhatWeDo() {
   return (
     <Container backgroundColor="bg-neutral-50" verticalPadding={16}>
       <div className="hidden lg:block w-1/2">
-        <h2 className="md:text-2xl lg:text-4xl font-bold">What we do</h2>
+        <h2 className="md:text-2xl lg:text-4xl">What we do</h2>
       </div>
       <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">

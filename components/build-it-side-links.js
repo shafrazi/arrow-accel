@@ -106,7 +106,7 @@ export default function BuildItSideLinks() {
         </div>
         <SideLinkContent
           centerItems={false}
-          showLinkName={false}
+          showLinkName={true}
           defaultContent={
             <div>
               <p>

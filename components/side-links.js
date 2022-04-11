@@ -1,14 +1,9 @@
-import { useState, useContext } from "react";
 import LinkItem from "./link-item";
 import Container from "./container";
-import { AppContext } from "../app-context";
 import SideLinkContent from "./side-link-content";
 import MobileSideLinks from "./mobile-side-links";
 
 export default function SideLinks() {
-  const { sideContent, linkClicked, startLinkAnimation } =
-    useContext(AppContext);
-
   return (
     <Container topMargin={16}>
       <div className="hidden lg:flex w-full">
@@ -35,6 +30,7 @@ export default function SideLinks() {
         </div>
         <SideLinkContent
           centerItems={true}
+          showLinkName={true}
           defaultContent="T M M is a design studio which delivers graphic design and visual communication to clients and collaborators who are looking for engaging and strong output that is able to challenge expectations and goals."
         />
       </div>

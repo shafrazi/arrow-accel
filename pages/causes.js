@@ -32,7 +32,13 @@ export default function Causes() {
       />
       <Footer
         backgroundComponent={<img src="/images/causes-footer.png" />}
-        imageOverText={"The best way to predict the future is to create it."}
+        imageOverText={
+          <p className="text-2xl md:text-4xl">
+            The best way to <br />
+            predict the future <br />
+            is to create it.
+          </p>
+        }
         showIcon={false}
         fontSize="3vw"
         topImage="/images/city-mobile.png"

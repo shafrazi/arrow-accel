@@ -12,11 +12,17 @@ export default function BuildItTopSection() {
             className="text-xs md:text-base lg:text-xl mt-4 lg:mt-12"
             style={{ lineHeight: 1.6 }}
           >
-            <p>We love a good cup of coffee, on a sunny</p>
-            <p>terrace in Amsterdam Centre for instance!</p>
-            <p>Let's discuss your bold ideas or outrageous</p>
-            <p>plans and determine your new course of</p>
-            <p>action from there.</p>
+            <p>
+              We love to build on big plans together with our clients. To
+              create. To make things better. Our interests stretch across many
+              different industries and causes, but they all have a better world
+              in mind.
+            </p>
+            <p className="mt-6">
+              Our focus lies just there: To improve conditions under which we
+              all live and to be the forefront of the development of our joint
+              future. Let's build it. Together.
+            </p>
           </div>
         </div>
       </div>

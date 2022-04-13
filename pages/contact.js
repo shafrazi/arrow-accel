@@ -41,9 +41,9 @@ export default function Contact() {
             <p>action from there.</p>
           </div>
         }
-        topButtonText="Book appointment"
+        topButtonText="Let's zoom first"
         topButtonLink="https://meetings-eu1.hubspot.com/robert-schaeffer"
-        bottomButtonText="call us"
+        bottomButtonText="give us a call"
         bottomButtonLink="tel:0031625283072"
       />
       <Footer

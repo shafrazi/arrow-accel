@@ -1,15 +1,10 @@
 import Head from "next/head";
-import AboutUsHero from "../components/about-us-hero";
 
 import Header from "../components/header";
 import Layout from "../components/layout";
 
 import Footer from "../components/footer";
-import AboutWhatWeDo from "../components/about-what-we-do";
-import MissionImage from "../components/mission-image";
-import TeamTopSection from "../components/team-top-section";
-import TeamMembers from "../components/team-members";
-import MissionStatement from "../components/mission-statement";
+import ProjectsHero from "../components/projects-hero";
 
 export default function Projects() {
   return (
@@ -19,12 +14,7 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header backgroundColor="bg-black" textColor="text-white" />
-      <AboutUsHero />
-      <AboutWhatWeDo />
-      <MissionStatement />
-      <MissionImage />
-      <TeamTopSection />
-      <TeamMembers />
+      <ProjectsHero />
       <Footer
         backgroundComponent={
           <video

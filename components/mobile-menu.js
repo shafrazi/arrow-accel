@@ -43,19 +43,19 @@ export default function MobileMenu() {
         </a>
 
         <a
-          href="/company#projects"
-          onClick={() => {
-            if (router.pathname !== "/company") {
-              handleNavigation().then(() => {
-                setIsOpen(false);
-                scroller.scrollTo("projects", { smooth: true });
-              });
-            } else {
-              handleNavigation().then(() => {
-                scroller.scrollTo("projects", { smooth: true });
-              });
-            }
-          }}
+          href="/projects"
+          // onClick={() => {
+          //   if (router.pathname !== "/company") {
+          //     handleNavigation().then(() => {
+          //       setIsOpen(false);
+          //       scroller.scrollTo("projects", { smooth: true });
+          //     });
+          //   } else {
+          //     handleNavigation().then(() => {
+          //       scroller.scrollTo("projects", { smooth: true });
+          //     });
+          //   }
+          // }}
           className="uppercase text-2xl my-3"
         >
           projects

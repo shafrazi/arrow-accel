@@ -24,7 +24,7 @@ export default function Company() {
       <AboutWhatWeDo />
       <MissionStatement />
       <MissionImage />
-      <Projects />
+      {/* <Projects /> */}
       <TeamTopSection />
       <TeamMembers />
       <Footer

@@ -8,9 +8,15 @@ export default function ContactBanner({
   topButtonLink,
   bottomButtonText,
   bottomButtonLink,
+  backgroundColor,
+  style,
 }) {
   return (
-    <Container backgroundColor={"bg-black"} topMargin={0}>
+    <Container
+      backgroundColor={backgroundColor ? backgroundColor : "bg-black"}
+      style={style}
+      topMargin={0}
+    >
       <div className="flex w-full flex-col py-16 md:flex-row">
         <div className="flex flex-col w-full items-center md:items-start md:w-1/2 text-white">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">

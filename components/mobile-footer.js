@@ -3,7 +3,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 function MobileFooter({ topImage, mobileTitleText }) {
   return (
     <div
-      className="w-full lg:hidden bg-black py-10 flex flex-col items-center"
+      className="w-full lg:hidden bg-black pb-10 flex flex-col items-center"
       style={{
         fontFamily: "OpenSauceOne",
         fontWeight: "normal",

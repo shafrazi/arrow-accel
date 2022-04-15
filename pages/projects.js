@@ -40,14 +40,8 @@ export default function Projects() {
         imageOverText={<p className="text-black">Ambition.</p>}
         showIcon={false}
         fontSize="5vw"
-        topImage="/images/city-mobile.png"
-        mobileTitleText={
-          <p className="text-2xl md:text-5xl">
-            The best way to <br />
-            predict the future <br />
-            is to create it.
-          </p>
-        }
+        topImage="/images/projects-footer-mobile.png"
+        mobileTitleText="Ambition."
       />
     </Layout>
   );

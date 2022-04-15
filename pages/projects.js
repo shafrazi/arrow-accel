@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import Footer from "../components/footer";
 import ProjectsHero from "../components/projects-hero";
 import ContactBanner from "../components/contact-banner";
+import ProjectItems from "../components/project-items";
 
 export default function Projects() {
   return (
@@ -16,15 +17,17 @@ export default function Projects() {
       </Head>
       <Header backgroundColor="bg-black" textColor="text-white" />
       <ProjectsHero />
+      <ProjectItems />
       <ContactBanner
         style={{ backgroundColor: "#375aa9" }}
         backgroundColor=""
         title="Let's talk"
         description={
           <div>
-            <p>Let's have a good talk about your latest</p>
-            <p>venture. Book an exploratory meeting</p>
-            <p>with us and discuss your next moves.</p>
+            <p>
+              Let's have a good talk about your latest venture. Book an
+              exploratory meeting with us and discuss your next moves.
+            </p>
           </div>
         }
         topButtonText="Book appointment"

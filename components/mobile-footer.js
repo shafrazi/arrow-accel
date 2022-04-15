@@ -3,7 +3,7 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 function MobileFooter({ topImage, mobileTitleText }) {
   return (
     <div
-      className="w-full lg:hidden bg-black py-10 flex flex-col items-center"
+      className="w-full lg:hidden bg-black pb-10 flex flex-col items-center"
       style={{
         fontFamily: "OpenSauceOne",
         fontWeight: "normal",
@@ -45,7 +45,7 @@ function MobileFooter({ topImage, mobileTitleText }) {
           <a href="/causes">causes</a>
         </p>
         <p className="text-white uppercase  text-xs mt-4">
-          <a href="/company#projects">projects</a>
+          <a href="/projects">projects</a>
         </p>
       </div>
       <div className="w-9/12">

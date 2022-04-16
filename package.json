@@ -16,13 +16,12 @@
     "google-map-react": "^2.1.10",
     "next": "latest",
     "react": "17.0.2",
-    "react-alice-carousel": "^2.5.1",
     "react-countup": "^6.1.1",
     "react-dom": "17.0.2",
     "react-headroom": "^3.2.0",
     "react-icons": "^4.3.1",
     "react-intersection-observer": "^8.33.1",
-    "react-scroll": "^1.8.6"
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { AppContext } from "../app-context";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { scroller } from "react-scroll";
 
 export default function MobileMenu() {
   const { isOpen, setIsOpen } = useContext(AppContext);

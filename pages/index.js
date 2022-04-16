@@ -12,6 +12,7 @@ import SideLinks from "../components/side-links";
 import ClientLogos from "../components/client-logos";
 import Partners from "../components/partners";
 import ContactBanner from "../components/contact-banner";
+import SmallStepsImage from "../components/small-steps-image";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Header />
       <Carousel />
       <GetToKnow />
+      <SmallStepsImage />
       <SmallSteps />
       <Partners />
       <SideLinks />

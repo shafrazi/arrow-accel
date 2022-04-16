@@ -36,10 +36,9 @@ export default function GetSetBanner() {
         <div className="w-full flex justify-center">
           <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div
-              className="w-full md:w-8/12 px-10 md:px-0 flex flex-col justify-center items-center text-white banner-overlay"
+              className="w-full md:w-8/12 px-10 md:px-0 flex flex-col justify-center items-center text-white"
               style={{
                 color: "white",
-                background: "rgba(16, 6, 21, 0.5)",
               }}
             >
               <div className="w-full px-3 md:px-0 md:w-2/3 flex flex-col">
@@ -58,7 +57,7 @@ export default function GetSetBanner() {
                 </div>
                 <Link href="/contact">
                   <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
-                    talk to us
+                    go!
                   </button>
                 </Link>
               </div>

@@ -11,14 +11,16 @@ export default function Header() {
       <Headroom>
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 md:py-8 dark:bg-gray-800 w-full">
           <div className="flex flex-wrap justify-between items-center mx-auto w-11/12 md:w-11/12">
-            <a href="/" className="flex w-1/3 space-x-8">
-              <img
-                src="/images/logo1.png"
-                alt="Logo"
-                className=""
-                width="300"
-              />
-            </a>
+            <Link href="/">
+              <a className="flex w-1/3 space-x-8">
+                <img
+                  src="/images/logo1.png"
+                  alt="Logo"
+                  className=""
+                  width="300"
+                />
+              </a>
+            </Link>
             {/* <MobileMenu /> */}
             <button
               data-collapse-toggle="mobile-menu"
@@ -39,12 +41,11 @@ export default function Header() {
                 style={{ fontFamily: "OpenSauceOne", fontWeight: "normal" }}
               >
                 <li>
-                  <a
-                    href="/company"
-                    className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base"
-                  >
-                    COMPANY
-                  </a>
+                  <Link href="/company">
+                    <a className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base">
+                      COMPANY
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <Link href="/projects">
@@ -54,20 +55,18 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="/causes"
-                    className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base"
-                  >
-                    CAUSES
-                  </a>
+                  <Link href="/causes">
+                    <a className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base">
+                      CAUSES
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/contact"
-                    className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base"
-                  >
-                    CONTACT
-                  </a>
+                  <Link href="/contact">
+                    <a className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-base">
+                      CONTACT
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>

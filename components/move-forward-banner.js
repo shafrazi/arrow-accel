@@ -49,7 +49,7 @@ export default function MoveForwardBanner() {
         <div className="w-full flex justify-center">
           <div className="flex w-full lg:w-10/12 h-full absolute bottom-[0rem]">
             <div
-              className="px-10 md:px-0 w-full md:w-8/12 flex flex-col text-white justify-center items-center banner-overlay"
+              className="px-10 md:px-0 w-full md:w-8/12 flex flex-col text-white justify-center items-center"
               // style={{
               //   color: "white",
               //   background: "rgba(16, 6, 21, 0.8)",
@@ -66,7 +66,7 @@ export default function MoveForwardBanner() {
                 </div>
                 <Link href="/contact">
                   <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
-                    Talk to us
+                    Work with us
                   </button>
                 </Link>
               </div>

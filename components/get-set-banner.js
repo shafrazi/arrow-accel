@@ -3,7 +3,7 @@ import SlideTopText from "./slide-top-text";
 
 export default function GetSetBanner() {
   return (
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col text-left">
       <SlideTopText>
         <div className="hidden md:block">
           <p className="" style={{ lineHeight: 1.6 }}>

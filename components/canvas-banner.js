@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function CanvasBanner() {
   return (
-    <div className="w-full flex-flex-col">
+    <div className="w-full flex-flex-col text-left">
       <SlideTopText>
         <div className="hidden md:block">
           <p className="" style={{ lineHeight: 1.6 }}>

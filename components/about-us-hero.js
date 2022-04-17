@@ -7,7 +7,8 @@ export default function AboutUsHero() {
         loop
         autoPlay
         muted
-        className="hidden md:block w-full pointer-events-none object-cover h-screen md:h-[30rem] lg:h-[40rem]"
+        playsInline
+        className="w-full pointer-events-none object-cover h-screen md:h-[30rem] lg:h-[40rem]"
       >
         <source src="/videos/about-us-video.mp4" type="video/mp4" />
       </video>

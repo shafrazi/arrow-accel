@@ -65,7 +65,7 @@ export default function MoveForwardBanner() {
                   </p>
                 </div>
                 <Link href="/contact">
-                  <button className="w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
+                  <button className="cursor-pointer w-2/3 text-[13px] md:text-base md:w-2/3 self-start ml-5 md:ml-0 md:self-start border-white border-solid border-2 mt-12 text-white uppercase px-2 py-1 md:py-2 rounded tracking-wide">
                     Work with us
                   </button>
                 </Link>

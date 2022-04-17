@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
       <Header />
       <Terms />
       <Footer
-        backgroundComponent={<img src="/images/causes-footer.png" />}
+        backgroundComponent={<img src="/images/terms-footer.png" />}
         showIcon={false}
       />
     </Layout>

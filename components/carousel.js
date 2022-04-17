@@ -28,9 +28,9 @@ export default function Carousel() {
         showIndicators={false}
         showArrows={false}
         interval={12000}
-        animationHandler="fade"
+        // animationHandler="fade"
         stopOnHover={false}
-        swipeable={false}
+        // swipeable={false}
         transitionTime={700}
       >
         <MoveForwardBanner />

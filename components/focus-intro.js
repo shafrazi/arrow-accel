@@ -6,56 +6,49 @@ export default function FocusIntro() {
       <SlideTopText>
         <div className="hidden md:block">
           <p className="" style={{ lineHeight: 1.6 }}>
-            Our current economic system rewards
+            We love to build on big plans together
           </p>
           <p className="" style={{ lineHeight: 1.6 }}>
-            exploitation and harm. Our focus lies on how
+            with our clients. To create. To make
           </p>
           <p className="" style={{ lineHeight: 1.6 }}>
-            to transition to nature-based solutions, bio-
+            things better. Our interests stretch across
           </p>
           <p className="" style={{ lineHeight: 1.6 }}>
-            mimetic technologies and transition analysis
+            many different industries and causes, but
           </p>
           <p className="" style={{ lineHeight: 1.6 }}>
-            which can be applied to any industry.
+            they all have a better world in mind.
           </p>
         </div>
         <div className="md:hidden">
           <p className="" style={{ lineHeight: 1.6 }}>
-            Our current economic system rewards exploitation and harm. Our focus
-            lies on how to transition to nature-based solutions, bio-mimetic
-            technologies and transition analysis which can be applied to any
-            industry.
+            We love to build on big plans together with our clients. To create.
+            To make things better. Our interests stretch across many different
+            industries and causes, but they all have a better world in mind.
           </p>
         </div>
       </SlideTopText>
-
-      <div className="w-full flex flex-col lg:flex-row justify-center h-screen md:h-full bg-black text-white px-10 lg:px-[10rem] lg:py-[8rem] text-[14px] md:text-lg lg:text-2xl leading-relaxed">
-        <div className="w-full lg:w-1/2 py-6 md:py-12 lg:py-0 lg:pr-16">
-          <p className="text-center md:text-left">
-            <span className="font-bold">Transitions</span> have social and
-            communicative challenges constituting behavioral change, change
-            management, disruption and resistance. The future is closer than it
-            seems as opportunities abound.
+      <div
+        className="w-full flex flex-col justify-center items-center text-white py-12 md:py-16 lg:py-[8rem]"
+        style={{ backgroundColor: "#375aa9" }}
+      >
+        <div className="text-xs md:text-lg lg:text-2xl text-center w-full px-6 md:px-0 md:w-2/3 leading-relaxed">
+          <p>
+            Work with us to identify your goals, to clarify the challenges ahead
+            and to strategize on solutions.
           </p>
-        </div>
-        <div className="w-full lg:w-1/2 py-6 md:py-12 lg:py-0 lg:pl-16">
-          <p className="text-center md:text-left">
-            <span className="font-bold">Transformations</span> produce
-            real-world outcomes which vary greatly by industry and between
-            competitors, cascading through value chains, defined by the focus
-            and acceleration of technological transitions today.
+          <p className="mt-6 md:mt-10">
+            Free yourself and find your flow to move forward frictionless with
+            first steps and renewed energy.
           </p>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-center items-center py-12 md:py-16 lg:py-[8rem]">
-        <div className="text-xs md:text-lg lg:text-2xl text-center w-full px-10 md:px-0 md:w-2/3 lg:w-2/3 leading-relaxed">
-          <p>To reach your goals, you need to translate your</p>
-          <p>mission effectively, with an understanding of</p>
-          <p>your audience, the and you are building and</p>
-          <p>why the world should pay attention.</p>
-        </div>
+      <div className="w-full">
+        <img
+          src="/images/build.png"
+          className="w-full h-[50vh] md:h-full object-cover"
+        />
       </div>
     </div>
   );

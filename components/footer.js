@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 import MobileFooter from "./mobile-footer";
 
 export default function Footer({
@@ -118,12 +119,17 @@ export default function Footer({
                 </div>
               </div>
               <div className="w-full text-white flex">
-                <div className="flex flex-col w-3/12 py-3">
+                <div className="flex flex-col w-3/12 py-2 self-end">
                   © ARROW ACCEL 2022
                 </div>
                 <div className="w-2/12"></div>
-                <div className="flex w-7/12 text-white text-sm items-center">
-                  <a href="/company">PRIVACY POLICY</a>
+                <div className="flex flex-col w-7/12 text-white text-sm">
+                  <Link href="/privacy-policy">
+                    <a className="py-2">PRIVACY POLICY</a>
+                  </Link>
+                  <Link href="/terms-conditions">
+                    <a className="py-2">TERMS & CONDITIONS</a>
+                  </Link>
                 </div>
               </div>
             </div>

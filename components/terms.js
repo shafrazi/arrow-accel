@@ -1,14 +1,16 @@
+import BackToSite from "./back-to-site";
 import TermPoint from "./terms-point";
 
 export default function Terms() {
   return (
-    <div className="flex w-full justify-center mb-16">
+    <div className="flex w-full justify-center my-6 md:my-16">
       <div className="w-11/12">
         <div className="px-3">
-          <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl mt-6">
+          <BackToSite />
+          <h2 className="text-2xl font-bold text-black dark:text-white md:text-3xl mt-10 md:mt-16">
             Terms and conditions
           </h2>
-          <div className="mt-12 bg-white text-gray-600 dark:text-gray-400 text-base">
+          <div className="mt-12 bg-white text-black dark:text-gray-400 text-sm md:text-base">
             <p>
               ARROW ACCEL is pleased to set out their Terms and Conditions,
               which will apply to the work we do for you. These Terms and

@@ -22,10 +22,10 @@ export default function ContactBanner({
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             {title}
           </h2>
-          <div className="md:hidden mt-10 text-[19px] text-center">
+          <div className="md:hidden mt-10 text-[16px] text-left">
             {description}
           </div>
-          <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">
+          <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[4rem] md:mt-[3rem]">
             <Link href={topButtonLink || ""}>
               <button className="w-full text-base md:w-10/12 self-start border-white border-solid border-2 mt-8 text-white uppercase py-2 px-2 rounded tracking-wide">
                 {topButtonText}

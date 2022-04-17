@@ -15,13 +15,6 @@ export default function TermsAndConditions() {
       <Terms />
       <Footer
         backgroundComponent={<img src="/images/causes-footer.png" />}
-        imageOverText={
-          <p className="text-2xl md:text-4xl">
-            The best way to <br />
-            predict the future <br />
-            is to create it.
-          </p>
-        }
         showIcon={false}
       />
     </Layout>

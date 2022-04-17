@@ -22,7 +22,7 @@ export default function ContactBanner({
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             {title}
           </h2>
-          <div className="md:hidden mt-10 text-[19px] text-center">
+          <div className="md:hidden mt-10 text-[16px] text-left">
             {description}
           </div>
           <div className="flex flex-col w-9/12 md:w-11/12 lg:w-8/12 mt-[6rem] md:mt-[3rem]">

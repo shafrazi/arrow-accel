@@ -30,7 +30,7 @@ export default function Carousel() {
         interval={12000}
         // animationHandler="fade"
         stopOnHover={false}
-        // swipeable={false}
+        swipeable={false}
         transitionTime={700}
       >
         <MoveForwardBanner />

@@ -127,7 +127,7 @@ export default function Footer({
                   <Link href="/privacy-policy">
                     <a className="py-2">PRIVACY POLICY</a>
                   </Link>
-                  <Link href="/terms-conditions">
+                  <Link href="/terms-and-conditions">
                     <a className="py-2">TERMS & CONDITIONS</a>
                   </Link>
                 </div>

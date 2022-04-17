@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Footer from "../components/footer";
 import Terms from "../components/terms";
 
-export default function TermsConditions() {
+export default function TermsAndConditions() {
   return (
     <Layout>
       <Head>

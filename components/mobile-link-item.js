@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-export default function MobileLinkItem({ title, children }) {
+export default function MobileLinkItem({ title, children, targetLink }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -30,6 +30,21 @@ export default function MobileLinkItem({ title, children }) {
         <div className="pt-0">
           <div className="animate__animated animate__fadeInUp text-sm md:text-base py-4">
             {children}
+            <div className="w-full mt-8 flex">
+              <div className="w-1/2">
+                {targetLink && (
+                  <a
+                    href={targetLink}
+                    target="_blank"
+                    className="flex w-full space-x-2 items-center"
+                  >
+                    <button className="text-[11px] border-black border-2 px-1 py-1 rounded border-solid">
+                      Go to their website
+                    </button>
+                  </a>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       )}

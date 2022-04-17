@@ -11,6 +11,7 @@ function AppContextProvider(props) {
 
   const [linkClicked, setLinkClicked] = useState(false);
   const [linkName, setLinkName] = useState("");
+  const [targetLink, setTargetLink] = useState("");
   const [startLinkAnimation, setStartLinkAnimation] = useState(false);
 
   return (
@@ -26,6 +27,8 @@ function AppContextProvider(props) {
         setLinkName,
         startLinkAnimation,
         setStartLinkAnimation,
+        targetLink,
+        setTargetLink,
       }}
     >
       {props.children}

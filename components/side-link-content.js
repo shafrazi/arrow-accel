@@ -1,20 +1,30 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../app-context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function SideLinkContent({
   centerItems,
   showLinkName,
   defaultContent,
   defaultLinkName,
+  defaultTargetLink,
 }) {
-  const { sideContent, setSideContent, linkName, setLinkName } =
-    useContext(AppContext);
+  const {
+    sideContent,
+    setSideContent,
+    linkName,
+    setLinkName,
+    targetLink,
+    setTargetLink,
+  } = useContext(AppContext);
   const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {
     setStartAnimation(false);
     setSideContent(defaultContent);
     setLinkName(defaultLinkName);
+    setTargetLink(defaultTargetLink);
   }, []);
 
   return (
@@ -34,6 +44,23 @@ export default function SideLinkContent({
             className={`${"animate__animated animate__fadeInUp"} text-base lg:text-xl`}
           >
             {sideContent}
+            <div className="w-full mt-8 flex">
+              <div className="w-1/2"></div>
+              <div className="w-1/2 text-right">
+                {targetLink && (
+                  <a
+                    href={targetLink}
+                    target="_blank"
+                    className="flex w-full space-x-4 items-center"
+                  >
+                    <p className="w-11/12 text-base">Go to their website</p>
+                    <div className="text-blue-500 w-1/12">
+                      <FontAwesomeIcon icon={faArrowRight} className="w-5" />
+                    </div>
+                  </a>
+                )}
+              </div>
+            </div>
           </div>
         )}
       </div>

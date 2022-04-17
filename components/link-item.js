@@ -9,6 +9,7 @@ export default function LinkItem({
   defaultClicked,
   borderColor,
   fontSize,
+  link,
 }) {
   const {
     setSideContent,
@@ -16,6 +17,7 @@ export default function LinkItem({
     setLinkName,
     setStartLinkAnimation,
     sideContent,
+    setTargetLink,
   } = useContext(AppContext);
   const [linkClicked, setLinkClicked] = useState(defaultClicked);
 
@@ -28,6 +30,7 @@ export default function LinkItem({
           setSideContent(content);
           setLinkName(name);
           setStartLinkAnimation(sideContent === content);
+          setTargetLink(link);
         }}
       >
         <div

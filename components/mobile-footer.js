@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 function MobileFooter({ topImage, mobileTitleText }) {
   return (
     <div
@@ -60,25 +61,37 @@ function MobileFooter({ topImage, mobileTitleText }) {
 
         <div className="flex flex-row justify-between">
           <div className="">
-            <div className="flex flex-col  items-start">
+            <div className="flex flex-col items-start text-left">
               <a
+                target="_blank"
                 className="text-white mt-4 text-xs"
-                href="https://www.instagram.com/reel/Ca1iC4EA9S_/?utm_medium=share_sheet"
+                href="https://www.instagram.com/arrow.accel.agency/"
               >
                 INSTAGRAM
               </a>
               <a
+                target="_blank"
                 className="text-white text-xs mt-2 md:mr-2"
-                href="https://www.linkedin.com/company/arrow-accel-agency/?viewAsMember=true"
+                href="https://www.linkedin.com/company/arrow-accel-agency"
               >
                 LINKEDIN
               </a>
-            </div>{" "}
+            </div>
           </div>
           <div className="flex flex-col items-end">
-            <p className="text-white text-xxs mt-5 ">PRIVACY POLICY</p>
-
-            <p className="text-white text-xxs mt-2">ARROW ACCEL 2O22 &copy;</p>
+            <Link href="/terms-and-conditions">
+              <p className="text-white uppercase text-xxs mt-5">
+                terms & conditions
+              </p>
+            </Link>
+            <Link href="/privacy-policy">
+              <p className="text-white uppercase text-xxs mt-2">
+                PRIVACY POLICY
+              </p>
+            </Link>
+            <p className="text-white uppercase text-xxs mt-2">
+              ARROW ACCEL 2O22 &copy;
+            </p>
           </div>
         </div>
       </div>

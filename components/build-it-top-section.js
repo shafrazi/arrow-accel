@@ -5,7 +5,7 @@ export default function BuildItTopSection() {
     <Container backgroundColor={"bg-black"} verticalPadding={16}>
       <div className="w-full flex flex-col lg:flex-row text-white">
         <div className="w-full lg:w-1/2">
-          <h2 className="text-2xl md:text-xl lg:text-4xl font-bold">
+          <h2 className="text-4xl md:text-2xl lg:text-6xl font-bold">
             Build it.
           </h2>
           <div
@@ -13,14 +13,15 @@ export default function BuildItTopSection() {
             style={{ lineHeight: 1.6 }}
           >
             <p>
-              We love to build on big plans together with our clients. To
-              create. To make things better. Our interests stretch across many
-              different industries and causes, but they all have a better world
-              in mind.
+              To reach your goals, you need to translate your mission
+              <span className="font-bold">effectively</span>, with an{" "}
+              <span className="font-bold">understanding</span> of your audience,
+              the brand you are building and why the world should{" "}
+              <span className="font-bold">pay attention</span>.
             </p>
             <p className="mt-6">
-              Our focus lies just there: To improve conditions under which we
-              all live and to be the forefront of the development of our joint
+              With our work, we aim to improve the conditions under which we all
+              live and to be the forefront of the development of our joint
               future. Let's build it. Together.
             </p>
           </div>

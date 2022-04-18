@@ -42,6 +42,7 @@ export default function MoveForwardBanner() {
           loop
           autoPlay
           muted
+          playsInline
           className="w-full pointer-events-none object-cover h-screen md:h-[565px] lg:h-[716px]"
         >
           <source src="/videos/move-forward-video.mp4" type="video/mp4" />

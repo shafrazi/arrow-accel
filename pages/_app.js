@@ -1,6 +1,13 @@
 import "../styles/global.css";
 import Head from "next/head";
 import { AppContextProvider } from "../app-context";
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "GTM-PRXR5MP",
+};
+
+TagManager.initialize(tagManagerArgs);
 
 export default function App({ Component, pageProps }) {
   return (

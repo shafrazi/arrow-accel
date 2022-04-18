@@ -6,7 +6,7 @@ export default function AboutWhatWeDo() {
       <div className="hidden lg:block w-1/2">
         <h2 className="md:text-2xl lg:text-4xl">What we do</h2>
       </div>
-      <div className="flex flex-col w-full lg:w-1/2 justify-center items-center">
+      <div className="mt-12 md:mt-0 flex flex-col w-full lg:w-1/2 justify-center items-center">
         <div className="flex flex-col w-full">
           <h2 className="lg:hidden text-2xl md:text-xl lg:text-2xl">
             What we do

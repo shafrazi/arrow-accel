@@ -2,14 +2,16 @@ import "../styles/global.css";
 import Head from "next/head";
 import { AppContextProvider } from "../app-context";
 import TagManager from "react-gtm-module";
+import { useEffect } from "react";
 
 const tagManagerArgs = {
   gtmId: "GTM-PRXR5MP",
 };
 
-TagManager.initialize(tagManagerArgs);
-
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   return (
     <>
       <AppContextProvider>

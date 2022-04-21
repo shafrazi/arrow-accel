@@ -10,7 +10,6 @@ import ContactBanner from "../components/contact-banner";
 import ProjectItems from "../components/project-items";
 
 export default function Projects({ posts }) {
-  // console.log(posts);
   return (
     <Layout>
       <Head>

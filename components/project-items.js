@@ -2,7 +2,6 @@ import Container from "./container";
 import ProjectItem from "./project-item";
 
 export default function ProjectItems({ posts }) {
-  console.log(posts);
   return (
     <Container>
       {posts ? (

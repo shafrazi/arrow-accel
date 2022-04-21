@@ -15,4 +15,9 @@ export async function fetchEntries() {
   }
 }
 
-export default { fetchEntries };
+export async function fetchEntry(entryId) {
+  const entry = await client.getEntry(entryId);
+  return entry;
+}
+
+export default { fetchEntries, fetchEntry };

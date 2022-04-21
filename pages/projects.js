@@ -10,7 +10,7 @@ import ContactBanner from "../components/contact-banner";
 import ProjectItems from "../components/project-items";
 
 export default function Projects({ posts }) {
-  console.log(posts);
+  // console.log(posts);
   return (
     <Layout>
       <Head>
@@ -19,7 +19,7 @@ export default function Projects({ posts }) {
       </Head>
       <Header backgroundColor="bg-black" textColor="text-white" />
       <ProjectsHero />
-      <ProjectItems />
+      <ProjectItems posts={posts} />
       <ContactBanner
         style={{ backgroundColor: "#375aa9" }}
         backgroundColor=""

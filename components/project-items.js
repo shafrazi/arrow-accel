@@ -1,32 +1,27 @@
 import Container from "./container";
 import ProjectItem from "./project-item";
 
-export default function ProjectItems() {
+export default function ProjectItems({ posts }) {
   return (
     <Container>
-      <div className="w-full flex flex-col">
-        <ProjectItem
-          title="Promoting research to end the struggle of gun violence in the US"
-          image="/images/affirm-project.png"
-          logo="/images/affirm-projects-logo.png"
-          type="Case"
-          link="/projects/#"
-        />
-        <ProjectItem
-          title="Raising awareness for Financial Health"
-          image="/images/floes-project.png"
-          logo="/images/floes-projects-logo.png"
-          type="Project"
-          link="/projects/#"
-        />
-        <ProjectItem
-          title="Talking about NFT's and asset tokenization"
-          image="/images/laser-project.png"
-          logo="/images/laser-projects-logo.png"
-          type="Case"
-          link="/projects/#"
-        />
-      </div>
+      {posts ? (
+        <div className="w-full flex flex-col">
+          {posts.map((post, index) => {
+            return (
+              <ProjectItem
+                title={post.title}
+                image={post.thumbnail.fields.file.url}
+                logo={post.thumbnailLogo.fields.file.url}
+                type={post.type}
+                link={`/projects/${post.slug}`}
+                key={index}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        ""
+      )}
     </Container>
   );
 }

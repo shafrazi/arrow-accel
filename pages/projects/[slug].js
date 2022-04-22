@@ -20,10 +20,14 @@ export default function Slug({ post }) {
         <div className="w-full relative">
           <img src={post.fields.heroImage.fields.file.url} className="w-full" />
           <div className="absolute bottom-[60%] w-full flex flex-col">
-            <img
-              src={post.fields.secondaryImage.fields.file.url}
-              className="w-[15%]"
-            />
+            {post.fields.secondaryImage ? (
+              <img
+                src={post.fields.secondaryImage.fields.file.url}
+                className="w-[15%]"
+              />
+            ) : (
+              ""
+            )}
           </div>
         </div>
         <Container backgroundColor={"bg-black"}>

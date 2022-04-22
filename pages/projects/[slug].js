@@ -17,8 +17,14 @@ export default function Slug({ post }) {
       </Head>
       <Header backgroundColor="bg-black" textColor="text-white" />
       <div className="w-full flex flex-col">
-        <div className="w-full">
+        <div className="w-full relative">
           <img src={post.fields.heroImage.fields.file.url} className="w-full" />
+          <div className="absolute bottom-[60%] w-full flex flex-col">
+            <img
+              src={post.fields.secondaryImage.fields.file.url}
+              className="w-[15%]"
+            />
+          </div>
         </div>
         <Container backgroundColor={"bg-black"}>
           <div className="w-full flex flex-col md:flex-row text-white md:space-x-8">

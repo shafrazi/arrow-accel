@@ -34,11 +34,11 @@ export default function Contact() {
         title="Let's do coffee"
         description={
           <div>
-            <p>We love a good cup of coffee, on a sunny</p>
-            <p>terrace in Amsterdam Centre for instance!</p>
-            <p>Let's discuss your bold ideas or outrageous</p>
-            <p>plans and determine your new course of </p>
-            <p>action from there.</p>
+            <p>
+              We love a good cup of coffee, on a sunny terrace in Amsterdam
+              Centre for instance! Let's discuss your bold ideas or outrageous
+              plans and determine your new course of action from there.
+            </p>
           </div>
         }
         topButtonText="Let's zoom first"

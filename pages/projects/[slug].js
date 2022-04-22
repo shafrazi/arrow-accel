@@ -5,9 +5,10 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import ContactBanner from "../../components/contact-banner";
 import Container from "../../components/container";
+import Column from "../../components/column";
+import ReadMoreBlog from "../../components/read-more-blog";
 
 export default function Slug({ post }) {
-  console.log(post);
   return (
     <Layout>
       <Head>
@@ -19,7 +20,25 @@ export default function Slug({ post }) {
         <div className="w-full">
           <img src={post.fields.heroImage.fields.file.url} className="w-full" />
         </div>
-        <Container></Container>
+        <Container backgroundColor={"bg-black"}>
+          <div className="w-full flex flex-col md:flex-row text-white md:space-x-8">
+            <div className="">
+              <Column content={post.fields.columnOne} />
+            </div>
+            <div className="">
+              {post.fields.secondaryImage ? (
+                <img
+                  src={post.fields.secondaryImage.fields.file.url}
+                  className="w-full my-6"
+                />
+              ) : (
+                ""
+              )}
+              <Column content={post.fields.columnTwo} />
+              <ReadMoreBlog />
+            </div>
+          </div>
+        </Container>
       </div>
       <ContactBanner
         title="Get in touch"

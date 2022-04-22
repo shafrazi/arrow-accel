@@ -8,7 +8,9 @@ const client = contentful.createClient({
 });
 
 export async function fetchEntries() {
-  const entries = await client.getEntries();
+  const entries = await client.getEntries({
+    order: "sys.createdAt",
+  });
 
   if (entries.items) {
     return entries.items;

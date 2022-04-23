@@ -9,8 +9,8 @@ export default function Header() {
   return (
     <div>
       <Headroom>
-        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-4 md:py-8 dark:bg-gray-800 w-full">
-          <div className="flex flex-wrap justify-between items-center mx-auto w-11/12 md:w-11/12">
+        <nav className="bg-white border-gray-200 py-4 md:py-8 dark:bg-gray-800 w-full">
+          <div className="flex flex-wrap justify-between items-center mx-auto w-10/12 md:w-10/12">
             <Link href="/">
               <a className="flex w-1/3 space-x-8">
                 <img

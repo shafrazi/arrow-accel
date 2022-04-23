@@ -40,7 +40,7 @@ export default function Footer({
           </div>
           <div
             className="flex justify-center items-center bg-black opacity-80 w-full absolute bottom-0 left-0"
-            style={{ height: "25vw" }}
+            style={{ height: "28vw" }}
           >
             <div className="flex flex-col w-10/12">
               <div className="flex w-full">

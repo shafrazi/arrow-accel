@@ -4,7 +4,7 @@ import React from "react";
 function getInTouch() {
   return (
     <div className="flex w-full justify-center items-center bg-white">
-      <div className="w-11/12 flex px-2 py-6 md:py-10 lg:py-16 lg:px-4">
+      <div className="w-10/12 flex py-6 md:py-10 lg:py-16">
         <div className="flex flex-col w-full py-16 tracking-wide bg-white">
           <h1
             className="text-black text-2xl md:text-4xl "

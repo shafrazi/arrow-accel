@@ -21,7 +21,7 @@ function MobileFooter({ topImage, mobileTitleText }) {
       ) : (
         ""
       )}
-      <div className="w-9/12">
+      <div className="w-10/12">
         <h6
           className="text-white text-4xl md:text-6xl font-bold mt-6"
           style={{ lineHeight: 1.4 }}
@@ -49,7 +49,7 @@ function MobileFooter({ topImage, mobileTitleText }) {
           <a href="/projects">projects</a>
         </p>
       </div>
-      <div className="w-9/12">
+      <div className="w-10/12">
         <p className="text-white uppercase text-xs mt-6">NEELY/ ARROW</p>
         <p className="text-white uppercase text-xs mt-4">K-LINE/ ARROW</p>
         <div className="text-blue-900 flex flex-row mt-8">

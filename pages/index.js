@@ -13,6 +13,7 @@ import ClientLogos from "../components/client-logos";
 import Partners from "../components/partners";
 import ContactBanner from "../components/contact-banner";
 import SmallStepsImage from "../components/small-steps-image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -47,7 +48,8 @@ export default function Home() {
       />
       <Footer
         backgroundComponent={
-          <img src="/images/about-us-footer.png" className="w-full" />
+          // <img src="/images/about-us-footer.png" className="w-full" />
+          <Image src="/images/about-us-footer.png" width={2304} height={1152} />
         }
         imageOverText={"Pushing limits."}
         showIcon={false}

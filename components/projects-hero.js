@@ -1,13 +1,16 @@
 import Image from "next/image";
 import Container from "./container";
+import LazyLoad from "react-lazyload";
 
 export default function ProjectsHero() {
   return (
     <div className="w-full relative">
-      <img
-        src="/images/projects-hero-image.png"
-        className="w-full h-[50vh] md:h-full object-cover"
-      />
+      <LazyLoad>
+        <img
+          src="/images/projects-hero-image.png"
+          className="w-full h-[50vh] md:h-full object-cover"
+        />
+      </LazyLoad>
       <div className="flex w-full h-full md:bg-opacity-25 absolute top-[0rem] md:bottom-[0rem]">
         <Container>
           <div className="w-full flex md:justify-center items-center text-center">

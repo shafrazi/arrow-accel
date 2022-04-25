@@ -27,7 +27,9 @@
     "react-icons": "^4.3.1",
     "react-intersection-observer": "^8.33.1",
     "react-lazyload": "^3.2.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-parallax": "^3.3.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll-parallax": "^3.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

@@ -1,4 +1,5 @@
 import SlideTopText from "./slide-top-text";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 export default function FocusIntro() {
   return (
@@ -35,19 +36,39 @@ export default function FocusIntro() {
       >
         <div className="text-xs md:text-lg lg:text-2xl text-center w-full px-6 md:px-0 md:w-2/3 leading-relaxed">
           <p>
-            Work with us to identify your goals, to clarify the challenges ahead
-            and to strategize on solutions.
+            Work with us to identify your goals, to clarify the <br />
+            challenges ahead and to strategize on solutions.
           </p>
           <p className="mt-6 md:mt-10">
-            Free yourself and find your flow to move forward frictionless with
-            first steps and renewed energy.
+            Free yourself and find your flow to move forward <br />
+            frictionless with first steps and renewed energy.
           </p>
         </div>
       </div>
-      <div className="w-full">
-        <img
+
+      {/* <img
           src="/images/build.png"
           className="w-full h-[50vh] md:h-full object-cover"
+        /> */}
+      {/* <Parallax
+        bgImage="https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+        strength={500}
+        // bgImageStyle={{ height: "auto" }}
+        // bgClassName="object-cover w-full h-[50vh] md:h-full"
+      >
+        <div>
+          <div style={{ height: 500 }}></div>
+        </div>
+      </Parallax> */}
+      <div className="w-full">
+        <ParallaxBanner
+          layers={[
+            {
+              image: "/images/build.png",
+              speed: -20,
+            },
+          ]}
+          className="w-[100%] h-[50vh] lg:h-[500px]"
         />
       </div>
     </div>

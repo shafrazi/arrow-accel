@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import LazyLoad from "react-lazyload";
 import MobileFooter from "./mobile-footer";
 
 export default function Footer({
@@ -16,7 +15,7 @@ export default function Footer({
     <div style={{ fontFamily: "OpenSauceOne" }}>
       <footer className="hidden lg:block">
         <div className="w-full relative">
-          <LazyLoad>{backgroundComponent}</LazyLoad>
+          {backgroundComponent}
           <div className="w-full flex absolute bottom-2/3 justify-center">
             <div className="w-11/12 flex justify-center items-center">
               <div

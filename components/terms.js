@@ -4,8 +4,8 @@ import TermPoint from "./terms-point";
 export default function Terms() {
   return (
     <div className="flex w-full justify-center my-6 md:my-16">
-      <div className="w-11/12">
-        <div className="px-3">
+      <div className="w-10/12">
+        <div className="px-0">
           <BackToSite />
           <h2 className="text-2xl font-bold text-black dark:text-white md:text-3xl mt-10 md:mt-16">
             Terms and conditions
@@ -17,9 +17,9 @@ export default function Terms() {
               Conditions and the Quote/Production Estimate supplied to you form
               the contract between us for the provision of ARROW ACCEL services.
             </p>
-            <ol className="list-decimal list-outside px-5 mt-10">
+            <ol className="list-decimal list-outside pl-5 mt-10">
               <TermPoint point="ARROW ACCEL'S Role">
-                <ol className="list-decimal list-outside px-6">
+                <ol className="list-decimal list-outside pl-6">
                   <li className="mt-4">
                     The Services: ARROW ACCEL will provide the services
                     described in the Quote/Production Estimate as presented. As

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function ProjectItem({ title, type, image, logo, link }) {
   return (
@@ -26,7 +27,12 @@ export default function ProjectItem({ title, type, image, logo, link }) {
         </div>
       </div>
       <Link href={link}>
-        <div className="w-full md:w-1/2 relative cursor-pointer">
+        <motion.div
+          className="w-full md:w-1/2 relative cursor-pointer"
+          whileHover={{
+            scale: 1.05,
+          }}
+        >
           <img src={image} className="w-full" />
           <div className="absolute bottom-[30%] w-full flex flex-col">
             <img src={logo} className="w-[25%]" />
@@ -37,7 +43,7 @@ export default function ProjectItem({ title, type, image, logo, link }) {
           >
             <p className="w-11/12">{type}</p>
           </div>
-        </div>
+        </motion.div>
       </Link>
     </div>
   );

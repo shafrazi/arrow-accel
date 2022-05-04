@@ -1,6 +1,33 @@
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+
 export default function GetToKnow() {
+  const control = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      control.start({
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          stiffness: 20,
+        },
+      });
+    }
+  }, [inView]);
+
   return (
-    <div className="relative">
+    <motion.div
+      className="relative"
+      ref={ref}
+      animate={control}
+      initial={{ y: 300, opacity: 0 }}
+    >
       <div className="flex w-full relative justify-center items-center">
         <div className="flex w-10/12">
           <div className="hidden lg:block w-5/12 md:py-[8vw]">
@@ -35,6 +62,6 @@ export default function GetToKnow() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

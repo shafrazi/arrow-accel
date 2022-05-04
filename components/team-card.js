@@ -1,12 +1,39 @@
+import { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 export default function TeamCard({
   image,
   name,
   position,
   location,
   description,
+  animate,
+  initial,
+  variants,
 }) {
+  // const control = useAnimation();
+  // const [ref, inView] = useInView({
+  //   threshold: 0.2,
+  // });
+
+  // useEffect(() => {
+  //   if (inView) {
+  //     control.start({
+  //       y: 0,
+  //       opacity: 1,
+  //       staggerChildren: 0.1,
+  //     });
+  //   }
+  // }, [inView]);
+
   return (
-    <div className="w-full md:px-0 mt-5 md:mt-10 flex items-center">
+    <motion.div
+      className="w-full md:px-0 mt-5 md:mt-10 flex items-center"
+      animate={animate}
+      initial={initial}
+      variants={variants}
+    >
       <div className="w-full flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 flex space-x-5">
           <div className="flex items-center w-20 md:w-30 lg:w-40">
@@ -37,7 +64,7 @@ export default function TeamCard({
           <p>{description}</p>
         </div>
       </div>
-    </div>
+    </motion.div>
     // <div className="flex items-center space-x-4">
     //   <div className="flex-shrink-0">
     //     <img

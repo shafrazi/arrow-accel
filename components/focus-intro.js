@@ -1,35 +1,59 @@
 import SlideTopText from "./slide-top-text";
 import { ParallaxBanner } from "react-scroll-parallax";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 export default function FocusIntro() {
+  const control = useAnimation();
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      control.start({
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          stiffness: 20,
+        },
+      });
+    }
+  }, [inView]);
+
   return (
     <div className="flex flex-col w-full tracking-wide">
-      <SlideTopText>
-        <div className="hidden md:block">
-          <p className="" style={{ lineHeight: 1.6 }}>
-            We love to build on big plans together
-          </p>
-          <p className="" style={{ lineHeight: 1.6 }}>
-            with our clients. To create. To make
-          </p>
-          <p className="" style={{ lineHeight: 1.6 }}>
-            things better. Our interests stretch across
-          </p>
-          <p className="" style={{ lineHeight: 1.6 }}>
-            many different industries and causes, but
-          </p>
-          <p className="" style={{ lineHeight: 1.6 }}>
-            they all have a better world in mind.
-          </p>
-        </div>
-        <div className="md:hidden">
-          <p className="" style={{ lineHeight: 1.6 }}>
-            We love to build on big plans together with our clients. To create.
-            To make things better. Our interests stretch across many different
-            industries and causes, but they all have a better world in mind.
-          </p>
-        </div>
-      </SlideTopText>
+      <motion.div ref={ref} animate={control} initial={{ y: 300, opacity: 0 }}>
+        <SlideTopText>
+          <div className="hidden md:block">
+            <p className="" style={{ lineHeight: 1.6 }}>
+              We love to build on big plans together
+            </p>
+            <p className="" style={{ lineHeight: 1.6 }}>
+              with our clients. To create. To make
+            </p>
+            <p className="" style={{ lineHeight: 1.6 }}>
+              things better. Our interests stretch across
+            </p>
+            <p className="" style={{ lineHeight: 1.6 }}>
+              many different industries and causes, but
+            </p>
+            <p className="" style={{ lineHeight: 1.6 }}>
+              they all have a better world in mind.
+            </p>
+          </div>
+          <div className="md:hidden">
+            <p className="" style={{ lineHeight: 1.6 }}>
+              We love to build on big plans together with our clients. To
+              create. To make things better. Our interests stretch across many
+              different industries and causes, but they all have a better world
+              in mind.
+            </p>
+          </div>
+        </SlideTopText>
+      </motion.div>
       <div
         className="w-full flex flex-col justify-center items-center text-white py-12 md:py-16 lg:py-[8rem]"
         style={{ backgroundColor: "#375aa9" }}

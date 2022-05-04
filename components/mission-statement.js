@@ -12,7 +12,7 @@ export default function MissionStatement() {
         icon={[<IoRocket key={1} />]}
         title={<h2>We are on a mission</h2>}
         description="
-        Our mission is  to create, commercialize, and capture strategic value sustainably as we take interest into humanitarian and philanthropic ventures to address global issues"
+        Our mission is to create, commercialize, and capture strategic value sustainably as we take interest into humanitarian and philanthropic ventures to address global issues"
       />
       <MissionItem
         icon={[<FaThumbsUp key={2} />]}

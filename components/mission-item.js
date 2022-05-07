@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function MissionItem({ icon, title, description }) {
   const control = useAnimation();
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.2,
   });
 
   useEffect(() => {

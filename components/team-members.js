@@ -46,14 +46,14 @@ export default function TeamMembers() {
               location="AMSTERDAM, THE NETHERLANDS"
               description="Robert has over two decades of experience in creative management, consultancy, communication, marketing strategy, innovation, and growth."
             />
-            <TeamCard
+            {/* <TeamCard
               variants={childVariant}
               image="/images/sander.png"
               name="Sander Epema"
               position="Creative Director"
               location="AMSTERDAM, THE NETHERLANDS"
               description="Sander is a seasoned, creative professional, investment writer, financial advisor, biomimicry and sustainability expert, and art lover. Connect the dots, create synergies, drive the change."
-            />
+            /> */}
             <TeamCard
               variants={childVariant}
               image="/images/margo.png"

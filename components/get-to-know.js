@@ -51,9 +51,7 @@ export default function GetToKnow() {
             <p className="mt-6">
               Our experience, knowledge and ability to quickly grasp complex
               matter and theory, accelerates creative design and your
-              go-to-market trajectory. We work systematically, with deep
-              understanding on how projects and ideas are financed, structured
-              and redistributed.
+              go-to-market trajectory.
             </p>
             <p className="mt-6">
               We work systematically, with deep understanding on how projects

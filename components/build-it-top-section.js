@@ -13,7 +13,7 @@ export default function BuildItTopSection() {
             style={{ lineHeight: 1.6 }}
           >
             <p>
-              To reach your goals, you need to translate your mission
+              To reach your goals, you need to translate your mission{" "}
               <span className="font-bold">effectively</span>, with an{" "}
               <span className="font-bold">understanding</span> of your audience,
               the brand you are building and why the world should{" "}

@@ -7,7 +7,7 @@ export default function SideLinks() {
   return (
     <Container topMargin={16}>
       <div className="hidden lg:flex w-full">
-        <div className="flex w-1/3 flex-col">
+        <div className="flex w-1/2 flex-col">
           <LinkItem
             defaultClicked={true}
             name="House TMM"
